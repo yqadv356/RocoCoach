@@ -8,7 +8,7 @@
 
 **整局练习 → 回合前引导 → 自主决策与真实结算 → 证据复盘 → 下一局训练目标**
 
-[设计与实现](docs/SUBMISSION_DRAFT.md) · [下载 PDF](submission/RocoCoach_设计与实现_面试稿.pdf) · [下载 Word](submission/RocoCoach_设计与实现_面试稿.docx) · [五分钟演示与代码导航](docs/REVIEWER_GUIDE.md)
+[文档导航](docs/README.md) · [设计与实现](docs/SUBMISSION_DRAFT.md) · [下载 PDF](submission/RocoCoach_设计与实现_面试稿.pdf) · [下载 Word](submission/RocoCoach_设计与实现_面试稿.docx) · [五分钟演示与代码导航](docs/REVIEWER_GUIDE.md)
 
 ![洛洛训练场与统一聊天入口](docs/lolo-companion-preview.png)
 
@@ -41,12 +41,14 @@ flowchart LR
 
 | 设计重点 | 实现方式 | 解决的问题 |
 | --- | --- | --- |
-| 聊天驱动操作 | 结构化计划、受限能力、后置条件、幂等事务 | 避免只口头答应重开，或重复创建新局 |
+| 聊天驱动操作 | 模型理解请求，程序核对结果，同一请求只执行一次 | 避免只口头答应重开，或重复创建新局 |
 | 可解释建议 | 对局快照、版本化规则、工具回执、证据引用 | 区分发生的事实、规则资料和模型解释 |
 | RAG | 26 条固定来源资料，词法 BM25、实体与覆盖范围筛选 | 来源可追溯，未知内容不凑答案 |
 | 上下文与记忆 | 当前局面、近期完成对话、显式偏好、学习事件 | 承接指代；失败草稿不进入事实记忆 |
-| 流式与复盘 | 请求绑定消息、草稿检查点、原位收尾、后台复盘 | 减少终局等待，避免已显示文字被收尾覆盖 |
+| 流式与复盘 | 请求绑定消息、草稿检查点、原位置完成展示、后台复盘 | 减少终局等待，避免已显示文字被收尾覆盖 |
 | 原创像素洛洛 | 事件驱动待机、查证、讲解、完成四态 | 提供过程反馈，不增加模型请求 |
+
+[提交前功能检查与真实调用](docs/FINAL_ACCEPTANCE.md)
 
 深入阅读：[智能体](docs/AGENT_EXECUTION_DESIGN.md) · [RAG](docs/RAG_IMPLEMENTATION.md) · [流式生命周期](docs/RESPONSE_LIFECYCLE.md) · [后台复盘](docs/ASYNC_REVIEW.md) · [像素伙伴](docs/MASCOT_DESIGN.md)
 
@@ -90,7 +92,7 @@ LLM_BASE_URL=https://dashscope.aliyuncs.com/compatible-mode/v1
 | 验证层次 | 已记录结果 | 能说明什么 |
 | --- | --- | --- |
 | GitHub 全新 Linux 环境 | [227 项通过，196.61 秒](https://github.com/yqadv356/RocoCoach/actions/runs/41082691035) | 基线提交 `4c2f381` 可安装并通过回归；最新运行看页首徽章 |
-| 本机完整回归 | 227 项通过，94.45 秒 | 引擎、工具约束、事务、消息恢复与像素状态等程序契约 |
+| 本机完整回归 | 227 项通过，83.85 秒 | 引擎、工具约束、事务、消息恢复与像素状态等程序检查规则 |
 | 真实 LLM 操作 | 两例实际创建并保存进阶新局 | 真实调用与实际副作用链路，不是总体成功率 |
 | 真实语义探索 | 同一 14 题集，两轮均 13/14 | 保留误判；不是独立盲测或通用准确率 |
 | RAG 固定回归 | 可答 Hit@2 为 16/16，越界为空 4/4 | 同题修正后的检索回归，不等于回答正确率 |

@@ -1,16 +1,28 @@
 {
-  "scope": "Public reviewer package and interview document update. App runtime behavior unchanged.",
-  "baseline": {
-    "commit": "4c2f381d80c963b195ad8e077ef1577dfb59a8c5",
-    "github_ci": "success",
-    "run_url": "https://github.com/yqadv356/RocoCoach/actions/runs/41082691035",
-    "pytest_passed": 227,
-    "pytest_seconds": 196.61
+  "scope": "Final interview handoff. Application behavior unchanged during documentation edits.",
+  "baseline_cloud": {
+    "commit": "0d527af9c3a979e80b467b6eda5df8f4199b2cb7",
+    "run": "https://github.com/yqadv356/RocoCoach/actions/runs/41085984657",
+    "result": "227 passed in 187.28s"
   },
-  "current_document_checks": {
+  "final_local": {
+    "passed": 227,
+    "seconds": 83.85,
+    "includes_model_stubs": true
+  },
+  "live_smoke": [
+    "direct challenge start",
+    "proposal confirmation start",
+    "style persisted without restart",
+    "casual chat without battle mutation",
+    "key-turn inspection",
+    "real single-turn alternative replay",
+    "background provider streaming review"
+  ],
+  "browser": "Isolated offline synthetic match; 8 rounds, saved review, reload, chat restart, input visible at 1470x900 and 1280x720. Not model quality evaluation.",
+  "documents": {
     "pdf_pages": 8,
-    "all_pages_visually_reviewed": true,
-    "release_tests_passed": 2
+    "all_pages_visually_checked": true
   },
-  "note": "Baseline CI is tied to the named commit. See the live workflow for the current revision; model stubs are not real model answer evaluation."
+  "note": "Live samples are not aggregate semantic accuracy, learning benefit or latency percentiles. See docs/FINAL_ACCEPTANCE.md and current CI workflow."
 }

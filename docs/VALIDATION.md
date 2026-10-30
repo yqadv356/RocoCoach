@@ -1,13 +1,16 @@
 # 验证结果与证据口径
 
-更新于 2026年10月30日。本文集中维护当前结果；历史专题文档中的测试数量只代表对应阶段，不累加为当前成绩。
+更新于 2026年10月31日。本文集中维护当前结果；历史专题文档中的测试数量只代表对应阶段，不累加为当前成绩。
+
+本轮提交前功能复查见[FINAL_ACCEPTANCE](FINAL_ACCEPTANCE.md)，含真实调用与浏览器检查。
 
 ## 程序回归
 
 | 环境 | 版本或阶段 | 结果 | 证据 |
 | --- | --- | --- | --- |
 | GitHub 全新 Ubuntu runner，Python 3.12、Node 24 | 发布基线 `4c2f381d80c963b195ad8e077ef1577dfb59a8c5` | 227 passed in 196.61s；Python 依赖及引擎安装均成功 | [Actions 41082691035](https://github.com/yqadv356/RocoCoach/actions/runs/41082691035) |
-| 本地 macOS | 原创洛洛与发布检查完成阶段 | 227 passed in 94.45s | 对应工程记录；非新机器验证 |
+| GitHub全新Linux环境 | 材料优化版本 `0d527af` | 227 passed in 187.28s | [Actions 41085984657](https://github.com/yqadv356/RocoCoach/actions/runs/41085984657) |
+| 本地macOS | 2026年10月31日提交前复查 | 227 passed in 83.85s | 见FINAL_ACCEPTANCE；非新机器验证 |
 
 云端基线结果固定关联该提交，不自动代表后续改动；[最新工作流](https://github.com/yqadv356/RocoCoach/actions/workflows/tests.yml)展示后续运行。自动化包含模型替身，覆盖程序契约与故障边界，不能称为 227 条真实模型回答正确。
 

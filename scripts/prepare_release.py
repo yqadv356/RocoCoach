@@ -16,8 +16,12 @@ DOCS=['VALIDATION.md','DELIVERY_STATUS.md','lolo-ui-evidence.json','lolo-layout-
       'active-replacement-check-evidence.json','rag-evaluation.json','rag-evaluation-final.json',
       'async-review-prefetch-json-live-evidence.json']
 DATA=['rag_eval.json','conversation_review.json','zh_catalog.json','agent_intent_eval.json','rag_corpus.json','coach_knowledge.json']
+DOCS += ['README.md','DELIVERY_GUIDE.md','INTERVIEW_PLAYBOOK.md','INTERVIEW_NOTES.md','RULES_AND_CONTEXT.md',
+         'FULL_MATCH_DESIGN.md','MATCH_TOOLS.md','FINAL_ACCEPTANCE.md',
+         'final-semantic-actions-evidence.json','final-match-tools-evidence.json',
+         'final-async-review-evidence.json','final-chat-style-evidence.json']
 SCRIPTS=['demo_battle.py','setup_battle.py','build_knowledge.py','evaluate_rag.py','evaluate_semantic_intent.py',
-         'check_challenge_actions.py','check_llm.py','check_match_tools.py','build_interview_draft.py','prepare_release.py']
+         'check_challenge_actions.py','check_llm.py','check_match_tools.py','check_async_review.py','build_interview_draft.py','prepare_release.py']
 
 
 def release_files(root=ROOT):

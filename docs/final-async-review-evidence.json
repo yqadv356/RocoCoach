@@ -1,0 +1,1827 @@
+{
+  "scope": "独立合成局、真实后台流式调用，非普遍性能或语义准确率评估。",
+  "progress": [
+    {
+      "seconds": 0.0,
+      "status": "正在读取整局记录…",
+      "visible_characters": 0
+    },
+    {
+      "seconds": 0.1,
+      "status": "正在整理整局复盘…",
+      "visible_characters": 0
+    },
+    {
+      "seconds": 4.5,
+      "status": "复盘草稿 · 正在生成",
+      "visible_characters": 6
+    },
+    {
+      "seconds": 4.6,
+      "status": "复盘草稿 · 正在生成",
+      "visible_characters": 21
+    },
+    {
+      "seconds": 4.7,
+      "status": "复盘草稿 · 正在生成",
+      "visible_characters": 24
+    },
+    {
+      "seconds": 4.9,
+      "status": "复盘草稿 · 正在生成",
+      "visible_characters": 39
+    },
+    {
+      "seconds": 5.0,
+      "status": "复盘草稿 · 正在生成",
+      "visible_characters": 58
+    },
+    {
+      "seconds": 5.2,
+      "status": "复盘草稿 · 正在生成",
+      "visible_characters": 82
+    },
+    {
+      "seconds": 5.4,
+      "status": "复盘草稿 · 正在生成",
+      "visible_characters": 117
+    },
+    {
+      "seconds": 5.5,
+      "status": "复盘草稿 · 正在生成",
+      "visible_characters": 136
+    },
+    {
+      "seconds": 5.7,
+      "status": "复盘草稿 · 正在生成",
+      "visible_characters": 143
+    },
+    {
+      "seconds": 5.8,
+      "status": "复盘草稿 · 正在生成",
+      "visible_characters": 156
+    },
+    {
+      "seconds": 5.9,
+      "status": "复盘草稿 · 正在生成",
+      "visible_characters": 161
+    },
+    {
+      "seconds": 6.0,
+      "status": "复盘草稿 · 正在生成",
+      "visible_characters": 179
+    },
+    {
+      "seconds": 6.2,
+      "status": "复盘草稿 · 正在生成",
+      "visible_characters": 191
+    },
+    {
+      "seconds": 6.4,
+      "status": "复盘草稿 · 正在生成",
+      "visible_characters": 201
+    },
+    {
+      "seconds": 6.5,
+      "status": "复盘草稿 · 正在生成",
+      "visible_characters": 234
+    },
+    {
+      "seconds": 6.8,
+      "status": "复盘草稿 · 正在生成",
+      "visible_characters": 242
+    },
+    {
+      "seconds": 7.0,
+      "status": "复盘草稿 · 正在生成",
+      "visible_characters": 263
+    },
+    {
+      "seconds": 7.1,
+      "status": "复盘草稿 · 正在生成",
+      "visible_characters": 275
+    },
+    {
+      "seconds": 7.3,
+      "status": "复盘草稿 · 正在生成",
+      "visible_characters": 296
+    },
+    {
+      "seconds": 7.5,
+      "status": "复盘草稿 · 正在生成",
+      "visible_characters": 314
+    },
+    {
+      "seconds": 7.7,
+      "status": "复盘草稿 · 正在生成",
+      "visible_characters": 327
+    },
+    {
+      "seconds": 7.8,
+      "status": "复盘草稿 · 正在生成",
+      "visible_characters": 338
+    },
+    {
+      "seconds": 8.0,
+      "status": "复盘草稿 · 正在生成",
+      "visible_characters": 350
+    },
+    {
+      "seconds": 8.2,
+      "status": "复盘草稿 · 正在生成",
+      "visible_characters": 358
+    },
+    {
+      "seconds": 8.3,
+      "status": "复盘草稿 · 正在生成",
+      "visible_characters": 378
+    },
+    {
+      "seconds": 8.5,
+      "status": "复盘草稿 · 正在生成",
+      "visible_characters": 383
+    },
+    {
+      "seconds": 8.7,
+      "status": "复盘草稿 · 正在生成",
+      "visible_characters": 400
+    },
+    {
+      "seconds": 8.8,
+      "status": "复盘草稿 · 正在生成",
+      "visible_characters": 407
+    },
+    {
+      "seconds": 9.0,
+      "status": "复盘草稿 · 正在生成",
+      "visible_characters": 419
+    },
+    {
+      "seconds": 9.1,
+      "status": "复盘草稿 · 正在生成",
+      "visible_characters": 431
+    },
+    {
+      "seconds": 9.2,
+      "status": "复盘草稿 · 正在生成",
+      "visible_characters": 435
+    },
+    {
+      "seconds": 9.3,
+      "status": "复盘草稿 · 正在生成",
+      "visible_characters": 446
+    },
+    {
+      "seconds": 9.5,
+      "status": "复盘草稿 · 正在生成",
+      "visible_characters": 470
+    },
+    {
+      "seconds": 9.8,
+      "status": "复盘草稿 · 正在生成",
+      "visible_characters": 473
+    },
+    {
+      "seconds": 9.9,
+      "status": "复盘草稿 · 正在生成",
+      "visible_characters": 487
+    },
+    {
+      "seconds": 10.1,
+      "status": "复盘草稿 · 正在生成",
+      "visible_characters": 495
+    },
+    {
+      "seconds": 10.2,
+      "status": "复盘草稿 · 正在生成",
+      "visible_characters": 510
+    },
+    {
+      "seconds": 10.3,
+      "status": "复盘草稿 · 正在生成",
+      "visible_characters": 517
+    },
+    {
+      "seconds": 10.4,
+      "status": "复盘草稿 · 正在生成",
+      "visible_characters": 533
+    },
+    {
+      "seconds": 10.5,
+      "status": "复盘草稿 · 正在生成",
+      "visible_characters": 536
+    }
+  ],
+  "dispatch_seconds": 0.0013,
+  "result": {
+    "answer": {
+      "reply": "Mira，这局你以6回合击败对手，策略非常清晰。复盘重点在于你全程坚持使用“咬住”（Bite），这一选择直接决定了胜势。\n\n做得好的地方：\n1. **伤害效率最大化**：从第1回合到第6回合，你每次都选择了“咬住”。赛后数据显示，“咬住”的基础伤害区间（19-23）远高于其他招式如“水枪”或“冰冻光束”。在镜像对局中，先造成更高伤害意味着能更快压低对方血量，从而触发你的特性“猛火”（Torrent）或单纯依靠数值压制获胜。\n2. **节奏掌控**：第1回合你打出20点伤害，对手仅打回14点；这种每回合约5-10点的净优势累积，使得你在第6回合时能以46血对阵对手18血，稳稳收下比赛。\n\n可改进点与观察：\n虽然结果完美，但需注意“咬住”有30%几率让对手畏缩。本局中似乎未频繁触发此效果（主要靠稳定伤害取胜）。若未来遇到更耐打的对手，需留意是否因追求单次高伤而忽略了控制效果的潜在价值，或者在残局时是否需要换招来确保击杀（尽管本局“咬住”已足够）。\n\n下一局目标：\n尝试在保持高伤害输出思路的同时，观察不同招式附带效果（如畏缩、冻结）的实际触发率及其对战局的额外影响。例如，若对手血量极低，验证是否有一击必杀的稳定替代方案，或在同等伤害下优先选择带有控制效果的招式。",
+      "evidence_ids": [
+        "match:summary",
+        "match:turn:1",
+        "match:turn:6"
+      ],
+      "focus": "属性与伤害",
+      "next_practice": "在下一局中，记录每次攻击造成的具体伤害值，并对比不同招式在相同条件下的实际输出波动，以验证最高理论伤害是否稳定转化为战局优势。"
+    },
+    "metadata": {
+      "mode": "live",
+      "provider": "qwen",
+      "model": "qwen3.8-flash",
+      "usage": {
+        "prompt_tokens": 5057,
+        "completion_tokens": 444,
+        "total_tokens": 5501
+      },
+      "latency_seconds": 11.623,
+      "agent": {
+        "version": "bounded-tools-v2",
+        "model_calls": 1,
+        "tool_calls": 4,
+        "limits": {
+          "rounds": 2,
+          "tools": 8,
+          "seconds": 40
+        },
+        "stop_reason": "validated_final",
+        "trace": [
+          {
+            "step": 0,
+            "tool": "inspect_match",
+            "arguments": "{}",
+            "observation": {
+              "evidence": [
+                {
+                  "id": "match:summary",
+                  "data": {
+                    "结果": "你获胜了",
+                    "次数规则版本": "standard-v1",
+                    "对手策略": "random-v1",
+                    "次数规则": "原有长局次数规则",
+                    "已结束": true,
+                    "达到上限": false,
+                    "回合数": 6,
+                    "回合": [
+                      {
+                        "回合": 1,
+                        "玩家理由": "",
+                        "你的选择": "咬住",
+                        "己方生命": [
+                          119,
+                          105
+                        ],
+                        "对手生命": [
+                          119,
+                          99
+                        ]
+                      },
+                      {
+                        "回合": 2,
+                        "玩家理由": "",
+                        "你的选择": "咬住",
+                        "己方生命": [
+                          105,
+                          90
+                        ],
+                        "对手生命": [
+                          99,
+                          79
+                        ]
+                      },
+                      {
+                        "回合": 3,
+                        "玩家理由": "",
+                        "你的选择": "咬住",
+                        "己方生命": [
+                          90,
+                          80
+                        ],
+                        "对手生命": [
+                          79,
+                          58
+                        ]
+                      },
+                      {
+                        "回合": 4,
+                        "玩家理由": "",
+                        "你的选择": "咬住",
+                        "己方生命": [
+                          80,
+                          65
+                        ],
+                        "对手生命": [
+                          58,
+                          38
+                        ]
+                      },
+                      {
+                        "回合": 5,
+                        "玩家理由": "",
+                        "你的选择": "咬住",
+                        "己方生命": [
+                          65,
+                          65
+                        ],
+                        "对手生命": [
+                          38,
+                          18
+                        ]
+                      },
+                      {
+                        "回合": 6,
+                        "玩家理由": "",
+                        "你的选择": "咬住",
+                        "己方生命": [
+                          65,
+                          46
+                        ],
+                        "对手生命": [
+                          18,
+                          0
+                        ]
+                      }
+                    ]
+                  },
+                  "source": "Showdown整局实际记录"
+                }
+              ],
+              "receipt": {
+                "version": "match-tools-v1",
+                "tool": "inspect_match",
+                "phase": "postgame",
+                "arguments": {},
+                "input_hash": "bec35071514df0e0120f3d1e74d3930149a8ea9505c5b854562a6acb9b79734b",
+                "output_hash": "5e51188d7bbac71237c440302566c7897a5e470c883518449136fc6a39251780",
+                "match_unchanged": true,
+                "elapsed_seconds": 0.0006
+              }
+            },
+            "selected_by": "host",
+            "cached": false,
+            "elapsed_seconds": 0.001
+          },
+          {
+            "step": 0,
+            "tool": "find_key_turns",
+            "arguments": "{}",
+            "observation": {
+              "evidence": [
+                {
+                  "id": "match:key_turns",
+                  "data": {
+                    "候选回合": [
+                      {
+                        "回合": 1,
+                        "入选线索": [
+                          "生命变化供对照"
+                        ],
+                        "生命净消耗占上限百分比": {
+                          "己方": 11.76,
+                          "对手": 16.81
+                        }
+                      },
+                      {
+                        "回合": 3,
+                        "入选线索": [
+                          "生命变化供对照"
+                        ],
+                        "生命净消耗占上限百分比": {
+                          "己方": 8.4,
+                          "对手": 17.65
+                        }
+                      },
+                      {
+                        "回合": 6,
+                        "入选线索": [
+                          "终局"
+                        ],
+                        "生命净消耗占上限百分比": {
+                          "己方": 15.97,
+                          "对手": 15.13
+                        }
+                      }
+                    ],
+                    "筛选规则": "优先终局，再看状态/能力变化和生命变化幅度，最多三回合；这是可解释的回看入口，不是失误检测或最优策略判定。",
+                    "边界": "净生命变化包括回合其他效果；正值表示净消耗，负值表示净恢复。未入选不代表不重要。"
+                  },
+                  "source": "Showdown已发生回合；可解释候选筛选规则v1"
+                }
+              ],
+              "receipt": {
+                "version": "match-tools-v1",
+                "tool": "find_key_turns",
+                "phase": "postgame",
+                "arguments": {},
+                "input_hash": "bec35071514df0e0120f3d1e74d3930149a8ea9505c5b854562a6acb9b79734b",
+                "output_hash": "ce835f456a51af3767542e4d2069d57324b9f13af9ed623aae619a801b41b09d",
+                "match_unchanged": true,
+                "elapsed_seconds": 0.0005
+              }
+            },
+            "selected_by": "host",
+            "cached": false,
+            "elapsed_seconds": 0.001
+          },
+          {
+            "step": 0,
+            "tool": "inspect_round",
+            "arguments": "{\"turn\": 6}",
+            "observation": {
+              "evidence": [
+                {
+                  "id": "match:turn:6",
+                  "data": {
+                    "玩家理由": "",
+                    "出招前公开状态": {
+                      "scenario": "practice",
+                      "seed": 47,
+                      "history": [
+                        "move 3",
+                        "move 3",
+                        "move 3",
+                        "move 3",
+                        "move 3"
+                      ],
+                      "turn": 6,
+                      "ended": false,
+                      "winner": null,
+                      "player": {
+                        "name": "Squirtle",
+                        "hp": 65,
+                        "maxHp": 119,
+                        "types": [
+                          "Water"
+                        ],
+                        "status": "healthy",
+                        "ability": "Torrent",
+                        "stats": {
+                          "hp": 119,
+                          "atk": 68,
+                          "def": 85,
+                          "spa": 70,
+                          "spd": 84,
+                          "spe": 63
+                        },
+                        "boosts": {
+                          "atk": 0,
+                          "def": 0,
+                          "spa": 0,
+                          "spd": 0,
+                          "spe": 0,
+                          "accuracy": 0,
+                          "evasion": 0
+                        }
+                      },
+                      "opponent": {
+                        "name": "Squirtle",
+                        "hp": 18,
+                        "maxHp": 119,
+                        "types": [
+                          "Water"
+                        ],
+                        "status": "healthy",
+                        "ability": "Torrent",
+                        "stats": {
+                          "hp": 119,
+                          "atk": 68,
+                          "def": 85,
+                          "spa": 70,
+                          "spd": 84,
+                          "spe": 63
+                        },
+                        "boosts": {
+                          "atk": 0,
+                          "def": 0,
+                          "spa": 0,
+                          "spd": 0,
+                          "spe": 0,
+                          "accuracy": 0,
+                          "evasion": 0
+                        }
+                      },
+                      "capped": false,
+                      "ruleset": "standard-v1",
+                      "difficulty": "standard"
+                    },
+                    "实际结果": {
+                      "turn": 6,
+                      "selected": "Bite",
+                      "playerHpBefore": 65,
+                      "playerHpAfter": 46,
+                      "opponentHpBefore": 18,
+                      "opponentHpAfter": 0,
+                      "events": [
+                        "|",
+                        "|move|p2a: Squirtle|Bite|p1a: Squirtle",
+                        "|split|p1",
+                        "|-damage|p1a: Squirtle|46/119",
+                        "|-damage|p1a: Squirtle|46/119",
+                        "|move|p1a: Squirtle|Bite|p2a: Squirtle",
+                        "|split|p2",
+                        "|-damage|p2a: Squirtle|0 fnt",
+                        "|-damage|p2a: Squirtle|0 fnt",
+                        "|faint|p2a: Squirtle",
+                        "|",
+                        "|win|Student"
+                      ]
+                    },
+                    "玩家当时看到的引导": "没有完成模型提示，不能假定玩家收到任何计算建议。",
+                    "赛后才开放的计算": [
+                      {
+                        "choice": "move 3",
+                        "name": "Bite",
+                        "type": "Dark",
+                        "category": "Physical",
+                        "power": 60,
+                        "accuracy": 100,
+                        "priority": 0,
+                        "pp": 35,
+                        "maxPp": 40,
+                        "disabled": false,
+                        "minDamage": 19,
+                        "maxDamage": 23,
+                        "score": 21,
+                        "effectiveness": 1,
+                        "sameType": false,
+                        "description": "Has a 30% chance to make the target flinch.",
+                        "calculation": "0 Atk Squirtle Bite vs. 0 HP / 0 Def Squirtle: 19-23 (15.9 - 19.3%) -- guaranteed OHKO"
+                      },
+                      {
+                        "choice": "move 4",
+                        "name": "Ice Beam",
+                        "type": "Ice",
+                        "category": "Special",
+                        "power": 90,
+                        "accuracy": 100,
+                        "priority": 0,
+                        "pp": 16,
+                        "maxPp": 16,
+                        "disabled": false,
+                        "minDamage": 14,
+                        "maxDamage": 17,
+                        "score": 15.5,
+                        "effectiveness": 0.5,
+                        "sameType": false,
+                        "description": "Has a 10% chance to freeze the target.",
+                        "calculation": "0 SpA Squirtle Ice Beam vs. 0 HP / 0 SpD Squirtle: 14-17 (11.7 - 14.2%) -- guaranteed 2HKO"
+                      },
+                      {
+                        "choice": "move 2",
+                        "name": "Tackle",
+                        "type": "Normal",
+                        "category": "Physical",
+                        "power": 40,
+                        "accuracy": 100,
+                        "priority": 0,
+                        "pp": 56,
+                        "maxPp": 56,
+                        "disabled": false,
+                        "minDamage": 13,
+                        "maxDamage": 16,
+                        "score": 14.5,
+                        "effectiveness": 1,
+                        "sameType": false,
+                        "description": "No additional effect.",
+                        "calculation": "0 Atk Squirtle Tackle vs. 0 HP / 0 Def Squirtle: 13-16 (10.9 - 13.4%) -- guaranteed 2HKO"
+                      },
+                      {
+                        "choice": "move 1",
+                        "name": "Water Gun",
+                        "type": "Water",
+                        "category": "Special",
+                        "power": 40,
+                        "accuracy": 100,
+                        "priority": 0,
+                        "pp": 40,
+                        "maxPp": 40,
+                        "disabled": false,
+                        "minDamage": 9,
+                        "maxDamage": 12,
+                        "score": 10.5,
+                        "effectiveness": 0.5,
+                        "sameType": true,
+                        "description": "No additional effect.",
+                        "calculation": "0 SpA Squirtle Water Gun vs. 0 HP / 0 SpD Squirtle: 9-12 (7.5 - 10%) -- guaranteed 2HKO"
+                      }
+                    ],
+                    "信息边界": "玩家局中没有看到该伤害计算表或排名，不能说提示已经告诉玩家最高收益招式；未显示的被拒草稿不是玩家收到的指导。",
+                    "说明": "比较分值只评直接伤害，不是胜率；生命净变化可能包括其他效果。"
+                  },
+                  "source": "Showdown实际回合与Smogon出招前计算"
+                }
+              ],
+              "receipt": {
+                "version": "match-tools-v1",
+                "tool": "inspect_round",
+                "phase": "postgame",
+                "arguments": {
+                  "turn": 6
+                },
+                "input_hash": "bec35071514df0e0120f3d1e74d3930149a8ea9505c5b854562a6acb9b79734b",
+                "output_hash": "b276ecd7193296965f730782bb8611991298bd0dc0029535d21d61dfc229e25d",
+                "match_unchanged": true,
+                "elapsed_seconds": 0.0005
+              }
+            },
+            "selected_by": "host",
+            "cached": false,
+            "elapsed_seconds": 0.001
+          },
+          {
+            "step": 0,
+            "tool": "inspect_round",
+            "arguments": "{\"turn\": 1}",
+            "observation": {
+              "evidence": [
+                {
+                  "id": "match:turn:1",
+                  "data": {
+                    "玩家理由": "",
+                    "出招前公开状态": {
+                      "scenario": "practice",
+                      "seed": 47,
+                      "history": [],
+                      "turn": 1,
+                      "ended": false,
+                      "winner": null,
+                      "player": {
+                        "name": "Squirtle",
+                        "hp": 119,
+                        "maxHp": 119,
+                        "types": [
+                          "Water"
+                        ],
+                        "status": "healthy",
+                        "ability": "Torrent",
+                        "stats": {
+                          "hp": 119,
+                          "atk": 68,
+                          "def": 85,
+                          "spa": 70,
+                          "spd": 84,
+                          "spe": 63
+                        },
+                        "boosts": {
+                          "atk": 0,
+                          "def": 0,
+                          "spa": 0,
+                          "spd": 0,
+                          "spe": 0,
+                          "accuracy": 0,
+                          "evasion": 0
+                        }
+                      },
+                      "opponent": {
+                        "name": "Squirtle",
+                        "hp": 119,
+                        "maxHp": 119,
+                        "types": [
+                          "Water"
+                        ],
+                        "status": "healthy",
+                        "ability": "Torrent",
+                        "stats": {
+                          "hp": 119,
+                          "atk": 68,
+                          "def": 85,
+                          "spa": 70,
+                          "spd": 84,
+                          "spe": 63
+                        },
+                        "boosts": {
+                          "atk": 0,
+                          "def": 0,
+                          "spa": 0,
+                          "spd": 0,
+                          "spe": 0,
+                          "accuracy": 0,
+                          "evasion": 0
+                        }
+                      },
+                      "capped": false,
+                      "ruleset": "standard-v1",
+                      "difficulty": "standard"
+                    },
+                    "实际结果": {
+                      "turn": 1,
+                      "selected": "Bite",
+                      "playerHpBefore": 119,
+                      "playerHpAfter": 105,
+                      "opponentHpBefore": 119,
+                      "opponentHpAfter": 99,
+                      "events": [
+                        "|",
+                        "|move|p1a: Squirtle|Bite|p2a: Squirtle",
+                        "|split|p2",
+                        "|-damage|p2a: Squirtle|99/119",
+                        "|-damage|p2a: Squirtle|99/119",
+                        "|move|p2a: Squirtle|Tackle|p1a: Squirtle",
+                        "|split|p1",
+                        "|-damage|p1a: Squirtle|105/119",
+                        "|-damage|p1a: Squirtle|105/119",
+                        "|",
+                        "|upkeep",
+                        "|turn|2"
+                      ]
+                    },
+                    "玩家当时看到的引导": "没有完成模型提示，不能假定玩家收到任何计算建议。",
+                    "赛后才开放的计算": [
+                      {
+                        "choice": "move 3",
+                        "name": "Bite",
+                        "type": "Dark",
+                        "category": "Physical",
+                        "power": 60,
+                        "accuracy": 100,
+                        "priority": 0,
+                        "pp": 40,
+                        "maxPp": 40,
+                        "disabled": false,
+                        "minDamage": 19,
+                        "maxDamage": 23,
+                        "score": 21,
+                        "effectiveness": 1,
+                        "sameType": false,
+                        "description": "Has a 30% chance to make the target flinch.",
+                        "calculation": "0 Atk Squirtle Bite vs. 0 HP / 0 Def Squirtle: 19-23 (15.9 - 19.3%) -- possible 6HKO"
+                      },
+                      {
+                        "choice": "move 4",
+                        "name": "Ice Beam",
+                        "type": "Ice",
+                        "category": "Special",
+                        "power": 90,
+                        "accuracy": 100,
+                        "priority": 0,
+                        "pp": 16,
+                        "maxPp": 16,
+                        "disabled": false,
+                        "minDamage": 14,
+                        "maxDamage": 17,
+                        "score": 15.5,
+                        "effectiveness": 0.5,
+                        "sameType": false,
+                        "description": "Has a 10% chance to freeze the target.",
+                        "calculation": "0 SpA Squirtle Ice Beam vs. 0 HP / 0 SpD Squirtle: 14-17 (11.7 - 14.2%) -- possible 7HKO"
+                      },
+                      {
+                        "choice": "move 2",
+                        "name": "Tackle",
+                        "type": "Normal",
+                        "category": "Physical",
+                        "power": 40,
+                        "accuracy": 100,
+                        "priority": 0,
+                        "pp": 56,
+                        "maxPp": 56,
+                        "disabled": false,
+                        "minDamage": 13,
+                        "maxDamage": 16,
+                        "score": 14.5,
+                        "effectiveness": 1,
+                        "sameType": false,
+                        "description": "No additional effect.",
+                        "calculation": "0 Atk Squirtle Tackle vs. 0 HP / 0 Def Squirtle: 13-16 (10.9 - 13.4%) -- possible 8HKO"
+                      },
+                      {
+                        "choice": "move 1",
+                        "name": "Water Gun",
+                        "type": "Water",
+                        "category": "Special",
+                        "power": 40,
+                        "accuracy": 100,
+                        "priority": 0,
+                        "pp": 40,
+                        "maxPp": 40,
+                        "disabled": false,
+                        "minDamage": 9,
+                        "maxDamage": 12,
+                        "score": 10.5,
+                        "effectiveness": 0.5,
+                        "sameType": true,
+                        "description": "No additional effect.",
+                        "calculation": "0 SpA Squirtle Water Gun vs. 0 HP / 0 SpD Squirtle: 9-12 (7.5 - 10%)"
+                      }
+                    ],
+                    "信息边界": "玩家局中没有看到该伤害计算表或排名，不能说提示已经告诉玩家最高收益招式；未显示的被拒草稿不是玩家收到的指导。",
+                    "说明": "比较分值只评直接伤害，不是胜率；生命净变化可能包括其他效果。"
+                  },
+                  "source": "Showdown实际回合与Smogon出招前计算"
+                }
+              ],
+              "receipt": {
+                "version": "match-tools-v1",
+                "tool": "inspect_round",
+                "phase": "postgame",
+                "arguments": {
+                  "turn": 1
+                },
+                "input_hash": "bec35071514df0e0120f3d1e74d3930149a8ea9505c5b854562a6acb9b79734b",
+                "output_hash": "862e58074acda711fb4b136fc69465c43995b91df25917fc9e8e24d3f4c5958b",
+                "match_unchanged": true,
+                "elapsed_seconds": 0.0005
+              }
+            },
+            "selected_by": "host",
+            "cached": false,
+            "elapsed_seconds": 0.001
+          }
+        ],
+        "practice_plan": null,
+        "observed_evidence": [
+          {
+            "id": "match:summary",
+            "data": {
+              "结果": "你获胜了",
+              "次数规则版本": "standard-v1",
+              "对手策略": "random-v1",
+              "次数规则": "原有长局次数规则",
+              "已结束": true,
+              "达到上限": false,
+              "回合数": 6,
+              "回合": [
+                {
+                  "回合": 1,
+                  "玩家理由": "",
+                  "你的选择": "咬住",
+                  "己方生命": [
+                    119,
+                    105
+                  ],
+                  "对手生命": [
+                    119,
+                    99
+                  ]
+                },
+                {
+                  "回合": 2,
+                  "玩家理由": "",
+                  "你的选择": "咬住",
+                  "己方生命": [
+                    105,
+                    90
+                  ],
+                  "对手生命": [
+                    99,
+                    79
+                  ]
+                },
+                {
+                  "回合": 3,
+                  "玩家理由": "",
+                  "你的选择": "咬住",
+                  "己方生命": [
+                    90,
+                    80
+                  ],
+                  "对手生命": [
+                    79,
+                    58
+                  ]
+                },
+                {
+                  "回合": 4,
+                  "玩家理由": "",
+                  "你的选择": "咬住",
+                  "己方生命": [
+                    80,
+                    65
+                  ],
+                  "对手生命": [
+                    58,
+                    38
+                  ]
+                },
+                {
+                  "回合": 5,
+                  "玩家理由": "",
+                  "你的选择": "咬住",
+                  "己方生命": [
+                    65,
+                    65
+                  ],
+                  "对手生命": [
+                    38,
+                    18
+                  ]
+                },
+                {
+                  "回合": 6,
+                  "玩家理由": "",
+                  "你的选择": "咬住",
+                  "己方生命": [
+                    65,
+                    46
+                  ],
+                  "对手生命": [
+                    18,
+                    0
+                  ]
+                }
+              ]
+            },
+            "source": "Showdown整局实际记录"
+          },
+          {
+            "id": "match:key_turns",
+            "data": {
+              "候选回合": [
+                {
+                  "回合": 1,
+                  "入选线索": [
+                    "生命变化供对照"
+                  ],
+                  "生命净消耗占上限百分比": {
+                    "己方": 11.76,
+                    "对手": 16.81
+                  }
+                },
+                {
+                  "回合": 3,
+                  "入选线索": [
+                    "生命变化供对照"
+                  ],
+                  "生命净消耗占上限百分比": {
+                    "己方": 8.4,
+                    "对手": 17.65
+                  }
+                },
+                {
+                  "回合": 6,
+                  "入选线索": [
+                    "终局"
+                  ],
+                  "生命净消耗占上限百分比": {
+                    "己方": 15.97,
+                    "对手": 15.13
+                  }
+                }
+              ],
+              "筛选规则": "优先终局，再看状态/能力变化和生命变化幅度，最多三回合；这是可解释的回看入口，不是失误检测或最优策略判定。",
+              "边界": "净生命变化包括回合其他效果；正值表示净消耗，负值表示净恢复。未入选不代表不重要。"
+            },
+            "source": "Showdown已发生回合；可解释候选筛选规则v1"
+          },
+          {
+            "id": "match:turn:6",
+            "data": {
+              "玩家理由": "",
+              "出招前公开状态": {
+                "scenario": "practice",
+                "seed": 47,
+                "history": [
+                  "move 3",
+                  "move 3",
+                  "move 3",
+                  "move 3",
+                  "move 3"
+                ],
+                "turn": 6,
+                "ended": false,
+                "winner": null,
+                "player": {
+                  "name": "Squirtle",
+                  "hp": 65,
+                  "maxHp": 119,
+                  "types": [
+                    "Water"
+                  ],
+                  "status": "healthy",
+                  "ability": "Torrent",
+                  "stats": {
+                    "hp": 119,
+                    "atk": 68,
+                    "def": 85,
+                    "spa": 70,
+                    "spd": 84,
+                    "spe": 63
+                  },
+                  "boosts": {
+                    "atk": 0,
+                    "def": 0,
+                    "spa": 0,
+                    "spd": 0,
+                    "spe": 0,
+                    "accuracy": 0,
+                    "evasion": 0
+                  }
+                },
+                "opponent": {
+                  "name": "Squirtle",
+                  "hp": 18,
+                  "maxHp": 119,
+                  "types": [
+                    "Water"
+                  ],
+                  "status": "healthy",
+                  "ability": "Torrent",
+                  "stats": {
+                    "hp": 119,
+                    "atk": 68,
+                    "def": 85,
+                    "spa": 70,
+                    "spd": 84,
+                    "spe": 63
+                  },
+                  "boosts": {
+                    "atk": 0,
+                    "def": 0,
+                    "spa": 0,
+                    "spd": 0,
+                    "spe": 0,
+                    "accuracy": 0,
+                    "evasion": 0
+                  }
+                },
+                "capped": false,
+                "ruleset": "standard-v1",
+                "difficulty": "standard"
+              },
+              "实际结果": {
+                "turn": 6,
+                "selected": "Bite",
+                "playerHpBefore": 65,
+                "playerHpAfter": 46,
+                "opponentHpBefore": 18,
+                "opponentHpAfter": 0,
+                "events": [
+                  "|",
+                  "|move|p2a: Squirtle|Bite|p1a: Squirtle",
+                  "|split|p1",
+                  "|-damage|p1a: Squirtle|46/119",
+                  "|-damage|p1a: Squirtle|46/119",
+                  "|move|p1a: Squirtle|Bite|p2a: Squirtle",
+                  "|split|p2",
+                  "|-damage|p2a: Squirtle|0 fnt",
+                  "|-damage|p2a: Squirtle|0 fnt",
+                  "|faint|p2a: Squirtle",
+                  "|",
+                  "|win|Student"
+                ]
+              },
+              "玩家当时看到的引导": "没有完成模型提示，不能假定玩家收到任何计算建议。",
+              "赛后才开放的计算": [
+                {
+                  "choice": "move 3",
+                  "name": "Bite",
+                  "type": "Dark",
+                  "category": "Physical",
+                  "power": 60,
+                  "accuracy": 100,
+                  "priority": 0,
+                  "pp": 35,
+                  "maxPp": 40,
+                  "disabled": false,
+                  "minDamage": 19,
+                  "maxDamage": 23,
+                  "score": 21,
+                  "effectiveness": 1,
+                  "sameType": false,
+                  "description": "Has a 30% chance to make the target flinch.",
+                  "calculation": "0 Atk Squirtle Bite vs. 0 HP / 0 Def Squirtle: 19-23 (15.9 - 19.3%) -- guaranteed OHKO"
+                },
+                {
+                  "choice": "move 4",
+                  "name": "Ice Beam",
+                  "type": "Ice",
+                  "category": "Special",
+                  "power": 90,
+                  "accuracy": 100,
+                  "priority": 0,
+                  "pp": 16,
+                  "maxPp": 16,
+                  "disabled": false,
+                  "minDamage": 14,
+                  "maxDamage": 17,
+                  "score": 15.5,
+                  "effectiveness": 0.5,
+                  "sameType": false,
+                  "description": "Has a 10% chance to freeze the target.",
+                  "calculation": "0 SpA Squirtle Ice Beam vs. 0 HP / 0 SpD Squirtle: 14-17 (11.7 - 14.2%) -- guaranteed 2HKO"
+                },
+                {
+                  "choice": "move 2",
+                  "name": "Tackle",
+                  "type": "Normal",
+                  "category": "Physical",
+                  "power": 40,
+                  "accuracy": 100,
+                  "priority": 0,
+                  "pp": 56,
+                  "maxPp": 56,
+                  "disabled": false,
+                  "minDamage": 13,
+                  "maxDamage": 16,
+                  "score": 14.5,
+                  "effectiveness": 1,
+                  "sameType": false,
+                  "description": "No additional effect.",
+                  "calculation": "0 Atk Squirtle Tackle vs. 0 HP / 0 Def Squirtle: 13-16 (10.9 - 13.4%) -- guaranteed 2HKO"
+                },
+                {
+                  "choice": "move 1",
+                  "name": "Water Gun",
+                  "type": "Water",
+                  "category": "Special",
+                  "power": 40,
+                  "accuracy": 100,
+                  "priority": 0,
+                  "pp": 40,
+                  "maxPp": 40,
+                  "disabled": false,
+                  "minDamage": 9,
+                  "maxDamage": 12,
+                  "score": 10.5,
+                  "effectiveness": 0.5,
+                  "sameType": true,
+                  "description": "No additional effect.",
+                  "calculation": "0 SpA Squirtle Water Gun vs. 0 HP / 0 SpD Squirtle: 9-12 (7.5 - 10%) -- guaranteed 2HKO"
+                }
+              ],
+              "信息边界": "玩家局中没有看到该伤害计算表或排名，不能说提示已经告诉玩家最高收益招式；未显示的被拒草稿不是玩家收到的指导。",
+              "说明": "比较分值只评直接伤害，不是胜率；生命净变化可能包括其他效果。"
+            },
+            "source": "Showdown实际回合与Smogon出招前计算"
+          },
+          {
+            "id": "match:turn:1",
+            "data": {
+              "玩家理由": "",
+              "出招前公开状态": {
+                "scenario": "practice",
+                "seed": 47,
+                "history": [],
+                "turn": 1,
+                "ended": false,
+                "winner": null,
+                "player": {
+                  "name": "Squirtle",
+                  "hp": 119,
+                  "maxHp": 119,
+                  "types": [
+                    "Water"
+                  ],
+                  "status": "healthy",
+                  "ability": "Torrent",
+                  "stats": {
+                    "hp": 119,
+                    "atk": 68,
+                    "def": 85,
+                    "spa": 70,
+                    "spd": 84,
+                    "spe": 63
+                  },
+                  "boosts": {
+                    "atk": 0,
+                    "def": 0,
+                    "spa": 0,
+                    "spd": 0,
+                    "spe": 0,
+                    "accuracy": 0,
+                    "evasion": 0
+                  }
+                },
+                "opponent": {
+                  "name": "Squirtle",
+                  "hp": 119,
+                  "maxHp": 119,
+                  "types": [
+                    "Water"
+                  ],
+                  "status": "healthy",
+                  "ability": "Torrent",
+                  "stats": {
+                    "hp": 119,
+                    "atk": 68,
+                    "def": 85,
+                    "spa": 70,
+                    "spd": 84,
+                    "spe": 63
+                  },
+                  "boosts": {
+                    "atk": 0,
+                    "def": 0,
+                    "spa": 0,
+                    "spd": 0,
+                    "spe": 0,
+                    "accuracy": 0,
+                    "evasion": 0
+                  }
+                },
+                "capped": false,
+                "ruleset": "standard-v1",
+                "difficulty": "standard"
+              },
+              "实际结果": {
+                "turn": 1,
+                "selected": "Bite",
+                "playerHpBefore": 119,
+                "playerHpAfter": 105,
+                "opponentHpBefore": 119,
+                "opponentHpAfter": 99,
+                "events": [
+                  "|",
+                  "|move|p1a: Squirtle|Bite|p2a: Squirtle",
+                  "|split|p2",
+                  "|-damage|p2a: Squirtle|99/119",
+                  "|-damage|p2a: Squirtle|99/119",
+                  "|move|p2a: Squirtle|Tackle|p1a: Squirtle",
+                  "|split|p1",
+                  "|-damage|p1a: Squirtle|105/119",
+                  "|-damage|p1a: Squirtle|105/119",
+                  "|",
+                  "|upkeep",
+                  "|turn|2"
+                ]
+              },
+              "玩家当时看到的引导": "没有完成模型提示，不能假定玩家收到任何计算建议。",
+              "赛后才开放的计算": [
+                {
+                  "choice": "move 3",
+                  "name": "Bite",
+                  "type": "Dark",
+                  "category": "Physical",
+                  "power": 60,
+                  "accuracy": 100,
+                  "priority": 0,
+                  "pp": 40,
+                  "maxPp": 40,
+                  "disabled": false,
+                  "minDamage": 19,
+                  "maxDamage": 23,
+                  "score": 21,
+                  "effectiveness": 1,
+                  "sameType": false,
+                  "description": "Has a 30% chance to make the target flinch.",
+                  "calculation": "0 Atk Squirtle Bite vs. 0 HP / 0 Def Squirtle: 19-23 (15.9 - 19.3%) -- possible 6HKO"
+                },
+                {
+                  "choice": "move 4",
+                  "name": "Ice Beam",
+                  "type": "Ice",
+                  "category": "Special",
+                  "power": 90,
+                  "accuracy": 100,
+                  "priority": 0,
+                  "pp": 16,
+                  "maxPp": 16,
+                  "disabled": false,
+                  "minDamage": 14,
+                  "maxDamage": 17,
+                  "score": 15.5,
+                  "effectiveness": 0.5,
+                  "sameType": false,
+                  "description": "Has a 10% chance to freeze the target.",
+                  "calculation": "0 SpA Squirtle Ice Beam vs. 0 HP / 0 SpD Squirtle: 14-17 (11.7 - 14.2%) -- possible 7HKO"
+                },
+                {
+                  "choice": "move 2",
+                  "name": "Tackle",
+                  "type": "Normal",
+                  "category": "Physical",
+                  "power": 40,
+                  "accuracy": 100,
+                  "priority": 0,
+                  "pp": 56,
+                  "maxPp": 56,
+                  "disabled": false,
+                  "minDamage": 13,
+                  "maxDamage": 16,
+                  "score": 14.5,
+                  "effectiveness": 1,
+                  "sameType": false,
+                  "description": "No additional effect.",
+                  "calculation": "0 Atk Squirtle Tackle vs. 0 HP / 0 Def Squirtle: 13-16 (10.9 - 13.4%) -- possible 8HKO"
+                },
+                {
+                  "choice": "move 1",
+                  "name": "Water Gun",
+                  "type": "Water",
+                  "category": "Special",
+                  "power": 40,
+                  "accuracy": 100,
+                  "priority": 0,
+                  "pp": 40,
+                  "maxPp": 40,
+                  "disabled": false,
+                  "minDamage": 9,
+                  "maxDamage": 12,
+                  "score": 10.5,
+                  "effectiveness": 0.5,
+                  "sameType": true,
+                  "description": "No additional effect.",
+                  "calculation": "0 SpA Squirtle Water Gun vs. 0 HP / 0 SpD Squirtle: 9-12 (7.5 - 10%)"
+                }
+              ],
+              "信息边界": "玩家局中没有看到该伤害计算表或排名，不能说提示已经告诉玩家最高收益招式；未显示的被拒草稿不是玩家收到的指导。",
+              "说明": "比较分值只评直接伤害，不是胜率；生命净变化可能包括其他效果。"
+            },
+            "source": "Showdown实际回合与Smogon出招前计算"
+          }
+        ],
+        "scene_hash": "af6dd9fe355f12675f6a9bebabe02951d7bb44861ad99b568c2481695f3294bd"
+      },
+      "review_execution": "host_prefetch_then_structured_summary_v1",
+      "review_policy": "whole-match-information-boundary-v2",
+      "stream": {
+        "transport": "background_provider_stream",
+        "first_draft_seconds": 4.458,
+        "draft_updates": 110,
+        "validated_seconds": 11.625
+      }
+    },
+    "evidence": [
+      {
+        "id": "match:summary",
+        "data": {
+          "结果": "你获胜了",
+          "次数规则版本": "standard-v1",
+          "对手策略": "random-v1",
+          "次数规则": "原有长局次数规则",
+          "已结束": true,
+          "达到上限": false,
+          "回合数": 6,
+          "回合": [
+            {
+              "回合": 1,
+              "玩家理由": "",
+              "你的选择": "咬住",
+              "己方生命": [
+                119,
+                105
+              ],
+              "对手生命": [
+                119,
+                99
+              ]
+            },
+            {
+              "回合": 2,
+              "玩家理由": "",
+              "你的选择": "咬住",
+              "己方生命": [
+                105,
+                90
+              ],
+              "对手生命": [
+                99,
+                79
+              ]
+            },
+            {
+              "回合": 3,
+              "玩家理由": "",
+              "你的选择": "咬住",
+              "己方生命": [
+                90,
+                80
+              ],
+              "对手生命": [
+                79,
+                58
+              ]
+            },
+            {
+              "回合": 4,
+              "玩家理由": "",
+              "你的选择": "咬住",
+              "己方生命": [
+                80,
+                65
+              ],
+              "对手生命": [
+                58,
+                38
+              ]
+            },
+            {
+              "回合": 5,
+              "玩家理由": "",
+              "你的选择": "咬住",
+              "己方生命": [
+                65,
+                65
+              ],
+              "对手生命": [
+                38,
+                18
+              ]
+            },
+            {
+              "回合": 6,
+              "玩家理由": "",
+              "你的选择": "咬住",
+              "己方生命": [
+                65,
+                46
+              ],
+              "对手生命": [
+                18,
+                0
+              ]
+            }
+          ]
+        },
+        "source": "Showdown整局实际记录"
+      },
+      {
+        "id": "match:key_turns",
+        "data": {
+          "候选回合": [
+            {
+              "回合": 1,
+              "入选线索": [
+                "生命变化供对照"
+              ],
+              "生命净消耗占上限百分比": {
+                "己方": 11.76,
+                "对手": 16.81
+              }
+            },
+            {
+              "回合": 3,
+              "入选线索": [
+                "生命变化供对照"
+              ],
+              "生命净消耗占上限百分比": {
+                "己方": 8.4,
+                "对手": 17.65
+              }
+            },
+            {
+              "回合": 6,
+              "入选线索": [
+                "终局"
+              ],
+              "生命净消耗占上限百分比": {
+                "己方": 15.97,
+                "对手": 15.13
+              }
+            }
+          ],
+          "筛选规则": "优先终局，再看状态/能力变化和生命变化幅度，最多三回合；这是可解释的回看入口，不是失误检测或最优策略判定。",
+          "边界": "净生命变化包括回合其他效果；正值表示净消耗，负值表示净恢复。未入选不代表不重要。"
+        },
+        "source": "Showdown已发生回合；可解释候选筛选规则v1"
+      },
+      {
+        "id": "match:turn:6",
+        "data": {
+          "玩家理由": "",
+          "出招前公开状态": {
+            "scenario": "practice",
+            "seed": 47,
+            "history": [
+              "move 3",
+              "move 3",
+              "move 3",
+              "move 3",
+              "move 3"
+            ],
+            "turn": 6,
+            "ended": false,
+            "winner": null,
+            "player": {
+              "name": "Squirtle",
+              "hp": 65,
+              "maxHp": 119,
+              "types": [
+                "Water"
+              ],
+              "status": "healthy",
+              "ability": "Torrent",
+              "stats": {
+                "hp": 119,
+                "atk": 68,
+                "def": 85,
+                "spa": 70,
+                "spd": 84,
+                "spe": 63
+              },
+              "boosts": {
+                "atk": 0,
+                "def": 0,
+                "spa": 0,
+                "spd": 0,
+                "spe": 0,
+                "accuracy": 0,
+                "evasion": 0
+              }
+            },
+            "opponent": {
+              "name": "Squirtle",
+              "hp": 18,
+              "maxHp": 119,
+              "types": [
+                "Water"
+              ],
+              "status": "healthy",
+              "ability": "Torrent",
+              "stats": {
+                "hp": 119,
+                "atk": 68,
+                "def": 85,
+                "spa": 70,
+                "spd": 84,
+                "spe": 63
+              },
+              "boosts": {
+                "atk": 0,
+                "def": 0,
+                "spa": 0,
+                "spd": 0,
+                "spe": 0,
+                "accuracy": 0,
+                "evasion": 0
+              }
+            },
+            "capped": false,
+            "ruleset": "standard-v1",
+            "difficulty": "standard"
+          },
+          "实际结果": {
+            "turn": 6,
+            "selected": "Bite",
+            "playerHpBefore": 65,
+            "playerHpAfter": 46,
+            "opponentHpBefore": 18,
+            "opponentHpAfter": 0,
+            "events": [
+              "|",
+              "|move|p2a: Squirtle|Bite|p1a: Squirtle",
+              "|split|p1",
+              "|-damage|p1a: Squirtle|46/119",
+              "|-damage|p1a: Squirtle|46/119",
+              "|move|p1a: Squirtle|Bite|p2a: Squirtle",
+              "|split|p2",
+              "|-damage|p2a: Squirtle|0 fnt",
+              "|-damage|p2a: Squirtle|0 fnt",
+              "|faint|p2a: Squirtle",
+              "|",
+              "|win|Student"
+            ]
+          },
+          "玩家当时看到的引导": "没有完成模型提示，不能假定玩家收到任何计算建议。",
+          "赛后才开放的计算": [
+            {
+              "choice": "move 3",
+              "name": "Bite",
+              "type": "Dark",
+              "category": "Physical",
+              "power": 60,
+              "accuracy": 100,
+              "priority": 0,
+              "pp": 35,
+              "maxPp": 40,
+              "disabled": false,
+              "minDamage": 19,
+              "maxDamage": 23,
+              "score": 21,
+              "effectiveness": 1,
+              "sameType": false,
+              "description": "Has a 30% chance to make the target flinch.",
+              "calculation": "0 Atk Squirtle Bite vs. 0 HP / 0 Def Squirtle: 19-23 (15.9 - 19.3%) -- guaranteed OHKO"
+            },
+            {
+              "choice": "move 4",
+              "name": "Ice Beam",
+              "type": "Ice",
+              "category": "Special",
+              "power": 90,
+              "accuracy": 100,
+              "priority": 0,
+              "pp": 16,
+              "maxPp": 16,
+              "disabled": false,
+              "minDamage": 14,
+              "maxDamage": 17,
+              "score": 15.5,
+              "effectiveness": 0.5,
+              "sameType": false,
+              "description": "Has a 10% chance to freeze the target.",
+              "calculation": "0 SpA Squirtle Ice Beam vs. 0 HP / 0 SpD Squirtle: 14-17 (11.7 - 14.2%) -- guaranteed 2HKO"
+            },
+            {
+              "choice": "move 2",
+              "name": "Tackle",
+              "type": "Normal",
+              "category": "Physical",
+              "power": 40,
+              "accuracy": 100,
+              "priority": 0,
+              "pp": 56,
+              "maxPp": 56,
+              "disabled": false,
+              "minDamage": 13,
+              "maxDamage": 16,
+              "score": 14.5,
+              "effectiveness": 1,
+              "sameType": false,
+              "description": "No additional effect.",
+              "calculation": "0 Atk Squirtle Tackle vs. 0 HP / 0 Def Squirtle: 13-16 (10.9 - 13.4%) -- guaranteed 2HKO"
+            },
+            {
+              "choice": "move 1",
+              "name": "Water Gun",
+              "type": "Water",
+              "category": "Special",
+              "power": 40,
+              "accuracy": 100,
+              "priority": 0,
+              "pp": 40,
+              "maxPp": 40,
+              "disabled": false,
+              "minDamage": 9,
+              "maxDamage": 12,
+              "score": 10.5,
+              "effectiveness": 0.5,
+              "sameType": true,
+              "description": "No additional effect.",
+              "calculation": "0 SpA Squirtle Water Gun vs. 0 HP / 0 SpD Squirtle: 9-12 (7.5 - 10%) -- guaranteed 2HKO"
+            }
+          ],
+          "信息边界": "玩家局中没有看到该伤害计算表或排名，不能说提示已经告诉玩家最高收益招式；未显示的被拒草稿不是玩家收到的指导。",
+          "说明": "比较分值只评直接伤害，不是胜率；生命净变化可能包括其他效果。"
+        },
+        "source": "Showdown实际回合与Smogon出招前计算"
+      },
+      {
+        "id": "match:turn:1",
+        "data": {
+          "玩家理由": "",
+          "出招前公开状态": {
+            "scenario": "practice",
+            "seed": 47,
+            "history": [],
+            "turn": 1,
+            "ended": false,
+            "winner": null,
+            "player": {
+              "name": "Squirtle",
+              "hp": 119,
+              "maxHp": 119,
+              "types": [
+                "Water"
+              ],
+              "status": "healthy",
+              "ability": "Torrent",
+              "stats": {
+                "hp": 119,
+                "atk": 68,
+                "def": 85,
+                "spa": 70,
+                "spd": 84,
+                "spe": 63
+              },
+              "boosts": {
+                "atk": 0,
+                "def": 0,
+                "spa": 0,
+                "spd": 0,
+                "spe": 0,
+                "accuracy": 0,
+                "evasion": 0
+              }
+            },
+            "opponent": {
+              "name": "Squirtle",
+              "hp": 119,
+              "maxHp": 119,
+              "types": [
+                "Water"
+              ],
+              "status": "healthy",
+              "ability": "Torrent",
+              "stats": {
+                "hp": 119,
+                "atk": 68,
+                "def": 85,
+                "spa": 70,
+                "spd": 84,
+                "spe": 63
+              },
+              "boosts": {
+                "atk": 0,
+                "def": 0,
+                "spa": 0,
+                "spd": 0,
+                "spe": 0,
+                "accuracy": 0,
+                "evasion": 0
+              }
+            },
+            "capped": false,
+            "ruleset": "standard-v1",
+            "difficulty": "standard"
+          },
+          "实际结果": {
+            "turn": 1,
+            "selected": "Bite",
+            "playerHpBefore": 119,
+            "playerHpAfter": 105,
+            "opponentHpBefore": 119,
+            "opponentHpAfter": 99,
+            "events": [
+              "|",
+              "|move|p1a: Squirtle|Bite|p2a: Squirtle",
+              "|split|p2",
+              "|-damage|p2a: Squirtle|99/119",
+              "|-damage|p2a: Squirtle|99/119",
+              "|move|p2a: Squirtle|Tackle|p1a: Squirtle",
+              "|split|p1",
+              "|-damage|p1a: Squirtle|105/119",
+              "|-damage|p1a: Squirtle|105/119",
+              "|",
+              "|upkeep",
+              "|turn|2"
+            ]
+          },
+          "玩家当时看到的引导": "没有完成模型提示，不能假定玩家收到任何计算建议。",
+          "赛后才开放的计算": [
+            {
+              "choice": "move 3",
+              "name": "Bite",
+              "type": "Dark",
+              "category": "Physical",
+              "power": 60,
+              "accuracy": 100,
+              "priority": 0,
+              "pp": 40,
+              "maxPp": 40,
+              "disabled": false,
+              "minDamage": 19,
+              "maxDamage": 23,
+              "score": 21,
+              "effectiveness": 1,
+              "sameType": false,
+              "description": "Has a 30% chance to make the target flinch.",
+              "calculation": "0 Atk Squirtle Bite vs. 0 HP / 0 Def Squirtle: 19-23 (15.9 - 19.3%) -- possible 6HKO"
+            },
+            {
+              "choice": "move 4",
+              "name": "Ice Beam",
+              "type": "Ice",
+              "category": "Special",
+              "power": 90,
+              "accuracy": 100,
+              "priority": 0,
+              "pp": 16,
+              "maxPp": 16,
+              "disabled": false,
+              "minDamage": 14,
+              "maxDamage": 17,
+              "score": 15.5,
+              "effectiveness": 0.5,
+              "sameType": false,
+              "description": "Has a 10% chance to freeze the target.",
+              "calculation": "0 SpA Squirtle Ice Beam vs. 0 HP / 0 SpD Squirtle: 14-17 (11.7 - 14.2%) -- possible 7HKO"
+            },
+            {
+              "choice": "move 2",
+              "name": "Tackle",
+              "type": "Normal",
+              "category": "Physical",
+              "power": 40,
+              "accuracy": 100,
+              "priority": 0,
+              "pp": 56,
+              "maxPp": 56,
+              "disabled": false,
+              "minDamage": 13,
+              "maxDamage": 16,
+              "score": 14.5,
+              "effectiveness": 1,
+              "sameType": false,
+              "description": "No additional effect.",
+              "calculation": "0 Atk Squirtle Tackle vs. 0 HP / 0 Def Squirtle: 13-16 (10.9 - 13.4%) -- possible 8HKO"
+            },
+            {
+              "choice": "move 1",
+              "name": "Water Gun",
+              "type": "Water",
+              "category": "Special",
+              "power": 40,
+              "accuracy": 100,
+              "priority": 0,
+              "pp": 40,
+              "maxPp": 40,
+              "disabled": false,
+              "minDamage": 9,
+              "maxDamage": 12,
+              "score": 10.5,
+              "effectiveness": 0.5,
+              "sameType": true,
+              "description": "No additional effect.",
+              "calculation": "0 SpA Squirtle Water Gun vs. 0 HP / 0 SpD Squirtle: 9-12 (7.5 - 10%)"
+            }
+          ],
+          "信息边界": "玩家局中没有看到该伤害计算表或排名，不能说提示已经告诉玩家最高收益招式；未显示的被拒草稿不是玩家收到的指导。",
+          "说明": "比较分值只评直接伤害，不是胜率；生命净变化可能包括其他效果。"
+        },
+        "source": "Showdown实际回合与Smogon出招前计算"
+      }
+    ]
+  },
+  "displayed": "Mira，这局你以6回合击败对手，策略非常清晰。复盘重点在于你全程坚持使用“咬住”（咬住），这一选择直接决定了胜势。\n\n做得好的地方：\n1. **伤害效率最大化**：从第1回合到第6回合，你每次都选择了“咬住”。赛后数据显示，“咬住”的基础伤害区间（19-23）远高于其他招式如“水枪”或“冰冻光束”。在镜像对局中，先造成更高伤害意味着能更快压低对方血量，从而触发你的特性“猛火”（激流）或单纯依靠数值压制获胜。\n2. **节奏掌控**：第1回合你打出20点伤害，对手仅打回14点；这种每回合约5-10点的净优势累积，使得你在第6回合时能以46血对阵对手18血，稳稳收下比赛。\n\n可改进点与观察：\n虽然结果完美，但需注意“咬住”有30%几率让对手畏缩。本局中似乎未频繁触发此效果（主要靠稳定伤害取胜）。若未来遇到更耐打的对手，需留意是否因追求单次高伤而忽略了控制效果的潜在价值，或者在残局时是否需要换招来确保击杀（尽管本局“咬住”已足够）。\n\n下一局目标：\n尝试在保持高伤害输出思路的同时，观察不同招式附带效果（如畏缩、冻结）的实际触发率及其对战局的额外影响。例如，若对手血量极低，验证是否有一击必杀的稳定替代方案，或在同等伤害下优先选择带有控制效果的招式。",
+  "display_preserved": false
+}

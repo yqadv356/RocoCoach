@@ -27,7 +27,7 @@
 | --- | --- | --- |
 | 整局与教学边界 | [match.py](../rococoach/match.py)、[match_coach.py](../rococoach/match_coach.py) | 引导不代打；行动前后快照、理由与引用 |
 | 语义与指代 | [semantic_control.py](../rococoach/semantic_control.py) | IntentPlan、受限上下文、结构化待办与替换核对 |
-| 操作与保存 | [control.py](../rococoach/control.py) | 参数、后置条件、状态 token、幂等与事务合并 |
+| 操作与保存 | [control.py](../rococoach/control.py) | 参数、操作结果检查、对局状态标记、同一请求只执行一次与事务合并 |
 | 工具循环 | [agent.py](../rococoach/agent.py)、[match_tools.py](../rococoach/match_tools.py) | 预算、阶段白名单、真实观察、独立分支 |
 | RAG | [retrieval.py](../rococoach/retrieval.py)、[语料](../data/rag_corpus.json) | 固定来源、候选分数、版本与范围筛选 |
 | 记忆 | [memory.py](../rococoach/memory.py)、[session.py](../rococoach/session.py) | 完成对话、显式偏好、失败草稿排除 |
@@ -35,9 +35,11 @@
 | 引擎与进阶 | [bridge.cjs](../engine/bridge.cjs)、[battle.py](../rococoach/battle.py) | 固定组件结算、公开策略与版本化重放 |
 | 像素伙伴 | [mascot.py](../rococoach/mascot.py) | 实际事件映射、保存后完成、动作开关 |
 
+提交前功能检查与本轮真实证据见[FINAL_ACCEPTANCE](FINAL_ACCEPTANCE.md)。面试口述可参考[讲解路线](INTERVIEW_PLAYBOOK.md)和[常见追问](INTERVIEW_NOTES.md)。
+
 ## 三个值得追问的问题
 
-**为什么不让模型直接控制一切？** 模型理解语境并提出计划，宿主限制能力和参数、检查后置条件并提交状态。语义错误仍可能发生，但不能直接变成任意代码或数据库写入。
+**为什么不让模型直接控制一切？** 模型理解语境并提出计划，应用程序限制能力和参数、检查操作结果检查并提交状态。语义错误仍可能发生，但不能直接变成任意代码或数据库写入。
 
 **流式已经显示后为什么还会消失？** 根因涉及显示过滤、片段重绘和末尾校验覆盖。修复重点是同一请求的消息生命周期与持久化，不只是开启 SDK 的 stream 参数。详见[生命周期说明](RESPONSE_LIFECYCLE.md)。
 

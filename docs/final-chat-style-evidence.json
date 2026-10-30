@@ -1,0 +1,105 @@
+{
+  "scope": "合成局、独立临时数据库、真实模型，非聊天自然度评测",
+  "style": {
+    "seconds": 4.589,
+    "execution": {
+      "request_id": "final-style",
+      "tool": "set_response_style",
+      "status": "executed",
+      "source_match_id": "8d1f007dee704ac4996e97543357df4b",
+      "target_match_id": "8d1f007dee704ac4996e97543357df4b",
+      "arguments": {
+        "style": "简洁"
+      },
+      "source_token": "4b59bae1cb7d767374dd5f251e9663dc6edf943ed5d77d152cf5cdea63ca4e72",
+      "target_token": "4b59bae1cb7d767374dd5f251e9663dc6edf943ed5d77d152cf5cdea63ca4e72",
+      "ruleset": "standard-v1"
+    },
+    "profile": {
+      "nickname": "小训练家",
+      "preference": "简洁、先说重点",
+      "mood": "平静"
+    },
+    "match_same": true
+  },
+  "chat": {
+    "reply": "辛苦啦！既然累，那咱们就彻底放空。杰尼龟缩在壳里打盹的样子特别治愈，我也跟着它一起“待机”会儿，你只管歇着就好。",
+    "events": [
+      "planning",
+      "model_start",
+      "draft",
+      "draft",
+      "draft"
+    ],
+    "match_unchanged": true,
+    "metadata": {
+      "mode": "live",
+      "provider": "qwen",
+      "model": "qwen3.8-flash",
+      "latency_seconds": 3.656,
+      "usage": {
+        "completion_tokens": 66,
+        "prompt_tokens": 842,
+        "total_tokens": 908,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cache_write_tokens": null,
+          "cached_tokens": 0,
+          "text_tokens": 842
+        }
+      },
+      "observation_tool": {
+        "version": "match-tools-v1",
+        "tool": "observe_public_state",
+        "phase": "live",
+        "arguments": {},
+        "input_hash": "e586bff417f30d9534d05761e741450d1b1122f2b8ca4505e469389978be9425",
+        "output_hash": "37cad20eeb2c0c88f1df43c0fdde7ea3dcbb0fc068dc3cc2eb67b534ce246cf3",
+        "match_unchanged": true,
+        "elapsed_seconds": 0.0025
+      },
+      "public_display": "checked_sentence_stream",
+      "intent_planner": {
+        "mode": "live",
+        "provider": "qwen",
+        "model": "qwen3.8-flash",
+        "latency_seconds": 3.593,
+        "usage": {
+          "completion_tokens": 67,
+          "prompt_tokens": 977,
+          "total_tokens": 1044,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "text_tokens": 977
+          }
+        },
+        "raw_intent": {
+          "operation": "chat",
+          "speech_act": "request",
+          "role": "陪聊",
+          "scenario": "same",
+          "difficulty": "same",
+          "style": "简洁",
+          "reference": "none",
+          "question": ""
+        },
+        "planner_version": "semantic-capabilities-v1",
+        "input_hash": "6d54598ae29942b6123d542a1c97508b4bde3575cc650face777f8a82ad110df"
+      },
+      "intent": {
+        "operation": "chat",
+        "speech_act": "request",
+        "role": "陪聊",
+        "scenario": "same",
+        "difficulty": "same",
+        "style": "简洁",
+        "reference": "none",
+        "question": ""
+      }
+    }
+  }
+}
