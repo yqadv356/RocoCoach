@@ -1,6 +1,0 @@
-[
- {"id":"kb:ranking","terms":["威力","伤害","收益","比较","稳定","平均"],"title":"本原型如何比较招式","content":"本项目比较分值为伤害区间均值乘标称命中率。这是自定义的单回合直接伤害启发式，不是胜率或整场最优策略；不能据此排除高风险招式的一击取胜可能。","source":"本项目engine/bridge.cjs的直接伤害排序"},
- {"id":"kb:accuracy","terms":["命中","打雷","概率","落空","风险"],"title":"标称命中率与实际结算","content":"标称命中率不等于任意环境下保证命中。实际结算以Showdown为准；查询招式具体机制要看当前Dex资料。单次固定种子分支结果不代表命中概率或长期胜率。","source":"pokemon-showdown@0.11.11 Dex/结算；https://github.com/smogon/pokemon-showdown"},
- {"id":"kb:damage","terms":["属性","克制","加成","区间","要害","伤害"],"title":"伤害区间的解释边界","content":"页面伤害区间来自Smogon计算器，描述当前公开配置下命中且不击中要害的伤害。属性、同属性加成与双方能力会影响结果；以当前工具数值为准。生命变化还可能包含回合内其他效果，不直接等于某招伤害。","source":"@smogon/calc@0.12.0；https://github.com/smogon/damage-calc"},
- {"id":"kb:learning","terms":["学习","进步","复盘","练习","成长","历史"],"title":"学习记录能证明什么","content":"明确区分玩家解释、实际对局和教练提出的待验证学习重点。一次选择或答对不能证明真实水平提升。使用过提示的迁移题需标记为有提示练习。","source":"本项目docs/UNIFIED_COACH_DESIGN.md的评估约定"}
-]
