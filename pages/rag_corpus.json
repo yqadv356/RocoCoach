@@ -1,0 +1,868 @@
+{
+  "schema_version": 1,
+  "scope": "pokemon-gen9-teaching",
+  "source_versions": {
+    "pokemon-showdown": "0.11.11"
+  },
+  "corpus_hash": "a173eceb49b5553ecf61a3fd44e31058c16b9ade8d1cc435745e279c11187c03",
+  "documents": [
+    {
+      "id": "kb:ranking",
+      "terms": [
+        "威力",
+        "伤害",
+        "收益",
+        "比较",
+        "稳定",
+        "平均"
+      ],
+      "title": "本原型如何比较招式",
+      "content": "本项目比较分值为伤害区间均值乘标称命中率。这是自定义的单回合直接伤害启发式，不是胜率或整场最优策略；不能据此排除高风险招式的一击取胜可能。",
+      "source": "本项目engine/bridge.cjs的直接伤害排序",
+      "kind": "principle",
+      "aliases": [],
+      "scope": "pokemon-gen9-teaching",
+      "source_version": "project-rules-v1",
+      "source_locator": "data/coach_knowledge.json#kb:ranking",
+      "content_hash": "80b20451f50908d78efe5c718b601e06fe32865991d4839cc6d1d04e29bd7afd"
+    },
+    {
+      "id": "kb:accuracy",
+      "terms": [
+        "命中",
+        "打雷",
+        "概率",
+        "落空",
+        "风险"
+      ],
+      "title": "标称命中率与实际结算",
+      "content": "标称命中率不等于任意环境下保证命中。实际结算以Showdown为准；查询招式具体机制要看当前Dex资料。单次固定种子分支结果不代表命中概率或长期胜率。",
+      "source": "pokemon-showdown@0.11.11 Dex/结算；https://github.com/smogon/pokemon-showdown",
+      "kind": "principle",
+      "aliases": [],
+      "scope": "pokemon-gen9-teaching",
+      "source_version": "project-rules-v1",
+      "source_locator": "data/coach_knowledge.json#kb:accuracy",
+      "content_hash": "c725d8a1d3d04c9ad3087476d926c70e4e9d4937235a9f688bb629d52a5538b1"
+    },
+    {
+      "id": "kb:damage",
+      "terms": [
+        "属性",
+        "克制",
+        "加成",
+        "区间",
+        "要害",
+        "伤害"
+      ],
+      "title": "伤害区间的解释边界",
+      "content": "页面伤害区间来自Smogon计算器，描述当前公开配置下命中且不击中要害的伤害。属性、同属性加成与双方能力会影响结果；以当前工具数值为准。生命变化还可能包含回合内其他效果，不直接等于某招伤害。",
+      "source": "@smogon/calc@0.12.0；https://github.com/smogon/damage-calc",
+      "kind": "principle",
+      "aliases": [],
+      "scope": "pokemon-gen9-teaching",
+      "source_version": "project-rules-v1",
+      "source_locator": "data/coach_knowledge.json#kb:damage",
+      "content_hash": "eb18f806973dd467830d731dffc76a877bf2bd434c36a1850767232092a37fee"
+    },
+    {
+      "id": "kb:learning",
+      "terms": [
+        "学习",
+        "进步",
+        "复盘",
+        "练习",
+        "成长",
+        "历史"
+      ],
+      "title": "学习记录能证明什么",
+      "content": "明确区分玩家解释、实际对局和教练提出的待验证学习重点。一次选择或答对不能证明真实水平提升。使用过提示的迁移题需标记为有提示练习。",
+      "source": "本项目docs/UNIFIED_COACH_DESIGN.md的评估约定",
+      "kind": "principle",
+      "aliases": [],
+      "scope": "pokemon-gen9-teaching",
+      "source_version": "project-rules-v1",
+      "source_locator": "data/coach_knowledge.json#kb:learning",
+      "content_hash": "f6cbcdfcbc33be1c0bfc4621e55fda8e6f4ca3fba6506607c3c3f603496ec016"
+    },
+    {
+      "id": "dex:move:scratch",
+      "kind": "move",
+      "scope": "pokemon-gen9-teaching",
+      "title": "抓的招式资料",
+      "aliases": [
+        "抓",
+        "Scratch",
+        "scratch"
+      ],
+      "terms": [
+        "抓",
+        "威力",
+        "命中率",
+        "优先度",
+        "属性",
+        "招式"
+      ],
+      "content": "抓：一般属性，物理招式，威力40，标称命中率100%，优先度0，基础可用次数35。这些是第九世代招式资料，不是当前伤害值或洛克王国规则。原始机制说明：No additional effect.",
+      "facts": {
+        "id": "scratch",
+        "name": "Scratch",
+        "zh": "抓",
+        "type": "Normal",
+        "category": "Physical",
+        "power": 40,
+        "accuracy": 100,
+        "priority": 0,
+        "pp": 35,
+        "description": "No additional effect."
+      },
+      "source": "pokemon-showdown@0.11.11 Dex",
+      "source_version": "0.11.11",
+      "source_locator": "pokemon-showdown/data/moves.ts#scratch",
+      "content_hash": "69b65d02f001d89bf0e459926bc68bc3bf361b3bb33b22ed052a17567e6e27f4"
+    },
+    {
+      "id": "dex:move:tackle",
+      "kind": "move",
+      "scope": "pokemon-gen9-teaching",
+      "title": "撞击的招式资料",
+      "aliases": [
+        "撞击",
+        "Tackle",
+        "tackle"
+      ],
+      "terms": [
+        "撞击",
+        "威力",
+        "命中率",
+        "优先度",
+        "属性",
+        "招式"
+      ],
+      "content": "撞击：一般属性，物理招式，威力40，标称命中率100%，优先度0，基础可用次数35。这些是第九世代招式资料，不是当前伤害值或洛克王国规则。原始机制说明：No additional effect.",
+      "facts": {
+        "id": "tackle",
+        "name": "Tackle",
+        "zh": "撞击",
+        "type": "Normal",
+        "category": "Physical",
+        "power": 40,
+        "accuracy": 100,
+        "priority": 0,
+        "pp": 35,
+        "description": "No additional effect."
+      },
+      "source": "pokemon-showdown@0.11.11 Dex",
+      "source_version": "0.11.11",
+      "source_locator": "pokemon-showdown/data/moves.ts#tackle",
+      "content_hash": "fc4e7c3d878439f9e0805ed5eceff819e6f041055b27efaf43b0354a26d39c7b"
+    },
+    {
+      "id": "dex:move:takedown",
+      "kind": "move",
+      "scope": "pokemon-gen9-teaching",
+      "title": "猛撞的招式资料",
+      "aliases": [
+        "猛撞",
+        "Take Down",
+        "takedown"
+      ],
+      "terms": [
+        "猛撞",
+        "威力",
+        "命中率",
+        "优先度",
+        "属性",
+        "招式"
+      ],
+      "content": "猛撞：一般属性，物理招式，威力90，标称命中率85%，优先度0，基础可用次数20。这些是第九世代招式资料，不是当前伤害值或洛克王国规则。原始机制说明：If the target lost HP, the user takes recoil damage equal to 1/4 the HP lost by the target, rounded half up, but not less than 1 HP.",
+      "facts": {
+        "id": "takedown",
+        "name": "Take Down",
+        "zh": "猛撞",
+        "type": "Normal",
+        "category": "Physical",
+        "power": 90,
+        "accuracy": 85,
+        "priority": 0,
+        "pp": 20,
+        "description": "If the target lost HP, the user takes recoil damage equal to 1/4 the HP lost by the target, rounded half up, but not less than 1 HP."
+      },
+      "source": "pokemon-showdown@0.11.11 Dex",
+      "source_version": "0.11.11",
+      "source_locator": "pokemon-showdown/data/moves.ts#takedown",
+      "content_hash": "69e23750568f5b62389de2251034e97094293f7625cfc1b7890c2bdabfee526a"
+    },
+    {
+      "id": "dex:move:bite",
+      "kind": "move",
+      "scope": "pokemon-gen9-teaching",
+      "title": "咬住的招式资料",
+      "aliases": [
+        "咬住",
+        "Bite",
+        "bite"
+      ],
+      "terms": [
+        "咬住",
+        "威力",
+        "命中率",
+        "优先度",
+        "属性",
+        "招式"
+      ],
+      "content": "咬住：恶属性，物理招式，威力60，标称命中率100%，优先度0，基础可用次数25。这些是第九世代招式资料，不是当前伤害值或洛克王国规则。原始机制说明：Has a 30% chance to make the target flinch.",
+      "facts": {
+        "id": "bite",
+        "name": "Bite",
+        "zh": "咬住",
+        "type": "Dark",
+        "category": "Physical",
+        "power": 60,
+        "accuracy": 100,
+        "priority": 0,
+        "pp": 25,
+        "description": "Has a 30% chance to make the target flinch."
+      },
+      "source": "pokemon-showdown@0.11.11 Dex",
+      "source_version": "0.11.11",
+      "source_locator": "pokemon-showdown/data/moves.ts#bite",
+      "content_hash": "d94a20be6b12524c09d19737ffbaab1a39cfada3a8855fda165204018e0a51de"
+    },
+    {
+      "id": "dex:move:flamethrower",
+      "kind": "move",
+      "scope": "pokemon-gen9-teaching",
+      "title": "喷射火焰的招式资料",
+      "aliases": [
+        "喷射火焰",
+        "Flamethrower",
+        "flamethrower"
+      ],
+      "terms": [
+        "喷射火焰",
+        "威力",
+        "命中率",
+        "优先度",
+        "属性",
+        "招式"
+      ],
+      "content": "喷射火焰：火属性，特殊招式，威力90，标称命中率100%，优先度0，基础可用次数15。这些是第九世代招式资料，不是当前伤害值或洛克王国规则。原始机制说明：Has a 10% chance to burn the target.",
+      "facts": {
+        "id": "flamethrower",
+        "name": "Flamethrower",
+        "zh": "喷射火焰",
+        "type": "Fire",
+        "category": "Special",
+        "power": 90,
+        "accuracy": 100,
+        "priority": 0,
+        "pp": 15,
+        "description": "Has a 10% chance to burn the target."
+      },
+      "source": "pokemon-showdown@0.11.11 Dex",
+      "source_version": "0.11.11",
+      "source_locator": "pokemon-showdown/data/moves.ts#flamethrower",
+      "content_hash": "afa71d351466e245bd042356d2d212bb6798c4fc070b52e5fef7b8b206b4d0c9"
+    },
+    {
+      "id": "dex:move:watergun",
+      "kind": "move",
+      "scope": "pokemon-gen9-teaching",
+      "title": "水枪的招式资料",
+      "aliases": [
+        "水枪",
+        "Water Gun",
+        "watergun"
+      ],
+      "terms": [
+        "水枪",
+        "威力",
+        "命中率",
+        "优先度",
+        "属性",
+        "招式"
+      ],
+      "content": "水枪：水属性，特殊招式，威力40，标称命中率100%，优先度0，基础可用次数25。这些是第九世代招式资料，不是当前伤害值或洛克王国规则。原始机制说明：No additional effect.",
+      "facts": {
+        "id": "watergun",
+        "name": "Water Gun",
+        "zh": "水枪",
+        "type": "Water",
+        "category": "Special",
+        "power": 40,
+        "accuracy": 100,
+        "priority": 0,
+        "pp": 25,
+        "description": "No additional effect."
+      },
+      "source": "pokemon-showdown@0.11.11 Dex",
+      "source_version": "0.11.11",
+      "source_locator": "pokemon-showdown/data/moves.ts#watergun",
+      "content_hash": "246404226170110ebee0d42f5cb3e7d38b272850eae3654d464011fe090fb384"
+    },
+    {
+      "id": "dex:move:surf",
+      "kind": "move",
+      "scope": "pokemon-gen9-teaching",
+      "title": "冲浪的招式资料",
+      "aliases": [
+        "冲浪",
+        "Surf",
+        "surf"
+      ],
+      "terms": [
+        "冲浪",
+        "威力",
+        "命中率",
+        "优先度",
+        "属性",
+        "招式"
+      ],
+      "content": "冲浪：水属性，特殊招式，威力90，标称命中率100%，优先度0，基础可用次数15。这些是第九世代招式资料，不是当前伤害值或洛克王国规则。原始机制说明：Damage doubles if the target is using Dive.",
+      "facts": {
+        "id": "surf",
+        "name": "Surf",
+        "zh": "冲浪",
+        "type": "Water",
+        "category": "Special",
+        "power": 90,
+        "accuracy": 100,
+        "priority": 0,
+        "pp": 15,
+        "description": "Damage doubles if the target is using Dive."
+      },
+      "source": "pokemon-showdown@0.11.11 Dex",
+      "source_version": "0.11.11",
+      "source_locator": "pokemon-showdown/data/moves.ts#surf",
+      "content_hash": "fd54eb4a49750ccb786d83ca321651a3bac7a79b4285a0fc6dd87c1ad52cf61c"
+    },
+    {
+      "id": "dex:move:icebeam",
+      "kind": "move",
+      "scope": "pokemon-gen9-teaching",
+      "title": "冰冻光束的招式资料",
+      "aliases": [
+        "冰冻光束",
+        "Ice Beam",
+        "icebeam"
+      ],
+      "terms": [
+        "冰冻光束",
+        "威力",
+        "命中率",
+        "优先度",
+        "属性",
+        "招式"
+      ],
+      "content": "冰冻光束：冰属性，特殊招式，威力90，标称命中率100%，优先度0，基础可用次数10。这些是第九世代招式资料，不是当前伤害值或洛克王国规则。原始机制说明：Has a 10% chance to freeze the target.",
+      "facts": {
+        "id": "icebeam",
+        "name": "Ice Beam",
+        "zh": "冰冻光束",
+        "type": "Ice",
+        "category": "Special",
+        "power": 90,
+        "accuracy": 100,
+        "priority": 0,
+        "pp": 10,
+        "description": "Has a 10% chance to freeze the target."
+      },
+      "source": "pokemon-showdown@0.11.11 Dex",
+      "source_version": "0.11.11",
+      "source_locator": "pokemon-showdown/data/moves.ts#icebeam",
+      "content_hash": "f7ee9ca4088fdf3833017afaec2c145ededb8ea06629d1830a3c919d63524415"
+    },
+    {
+      "id": "dex:move:razorleaf",
+      "kind": "move",
+      "scope": "pokemon-gen9-teaching",
+      "title": "飞叶快刀的招式资料",
+      "aliases": [
+        "飞叶快刀",
+        "Razor Leaf",
+        "razorleaf"
+      ],
+      "terms": [
+        "飞叶快刀",
+        "威力",
+        "命中率",
+        "优先度",
+        "属性",
+        "招式"
+      ],
+      "content": "飞叶快刀：草属性，物理招式，威力55，标称命中率95%，优先度0，基础可用次数25。这些是第九世代招式资料，不是当前伤害值或洛克王国规则。原始机制说明：Has a higher chance for a critical hit.",
+      "facts": {
+        "id": "razorleaf",
+        "name": "Razor Leaf",
+        "zh": "飞叶快刀",
+        "type": "Grass",
+        "category": "Physical",
+        "power": 55,
+        "accuracy": 95,
+        "priority": 0,
+        "pp": 25,
+        "description": "Has a higher chance for a critical hit."
+      },
+      "source": "pokemon-showdown@0.11.11 Dex",
+      "source_version": "0.11.11",
+      "source_locator": "pokemon-showdown/data/moves.ts#razorleaf",
+      "content_hash": "9fbe02d2a9529179bf97e9af98faaac47be3ffe5a91d72152a586384f09056b8"
+    },
+    {
+      "id": "dex:move:thunderbolt",
+      "kind": "move",
+      "scope": "pokemon-gen9-teaching",
+      "title": "十万伏特的招式资料",
+      "aliases": [
+        "十万伏特",
+        "Thunderbolt",
+        "thunderbolt"
+      ],
+      "terms": [
+        "十万伏特",
+        "威力",
+        "命中率",
+        "优先度",
+        "属性",
+        "招式"
+      ],
+      "content": "十万伏特：电属性，特殊招式，威力90，标称命中率100%，优先度0，基础可用次数15。这些是第九世代招式资料，不是当前伤害值或洛克王国规则。原始机制说明：Has a 10% chance to paralyze the target.",
+      "facts": {
+        "id": "thunderbolt",
+        "name": "Thunderbolt",
+        "zh": "十万伏特",
+        "type": "Electric",
+        "category": "Special",
+        "power": 90,
+        "accuracy": 100,
+        "priority": 0,
+        "pp": 15,
+        "description": "Has a 10% chance to paralyze the target."
+      },
+      "source": "pokemon-showdown@0.11.11 Dex",
+      "source_version": "0.11.11",
+      "source_locator": "pokemon-showdown/data/moves.ts#thunderbolt",
+      "content_hash": "e4b92dd74cd19476d43b2c90c8ca04980429d02ae8c56e23b516ee7b8f0f75ec"
+    },
+    {
+      "id": "dex:move:thunder",
+      "kind": "move",
+      "scope": "pokemon-gen9-teaching",
+      "title": "打雷的招式资料",
+      "aliases": [
+        "打雷",
+        "Thunder",
+        "thunder"
+      ],
+      "terms": [
+        "打雷",
+        "威力",
+        "命中率",
+        "优先度",
+        "属性",
+        "招式"
+      ],
+      "content": "打雷：电属性，特殊招式，威力110，标称命中率70%，优先度0，基础可用次数10。这些是第九世代招式资料，不是当前伤害值或洛克王国规则。原始机制说明：Has a 30% chance to paralyze the target. This move can hit a target using Bounce, Fly, or Sky Drop, or is under the effect of Sky Drop. If the weather is Primordial Sea or Rain Dance, this move does not check accuracy. If the weather is Desolate Land or Sunny Day, this move's accuracy is 50%. If this move is used against a Pokemon holding Utility Umbrella, this move's accuracy remains at 70%.",
+      "facts": {
+        "id": "thunder",
+        "name": "Thunder",
+        "zh": "打雷",
+        "type": "Electric",
+        "category": "Special",
+        "power": 110,
+        "accuracy": 70,
+        "priority": 0,
+        "pp": 10,
+        "description": "Has a 30% chance to paralyze the target. This move can hit a target using Bounce, Fly, or Sky Drop, or is under the effect of Sky Drop. If the weather is Primordial Sea or Rain Dance, this move does not check accuracy. If the weather is Desolate Land or Sunny Day, this move's accuracy is 50%. If this move is used against a Pokemon holding Utility Umbrella, this move's accuracy remains at 70%."
+      },
+      "source": "pokemon-showdown@0.11.11 Dex",
+      "source_version": "0.11.11",
+      "source_locator": "pokemon-showdown/data/moves.ts#thunder",
+      "content_hash": "b81a7ceb42a5c7dc09db8dd0c29a44d02b1e0afbdbda27967ecb49e78fd20f05"
+    },
+    {
+      "id": "dex:move:quickattack",
+      "kind": "move",
+      "scope": "pokemon-gen9-teaching",
+      "title": "电光一闪的招式资料",
+      "aliases": [
+        "电光一闪",
+        "Quick Attack",
+        "quickattack"
+      ],
+      "terms": [
+        "电光一闪",
+        "威力",
+        "命中率",
+        "优先度",
+        "属性",
+        "招式"
+      ],
+      "content": "电光一闪：一般属性，物理招式，威力40，标称命中率100%，优先度1，基础可用次数30。这些是第九世代招式资料，不是当前伤害值或洛克王国规则。原始机制说明：No additional effect.",
+      "facts": {
+        "id": "quickattack",
+        "name": "Quick Attack",
+        "zh": "电光一闪",
+        "type": "Normal",
+        "category": "Physical",
+        "power": 40,
+        "accuracy": 100,
+        "priority": 1,
+        "pp": 30,
+        "description": "No additional effect."
+      },
+      "source": "pokemon-showdown@0.11.11 Dex",
+      "source_version": "0.11.11",
+      "source_locator": "pokemon-showdown/data/moves.ts#quickattack",
+      "content_hash": "9e97f52255f4aef181f5515725087b6b10f3b6c6627b8f8bb55187a507faf8c3"
+    },
+    {
+      "id": "dex:move:struggle",
+      "kind": "move",
+      "scope": "pokemon-gen9-teaching",
+      "title": "挣扎的招式资料",
+      "aliases": [
+        "挣扎",
+        "Struggle",
+        "struggle"
+      ],
+      "terms": [
+        "挣扎",
+        "威力",
+        "命中率",
+        "优先度",
+        "属性",
+        "招式"
+      ],
+      "content": "挣扎：一般属性，物理招式，威力50，不进行常规命中检定，优先度0，基础可用次数1。这些是第九世代招式资料，不是当前伤害值或洛克王国规则。原始机制说明：Deals typeless damage to a random opposing Pokemon. If this move was successful, the user loses 1/4 of its maximum HP, rounded half up, and the Rock Head Ability does not prevent this. This move is automatically used if none of the user's known moves can be selected.",
+      "facts": {
+        "id": "struggle",
+        "name": "Struggle",
+        "zh": "挣扎",
+        "type": "Normal",
+        "category": "Physical",
+        "power": 50,
+        "accuracy": true,
+        "priority": 0,
+        "pp": 1,
+        "description": "Deals typeless damage to a random opposing Pokemon. If this move was successful, the user loses 1/4 of its maximum HP, rounded half up, and the Rock Head Ability does not prevent this. This move is automatically used if none of the user's known moves can be selected."
+      },
+      "source": "pokemon-showdown@0.11.11 Dex",
+      "source_version": "0.11.11",
+      "source_locator": "pokemon-showdown/data/moves.ts#struggle",
+      "content_hash": "294dbf077c2f3684dddfc469001e455bd3e987af6530a0c853d3a174f0dcdfbb"
+    },
+    {
+      "id": "dex:move:sludgebomb",
+      "kind": "move",
+      "scope": "pokemon-gen9-teaching",
+      "title": "污泥炸弹的招式资料",
+      "aliases": [
+        "污泥炸弹",
+        "Sludge Bomb",
+        "sludgebomb"
+      ],
+      "terms": [
+        "污泥炸弹",
+        "威力",
+        "命中率",
+        "优先度",
+        "属性",
+        "招式"
+      ],
+      "content": "污泥炸弹：毒属性，特殊招式，威力90，标称命中率100%，优先度0，基础可用次数10。这些是第九世代招式资料，不是当前伤害值或洛克王国规则。原始机制说明：Has a 30% chance to poison the target.",
+      "facts": {
+        "id": "sludgebomb",
+        "name": "Sludge Bomb",
+        "zh": "污泥炸弹",
+        "type": "Poison",
+        "category": "Special",
+        "power": 90,
+        "accuracy": 100,
+        "priority": 0,
+        "pp": 10,
+        "description": "Has a 30% chance to poison the target."
+      },
+      "source": "pokemon-showdown@0.11.11 Dex",
+      "source_version": "0.11.11",
+      "source_locator": "pokemon-showdown/data/moves.ts#sludgebomb",
+      "content_hash": "128260a7b89eed4ce7aaa7bbed47a515786d20f970ef00cd855023a566e96548"
+    },
+    {
+      "id": "dex:move:irontail",
+      "kind": "move",
+      "scope": "pokemon-gen9-teaching",
+      "title": "铁尾的招式资料",
+      "aliases": [
+        "铁尾",
+        "Iron Tail",
+        "irontail"
+      ],
+      "terms": [
+        "铁尾",
+        "威力",
+        "命中率",
+        "优先度",
+        "属性",
+        "招式"
+      ],
+      "content": "铁尾：钢属性，物理招式，威力100，标称命中率75%，优先度0，基础可用次数15。这些是第九世代招式资料，不是当前伤害值或洛克王国规则。原始机制说明：Has a 30% chance to lower the target's Defense by 1 stage.",
+      "facts": {
+        "id": "irontail",
+        "name": "Iron Tail",
+        "zh": "铁尾",
+        "type": "Steel",
+        "category": "Physical",
+        "power": 100,
+        "accuracy": 75,
+        "priority": 0,
+        "pp": 15,
+        "description": "Has a 30% chance to lower the target's Defense by 1 stage."
+      },
+      "source": "pokemon-showdown@0.11.11 Dex",
+      "source_version": "0.11.11",
+      "source_locator": "pokemon-showdown/data/moves.ts#irontail",
+      "content_hash": "31c2faa56bad09b3d22c9eeb3e49d5c3a21f817ba8a621801dddc6752abce238"
+    },
+    {
+      "id": "dex:move:dragonclaw",
+      "kind": "move",
+      "scope": "pokemon-gen9-teaching",
+      "title": "龙爪的招式资料",
+      "aliases": [
+        "龙爪",
+        "Dragon Claw",
+        "dragonclaw"
+      ],
+      "terms": [
+        "龙爪",
+        "威力",
+        "命中率",
+        "优先度",
+        "属性",
+        "招式"
+      ],
+      "content": "龙爪：龙属性，物理招式，威力80，标称命中率100%，优先度0，基础可用次数15。这些是第九世代招式资料，不是当前伤害值或洛克王国规则。原始机制说明：No additional effect.",
+      "facts": {
+        "id": "dragonclaw",
+        "name": "Dragon Claw",
+        "zh": "龙爪",
+        "type": "Dragon",
+        "category": "Physical",
+        "power": 80,
+        "accuracy": 100,
+        "priority": 0,
+        "pp": 15,
+        "description": "No additional effect."
+      },
+      "source": "pokemon-showdown@0.11.11 Dex",
+      "source_version": "0.11.11",
+      "source_locator": "pokemon-showdown/data/moves.ts#dragonclaw",
+      "content_hash": "5c005df29a21066c7e0adfa3ac9fa9016bbfe056da1ef99259c47065d3ad25d0"
+    },
+    {
+      "id": "dex:move:airslash",
+      "kind": "move",
+      "scope": "pokemon-gen9-teaching",
+      "title": "空气斩的招式资料",
+      "aliases": [
+        "空气斩",
+        "Air Slash",
+        "airslash"
+      ],
+      "terms": [
+        "空气斩",
+        "威力",
+        "命中率",
+        "优先度",
+        "属性",
+        "招式"
+      ],
+      "content": "空气斩：飞行属性，特殊招式，威力75，标称命中率95%，优先度0，基础可用次数15。这些是第九世代招式资料，不是当前伤害值或洛克王国规则。原始机制说明：Has a 30% chance to make the target flinch.",
+      "facts": {
+        "id": "airslash",
+        "name": "Air Slash",
+        "zh": "空气斩",
+        "type": "Flying",
+        "category": "Special",
+        "power": 75,
+        "accuracy": 95,
+        "priority": 0,
+        "pp": 15,
+        "description": "Has a 30% chance to make the target flinch."
+      },
+      "source": "pokemon-showdown@0.11.11 Dex",
+      "source_version": "0.11.11",
+      "source_locator": "pokemon-showdown/data/moves.ts#airslash",
+      "content_hash": "b9668692c8526ecca89583226610d59990cd83bbc8d513f5f2caf5ca5051ed43"
+    },
+    {
+      "id": "dex:species:venusaur",
+      "kind": "species",
+      "scope": "pokemon-gen9-teaching",
+      "title": "妙蛙花的属性与特性",
+      "aliases": [
+        "妙蛙花",
+        "Venusaur",
+        "venusaur"
+      ],
+      "terms": [
+        "妙蛙花",
+        "属性",
+        "特性"
+      ],
+      "content": "妙蛙花：草 / 毒属性；本项目已收录中文名的可能特性包括茂盛。这是物种资料，可具有的特性不等于当前对局已装备的特性；当前能力与状态应查询局面工具。",
+      "facts": {
+        "id": "venusaur",
+        "name": "Venusaur",
+        "zh": "妙蛙花",
+        "types": [
+          "Grass",
+          "Poison"
+        ],
+        "abilities": [
+          "Overgrow",
+          "Chlorophyll"
+        ]
+      },
+      "source": "pokemon-showdown@0.11.11 Dex",
+      "source_version": "0.11.11",
+      "source_locator": "pokemon-showdown/data/pokedex.ts#venusaur",
+      "content_hash": "091f02e429c984ed50439ee4dc5e2bf04a24cefdbc98f6d7f60748b75b8fced6"
+    },
+    {
+      "id": "dex:species:charizard",
+      "kind": "species",
+      "scope": "pokemon-gen9-teaching",
+      "title": "喷火龙的属性与特性",
+      "aliases": [
+        "喷火龙",
+        "Charizard",
+        "charizard"
+      ],
+      "terms": [
+        "喷火龙",
+        "属性",
+        "特性"
+      ],
+      "content": "喷火龙：火 / 飞行属性；本项目已收录中文名的可能特性包括猛火。这是物种资料，可具有的特性不等于当前对局已装备的特性；当前能力与状态应查询局面工具。",
+      "facts": {
+        "id": "charizard",
+        "name": "Charizard",
+        "zh": "喷火龙",
+        "types": [
+          "Fire",
+          "Flying"
+        ],
+        "abilities": [
+          "Blaze",
+          "Solar Power"
+        ]
+      },
+      "source": "pokemon-showdown@0.11.11 Dex",
+      "source_version": "0.11.11",
+      "source_locator": "pokemon-showdown/data/pokedex.ts#charizard",
+      "content_hash": "58171bb0d2c9dc509dde1f2c5bf960beb305263baeee9678c8c91cd2e30610b4"
+    },
+    {
+      "id": "dex:species:squirtle",
+      "kind": "species",
+      "scope": "pokemon-gen9-teaching",
+      "title": "杰尼龟的属性与特性",
+      "aliases": [
+        "杰尼龟",
+        "Squirtle",
+        "squirtle"
+      ],
+      "terms": [
+        "杰尼龟",
+        "属性",
+        "特性"
+      ],
+      "content": "杰尼龟：水属性；本项目已收录中文名的可能特性包括激流。这是物种资料，可具有的特性不等于当前对局已装备的特性；当前能力与状态应查询局面工具。",
+      "facts": {
+        "id": "squirtle",
+        "name": "Squirtle",
+        "zh": "杰尼龟",
+        "types": [
+          "Water"
+        ],
+        "abilities": [
+          "Torrent",
+          "Rain Dish"
+        ]
+      },
+      "source": "pokemon-showdown@0.11.11 Dex",
+      "source_version": "0.11.11",
+      "source_locator": "pokemon-showdown/data/pokedex.ts#squirtle",
+      "content_hash": "106b046df71541c4cd42d33caf7a9ff26e56b819a5404a2747551c4b49ef84df"
+    },
+    {
+      "id": "dex:species:blastoise",
+      "kind": "species",
+      "scope": "pokemon-gen9-teaching",
+      "title": "水箭龟的属性与特性",
+      "aliases": [
+        "水箭龟",
+        "Blastoise",
+        "blastoise"
+      ],
+      "terms": [
+        "水箭龟",
+        "属性",
+        "特性"
+      ],
+      "content": "水箭龟：水属性；本项目已收录中文名的可能特性包括激流。这是物种资料，可具有的特性不等于当前对局已装备的特性；当前能力与状态应查询局面工具。",
+      "facts": {
+        "id": "blastoise",
+        "name": "Blastoise",
+        "zh": "水箭龟",
+        "types": [
+          "Water"
+        ],
+        "abilities": [
+          "Torrent",
+          "Rain Dish"
+        ]
+      },
+      "source": "pokemon-showdown@0.11.11 Dex",
+      "source_version": "0.11.11",
+      "source_locator": "pokemon-showdown/data/pokedex.ts#blastoise",
+      "content_hash": "073c60e0d7495a567c4078ff6d114390e205a83790ffbeb0eaf934b1b9589722"
+    },
+    {
+      "id": "dex:species:pikachu",
+      "kind": "species",
+      "scope": "pokemon-gen9-teaching",
+      "title": "皮卡丘的属性与特性",
+      "aliases": [
+        "皮卡丘",
+        "Pikachu",
+        "pikachu"
+      ],
+      "terms": [
+        "皮卡丘",
+        "属性",
+        "特性"
+      ],
+      "content": "皮卡丘：电属性；本项目已收录中文名的可能特性包括静电。这是物种资料，可具有的特性不等于当前对局已装备的特性；当前能力与状态应查询局面工具。",
+      "facts": {
+        "id": "pikachu",
+        "name": "Pikachu",
+        "zh": "皮卡丘",
+        "types": [
+          "Electric"
+        ],
+        "abilities": [
+          "Static",
+          "Lightning Rod"
+        ]
+      },
+      "source": "pokemon-showdown@0.11.11 Dex",
+      "source_version": "0.11.11",
+      "source_locator": "pokemon-showdown/data/pokedex.ts#pikachu",
+      "content_hash": "4740740cd2cede85137031ef624eb1375378ff4f7611accadf62d0736a9666c6"
+    }
+  ]
+}
