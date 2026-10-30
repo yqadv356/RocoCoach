@@ -1,0 +1,16 @@
+{
+  "scope": "Current workspace regression and isolated simulated UI checks; no new LLM evaluation or clean-machine run.",
+  "tests": {
+    "passed": 227,
+    "seconds": 94.45
+  },
+  "ui_evidence": "docs/lolo-ui-evidence.json",
+  "manuscript": "Eight-page initial draft retained as dated; mascot is a separate design addendum.",
+  "requested_repository": {
+    "name": "RocoCoach",
+    "visibility": "public"
+  },
+  "remote_publish": "This file records local pre-publication checks; see the repository main tree for current published contents.",
+  "github_ci": "Live status: https://github.com/yqadv356/RocoCoach/actions/workflows/tests.yml",
+  "repository_url": "https://github.com/yqadv356/RocoCoach"
+}

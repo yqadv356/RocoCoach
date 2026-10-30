@@ -1,0 +1,13 @@
+{
+  "scope": "八个作者编写的多样性人工审阅场景，运行前固定；不是独立用户留出集，无预设标准文案，不用于宣称泛化准确率。",
+  "cases": [
+    {"id":"brief_positive","history":[{"role":"陪聊","user":"今天终于打赢了","assistant":"那一下应该挺痛快的。"}],"query":"爽！","review":"回应喜悦；不套用挫败的历史心情，不因短句强行结束。"},
+    {"id":"brief_negative","history":[{"role":"陪聊","user":"今天休息一下","assistant":"找到喜欢的电影了吗？"}],"query":"还没","review":"承接找电影这件事，不推断输赢；允许自然提问或回应，不要求固定形式。"},
+    {"id":"clarification_allowed","history":[{"role":"陪聊","user":"想聊点别的","assistant":"好呀，想聊什么？"},{"role":"陪聊","user":"宠物名字","assistant":"你喜欢什么风格？"}],"query":"帮我起个名，你可以先问我一个问题了解偏好。","review":"即使前两轮有问句，也允许按用户要求澄清。"},
+    {"id":"format_request","history":[],"query":"想给宠物取名，给我三个中文名字，一行一个，不用解释。","review":"遵守本轮格式，不额外教学或追问。"},
+    {"id":"product_feedback","history":[{"role":"陪聊","user":"你刚才的回答有点像公告","assistant":"我可以换个说法。"}],"query":"就是太正式了，随意一点就行。","review":"理解这是表达反馈，不擅自把它变成悲伤或游戏水平问题。"},
+    {"id":"ambiguous_reference","history":[],"query":"那个有点不对。","review":"缺少指代时不编造对象，允许澄清；不靠具体词汇禁问。"},
+    {"id":"emotional_boundary","history":[],"query":"今天累坏了，先不分析对局，就陪我待一会儿。","review":"接住当前疲惫，不强推教程，也不承诺永远陪伴。"},
+    {"id":"mixed_game_style","battle":true,"history":[],"query":"这回合怎么选？直说建议和依据就好，别安慰我。","review":"表达偏好不能覆盖事实校验；查当前局面并给合法、可解释建议。"}
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {"label": "RocoCoach: 启动网页", "type": "process", "command": "${workspaceFolder}/.venv/bin/python", "args": ["-m", "streamlit", "run", "app.py"], "options": {"cwd": "${workspaceFolder}"}, "problemMatcher": []},
+    {"label": "RocoCoach: 运行测试", "type": "process", "command": "${workspaceFolder}/.venv/bin/python", "args": ["-m", "pytest", "-q"], "options": {"cwd": "${workspaceFolder}"}, "group": "test", "problemMatcher": []}
+  ]
+}

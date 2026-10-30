@@ -1,0 +1,514 @@
+{
+  "scope": "Explicit allowlist; excludes local .env, private database, old personal screenshots and local diagnostics.",
+  "scan": "Local configured secret exact-match, token patterns, personal absolute paths, no symlinks; not a security certification.",
+  "files": [
+    {
+      "path": ".env.example",
+      "sha256": "8b0e0c830644a0ab4227e27f98222f2860db151b40587fb428c8b1bbba648ab4"
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "sha256": "64ac9e933b8073b10c7bcd6f61b05b547a13d5efb2e0d2dc4e16a6a7a810818a"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "c6d38cdad054e6c8daee075129ddc6dcd892a149bf2ec2acdea7c3eb13c9c7e5"
+    },
+    {
+      "path": ".python-version",
+      "sha256": "7b55f8e67b5623c4bef3fa691288da9437d79d3aba156de48d481db32ac7d16d"
+    },
+    {
+      "path": ".streamlit/config.toml",
+      "sha256": "e371af570b1f74b93cf22fa340abed399c02f998e9642d5976634e9008c0b2dd"
+    },
+    {
+      "path": ".vscode/extensions.json",
+      "sha256": "b8b81400402ec542205af4606a4023762d2d17f878d117f335ef6d990af770d8"
+    },
+    {
+      "path": ".vscode/launch.json",
+      "sha256": "e8ebede0eb122c2241e0570d15d8e00047b249794d4e3548b2c6cedf2ad9ac10"
+    },
+    {
+      "path": ".vscode/settings.json",
+      "sha256": "1935e291833d325a9ad3ff06f45f13add0c01630cd4967ae59821886c16b3a54"
+    },
+    {
+      "path": ".vscode/tasks.json",
+      "sha256": "35ce37e571dd66d43cc47ede4806827db1b4ddffc33eed2bf83a2184058c9c40"
+    },
+    {
+      "path": "README.md",
+      "sha256": "2848ec4c77e717481823ebaef6ea9264271c8dd1f15629ebaf57946c801527f2"
+    },
+    {
+      "path": "THIRD_PARTY.md",
+      "sha256": "c1845036b80421ee83b00c5745f94a82ea542d0a7d0d68ed88f43f2482482254"
+    },
+    {
+      "path": "app.py",
+      "sha256": "15860cffefbfd07c90c5e3d244b87102f25e52c74b2ca840aca2f69854992001"
+    },
+    {
+      "path": "assets/handheld.css",
+      "sha256": "8cdea2af5399c8a1d09d641fb391242edfa395f06cd8beeb5c7d036b6dedaf68"
+    },
+    {
+      "path": "assets/lolo-mark.svg",
+      "sha256": "0e6bc1f2d2d7c94917cbc0537e8814181a3317d56229d8c3c36839b634a5d2e4"
+    },
+    {
+      "path": "assets/vendor/rpgui/LICENSE.txt",
+      "sha256": "e95f3947dddf579eedab0b9dc41c7681a0babac225fbdd87e5437da7c7790bba"
+    },
+    {
+      "path": "assets/vendor/rpgui/img/border-image-grey.png",
+      "sha256": "452a3bcd6fec4d782b2c6a3af1c3144232a03eb519b70c134c79afaf9427c5dc"
+    },
+    {
+      "path": "assets/vendor/rpgui/img/button-down.png",
+      "sha256": "341e70904f3ff0236464c2ba91e6e7f7bdd9126e643c69167c819852d3cbca8a"
+    },
+    {
+      "path": "assets/vendor/rpgui/img/button-hover.png",
+      "sha256": "3a33b74a5075cd7a2ff6a23a1a0233959b6574bcba5bc8573ee0429469fbe3c6"
+    },
+    {
+      "path": "assets/vendor/rpgui/img/button.png",
+      "sha256": "0e6053263d9b72c81cc76fb3a5b95268ff756d38d81025a9d2b23b33aea3d951"
+    },
+    {
+      "path": "assets/vendor/rpgui/img/icons/sword.png",
+      "sha256": "1730fe67b1ab8c029eb4e15a8807500a26039599301c53407b8e3a3a07eb8215"
+    },
+    {
+      "path": "assets/vendor/rpgui/manifest.json",
+      "sha256": "e0156a000069235e0806a9cf3d7c970280fa046b69c441b790d9020cee5b41f2"
+    },
+    {
+      "path": "data/agent_intent_eval.json",
+      "sha256": "17581c78878430ed34986086559bf268a1d8f1abd6c777ee814ae2eda9d47bd2"
+    },
+    {
+      "path": "data/coach_knowledge.json",
+      "sha256": "9658156db90fa8cc8d6831f75842729a78bf3e5ba791d93400f61255659a4fb2"
+    },
+    {
+      "path": "data/conversation_review.json",
+      "sha256": "af234b52a586d343f5c9aab77f9ffb82942a0ae2b7f0f3e986dff0997a52a4a1"
+    },
+    {
+      "path": "data/rag_corpus.json",
+      "sha256": "3afb894f08489cafc77b9bad1e9631406eb390ac0ea7386b2c0c228f8eef7e58"
+    },
+    {
+      "path": "data/rag_eval.json",
+      "sha256": "7df1c1600fce7b8c9984bd17e383b03e9547633765882973fa49c9a2e578c710"
+    },
+    {
+      "path": "data/zh_catalog.json",
+      "sha256": "96f052675f7d8140c4ba70aedc6c6ebc2803771e1f124b16da37460d49e32334"
+    },
+    {
+      "path": "docs/AGENT_EXECUTION_DESIGN.md",
+      "sha256": "6c2eab7bbfdeca5f8d56cc69cbdb0d8044fffcf7f713cf7df57bbcf7bfa16f8b"
+    },
+    {
+      "path": "docs/ASYNC_REVIEW.md",
+      "sha256": "30d52f2ce9f340d68acab400e3506e4a026a5c49f9cf497498bd42bad049221d"
+    },
+    {
+      "path": "docs/MASCOT_DESIGN.md",
+      "sha256": "df392f4183229249e6cf3ec2cc1dbc8e23d6217a391223449f78ff836376a341"
+    },
+    {
+      "path": "docs/PUBLIC_BUILD_LOG.md",
+      "sha256": "b89486fa09f79e6192da53e1244d727567a2d97a3bb654dd0f335a912f7e30b1"
+    },
+    {
+      "path": "docs/RAG_IMPLEMENTATION.md",
+      "sha256": "a8112e5d408aef9ad554177438a6764259ad00cf4dde514f723a5b4540322232"
+    },
+    {
+      "path": "docs/RESPONSE_LIFECYCLE.md",
+      "sha256": "3dce5d87cec42625b5d6a2be62e13622bec111b5fb7af987d9aec5967065cafd"
+    },
+    {
+      "path": "docs/REVIEWER_GUIDE.md",
+      "sha256": "02754a7547e98b1f1c5e6658146678f6946c9b2bd7971285c67095d50a4b3b41"
+    },
+    {
+      "path": "docs/SHORT_MATCH_RESOURCES.md",
+      "sha256": "00366981b3eaa53f8f868c74398d914781c07e740ac1ff7f2f67ca68d7f0b9c7"
+    },
+    {
+      "path": "docs/SUBMISSION_DRAFT.md",
+      "sha256": "ccd9cf1bb9839a9d035ca3854e803185a30e3bcae6f85b3e6aa325f632f85262"
+    },
+    {
+      "path": "docs/active-replacement-check-evidence.json",
+      "sha256": "d1badbcd4a1a4dd25b652815403d2231fb62884f872e8556bf0c93b30ea356f4"
+    },
+    {
+      "path": "docs/async-review-prefetch-json-live-evidence.json",
+      "sha256": "110ffabf632fd78d09576f0f231ed64401ef1ddb6f8e64d282be693d6315ec59"
+    },
+    {
+      "path": "docs/licenses/pokeapi-LICENSE.txt",
+      "sha256": "1c04595dc662981c20956ae4251dfa7b62b475c345eddf98bc9b904cb2373f2c"
+    },
+    {
+      "path": "docs/licenses/pokemon-showdown-LICENSE.txt",
+      "sha256": "b2002a9fd52ba8db3783a05fbdebfb09c34fd09513b90f6b390a2c0dfbc93ed0"
+    },
+    {
+      "path": "docs/licenses/smogon-calc-LICENSE.txt",
+      "sha256": "c09470bbbd54fe28e8ca5d8a16b55f234150a0d82bc9b46e4b28c5475e6f0309"
+    },
+    {
+      "path": "docs/lolo-checking-preview.png",
+      "sha256": "a2feeb097e722f65429c9523722612f478478960987818f98f459e1ebc4d3e8a"
+    },
+    {
+      "path": "docs/lolo-companion-preview.png",
+      "sha256": "4aafc720326c7b7a3acbb7c456044885cf512f7e3c18239b87989d49ebb6edec"
+    },
+    {
+      "path": "docs/lolo-failure-preview.png",
+      "sha256": "79d924618a33a2c163ffe3991a27fb2f86e5cb5b5f715dc2fc29f159578af78d"
+    },
+    {
+      "path": "docs/lolo-layout-preview.png",
+      "sha256": "4d5f4fd2a2ff427e99a4a613ed8d8aeceb6723dddd93bf4b1f9ad3a669120bc1"
+    },
+    {
+      "path": "docs/lolo-review-stable-preview.png",
+      "sha256": "27cab552493894ea13528f16b5b286aec385134e7631e4e4c564b18c651e5a74"
+    },
+    {
+      "path": "docs/lolo-speaking-preview.png",
+      "sha256": "7dff715254fcb0254a914fb8e7402c5ccedef39b5b9b2eaa33a53330f009162a"
+    },
+    {
+      "path": "docs/lolo-states-preview.png",
+      "sha256": "16342a13736a359d5bce031c822544183301d614278fa68f4fb7b200324cb19f"
+    },
+    {
+      "path": "docs/lolo-ui-evidence.json",
+      "sha256": "6e91eed0f907583c45b6474d19c675c3bfb1450d9e87d4b866a1891261ab9c57"
+    },
+    {
+      "path": "docs/rag-evaluation-final.json",
+      "sha256": "4a546b6bf956ef0ce4c7afdb46efe39d1f70fc8c6156e79ac0cd4e5406cd7b66"
+    },
+    {
+      "path": "docs/rag-evaluation.json",
+      "sha256": "96a6c4c796eeb2dcc05a7215eaad77a231d196cb2066c04c706064edc0a07d5e"
+    },
+    {
+      "path": "docs/semantic-actions-live-evidence.json",
+      "sha256": "5bbeccaa1346c9f55d771e9826508d1aeabf148d706e0a77c03459cf314cd6a0"
+    },
+    {
+      "path": "docs/semantic-agent-execution-preview.png",
+      "sha256": "f5136b104aa30a8ffc9d2b498ddd70d0d2a4030027fd7120f83dcfb7a4e40096"
+    },
+    {
+      "path": "docs/semantic-intent-probe-evidence.json",
+      "sha256": "0893f671086e607987628154920b1d550179b79a58950ed96db7860d1889feed"
+    },
+    {
+      "path": "docs/semantic-intent-probe-normalized-evidence.json",
+      "sha256": "22a49abdcc8982a4893e3c48790a679c3d309c98b981bda994a4cce753ebb334"
+    },
+    {
+      "path": "engine/bridge.cjs",
+      "sha256": "7159118eab290babbdf327eee0394cc97fd39fbf48d5cc18a8048e75400c6261"
+    },
+    {
+      "path": "engine/export_knowledge.cjs",
+      "sha256": "923fe5ca41de5c43c6955ebcad18c9d6c6bf3276795c221d021e7f5e13b68226"
+    },
+    {
+      "path": "engine/package.json",
+      "sha256": "4e50c3b6a4cdfb7187d7e39b90c5a6e3b73a89505cf6884e581db160a78a8d89"
+    },
+    {
+      "path": "engine/pnpm-lock.yaml",
+      "sha256": "9a35a5a571ac1c60262ae5ff2e319bbb959c57264d5be7c1f5ae020e6700c073"
+    },
+    {
+      "path": "pages/0_AI教练.py",
+      "sha256": "5d73e89074375efe0c6b546d6d25536945fa30bab3ec05af4d32f4ed60582cb4"
+    },
+    {
+      "path": "pages/1_宠物对战.py",
+      "sha256": "010463f9c95cf8773ddc12dac9efe762b2beb5514e70a847f7ee2f5c57f383fd"
+    },
+    {
+      "path": "pages/2_训练计划.py",
+      "sha256": "2e791b1e93eac8f07d7adb8875de530c3f928b69ccff831610694d6156ceb96a"
+    },
+    {
+      "path": "pages/3_单回合练习.py",
+      "sha256": "ac1c4369277f1d00857a92c2754dd342c4d6e15d12626a9c798ceb23b346d1b1"
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "47b42e8127a253957c0bf6d5a7a680beef6742cc758a5ce45c967c31f6f0027e"
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "24ec4a948220f9f72e9dba59037c7ba62ecc0453f9fdefb1688870fc39817f60"
+    },
+    {
+      "path": "rococoach/__init__.py",
+      "sha256": "b186cbf49bac463829b13d95b109e6bf0b7d4236a805eae7a35cc64005b277ce"
+    },
+    {
+      "path": "rococoach/agent.py",
+      "sha256": "d770eb4eb186a2c833cc8ae5504ef35f9239edc96c5ebcd644ba8bece377c1f0"
+    },
+    {
+      "path": "rococoach/answer_evidence.py",
+      "sha256": "b37f9b8f98b9f26225324cfe3ba13421c56894de5f0c06aa86076b420e60d682"
+    },
+    {
+      "path": "rococoach/battle.py",
+      "sha256": "f5f2b8591e6f8141f099beb880c4b0f3b395eb137eb65355f3832ec335722312"
+    },
+    {
+      "path": "rococoach/coach.py",
+      "sha256": "a7d86246a5b17cbded5ad18924123e200e941404092af9f2fa09aacf5ea10b79"
+    },
+    {
+      "path": "rococoach/companion.py",
+      "sha256": "2d3e179599ddff62c86db60664f00659d5db5964eee408dfd84c2ba44e7eacb3"
+    },
+    {
+      "path": "rococoach/config.py",
+      "sha256": "89abe847f68553efeed10e82b0a40ddd9d691319cffcfb2b4d6249a9f05a0a83"
+    },
+    {
+      "path": "rococoach/control.py",
+      "sha256": "682ef60d6c24ff95da179f6237a0777915db71480f3820cffc25fd09aa29cf3e"
+    },
+    {
+      "path": "rococoach/game_ui.py",
+      "sha256": "222f5cbb50e3735e57f07621526baa28aade971372edba93f89430f526037622"
+    },
+    {
+      "path": "rococoach/live_ui.py",
+      "sha256": "48d13d1731e419f83935302bd58a2c4bfc4634571a2958133ea7a71736212388"
+    },
+    {
+      "path": "rococoach/llm.py",
+      "sha256": "cdb402b239f69819dc0272b6b771166214d61546ad12be63a328ed4260bfb6a2"
+    },
+    {
+      "path": "rococoach/mascot.py",
+      "sha256": "62b3fc93b955014ac715d916e24d0970e360d015d7a05cab3d6ce90b18437dde"
+    },
+    {
+      "path": "rococoach/match.py",
+      "sha256": "78015137896f47098d4ed379a045a8ff69742e0b25a292eaa8407b48b4d61814"
+    },
+    {
+      "path": "rococoach/match_coach.py",
+      "sha256": "0b816bd37758c0a2206ffb306b11f60022626f7a3e5979ee48e300860f8f15fa"
+    },
+    {
+      "path": "rococoach/match_tools.py",
+      "sha256": "6a73d2ad74a5c167ddd5fa3df02b56653d82dc5587de43228619fb42e1364b07"
+    },
+    {
+      "path": "rococoach/memory.py",
+      "sha256": "4c607edb201b49a530e2e706f42b1ffa4c9a215e4bed2b7574725f112f21b46f"
+    },
+    {
+      "path": "rococoach/offline_control.py",
+      "sha256": "6b8e5df07b61d416922c5a5eac6336e5531e2e727f163aab535eff3083380a13"
+    },
+    {
+      "path": "rococoach/retrieval.py",
+      "sha256": "fb1365754680a1a8dd8f8086edd7094acf7da7d846ac54ecb7a858178ff435d1"
+    },
+    {
+      "path": "rococoach/review_jobs.py",
+      "sha256": "ddec77f13799d60ce97dcc804cc7e08ac20d5ecfbbb3b8347f2fea64729046dd"
+    },
+    {
+      "path": "rococoach/routing.py",
+      "sha256": "33a9b40330a0cef7f213373ca7cfe0d77db2e120e9fccc292ba7e7859f3344fd"
+    },
+    {
+      "path": "rococoach/semantic_control.py",
+      "sha256": "05499e8c82d9e7b699eb4f2e8230e1a6d9a27ba0e90f83c2c8d63f704327934e"
+    },
+    {
+      "path": "rococoach/session.py",
+      "sha256": "b3ad267a001ff0dd12e5c175ec9503e06108b06d75c9b31e8e66593fafe9a426"
+    },
+    {
+      "path": "rococoach/streaming.py",
+      "sha256": "b5851eee463bbe53e2950ff912a3752517ec32ee56a9f5cc6f5d01edffcdd422"
+    },
+    {
+      "path": "rococoach/tutor.py",
+      "sha256": "6a5baa4dc21948aac61131a26e871ef23cd0714fea23ec36d16cc70c9e6dad58"
+    },
+    {
+      "path": "rococoach/zh.py",
+      "sha256": "cf92849ac739270eea71eb6af36773b6185d2f2b9d1bf2a3d7b38e64f5fd4750"
+    },
+    {
+      "path": "scripts/build_interview_draft.py",
+      "sha256": "f82ce02d90ab2f933076c9851f22c3c90f711f8622fcc6bcb654d39e83d17aef"
+    },
+    {
+      "path": "scripts/build_knowledge.py",
+      "sha256": "6c24c6cd1ead766a2edc04d4587048fe1e06f1aee61817bb86f108ff69382c38"
+    },
+    {
+      "path": "scripts/check_challenge_actions.py",
+      "sha256": "2b0f34a35dcc6832d8813c86e83a7a244784d55c855948a83a09060e44150fc0"
+    },
+    {
+      "path": "scripts/check_llm.py",
+      "sha256": "70affee54ab9ee6eef61879a34306160bf7bf9886cf76c2955d2bf108f4c9b40"
+    },
+    {
+      "path": "scripts/check_match_tools.py",
+      "sha256": "e3d0090513637f904fbf4109c24f1bfb81b6746b201be62e219c014baff022a4"
+    },
+    {
+      "path": "scripts/demo_battle.py",
+      "sha256": "a20252d95fca21285ba487f93ffefd411c460c937960895da12d3da93c447a65"
+    },
+    {
+      "path": "scripts/evaluate_rag.py",
+      "sha256": "4425bbbbb009685cb189cda27195770ac3d823b9e47a1da59ab96a9f2572a9b0"
+    },
+    {
+      "path": "scripts/evaluate_semantic_intent.py",
+      "sha256": "46159ce009e3d7ff62e059e1f9ef7b17d8b9222b6cbcc5ecf95197db8d07cfcb"
+    },
+    {
+      "path": "scripts/prepare_release.py",
+      "sha256": "c8008e048ab2a3ace0520b9b278f8d98c69384fe212f669e8d0b90c0481ff217"
+    },
+    {
+      "path": "scripts/setup_battle.py",
+      "sha256": "f3c2c67bff78fffa93309a14dc4deb48728641001c7da7992835b5eaeff68e44"
+    },
+    {
+      "path": "submission/RocoCoach_设计与实现_面试初稿.docx",
+      "sha256": "944e6dac6d7086995cc9eafb78066a6d4c0b2ae28160f99abddd0dde955f79d8"
+    },
+    {
+      "path": "submission/RocoCoach_设计与实现_面试初稿.pdf",
+      "sha256": "7760598fcbaa240600eb7a2c7fe19bd16c9ff070a78fc7f1db27c42d27519bca"
+    },
+    {
+      "path": "tests/conftest.py",
+      "sha256": "88a51f4889beebd8547b2a1adf534430ca0bc551b65ba2a945b3a5f715b659c7"
+    },
+    {
+      "path": "tests/test_action_confirmation.py",
+      "sha256": "bae8085d94c888ed363e2ecf1a0542227000d322aad1776eab76d274a931d3f1"
+    },
+    {
+      "path": "tests/test_agent.py",
+      "sha256": "1e3440421e2002dc598a8294b4f63e2256f363d9d1bec3159dc4d1d44cea5ae7"
+    },
+    {
+      "path": "tests/test_answer_evidence.py",
+      "sha256": "9aad843d9c56ca923d7fc4b5da4059d1c73edaf89219a5a629f832e7448ab78b"
+    },
+    {
+      "path": "tests/test_app.py",
+      "sha256": "8618b588d8abef26bd100eb19e1064cdcc48afe50bfe111ce0de02aefc20e0a1"
+    },
+    {
+      "path": "tests/test_battle.py",
+      "sha256": "e834e51c3cc34a61c092448a216a272e75dbe9dba4ce1fc18b9faea11df41805"
+    },
+    {
+      "path": "tests/test_chinese_companion.py",
+      "sha256": "1e0c407b08b54636129094754b6717bf28f760d9eb877d06556c47d023ebb8b1"
+    },
+    {
+      "path": "tests/test_coach.py",
+      "sha256": "2e1dfff1976b315714fc585be0fc8891e59e7bd38c2c56f7c643c9c2c6b189ec"
+    },
+    {
+      "path": "tests/test_control.py",
+      "sha256": "1804a2dec068aae1e393d25c6ec34f8c24947663b9bd1e12e2039f0d15d91383"
+    },
+    {
+      "path": "tests/test_conversation.py",
+      "sha256": "1e36d3dce31f237378aa1ab8edd6de1fc1c8ffea734ffbcd23cccbbddadd36d9"
+    },
+    {
+      "path": "tests/test_full_match.py",
+      "sha256": "4d93b20234c98fbd26a08216c4ce63a39b0cf0d1d761f19899ca1dd13c08531b"
+    },
+    {
+      "path": "tests/test_llm.py",
+      "sha256": "16e59a58e1fb561e9290d49fd350a309da19b52bf1f94ace708671043f04996d"
+    },
+    {
+      "path": "tests/test_mascot.py",
+      "sha256": "7116b7a43d9603eb9b8ab7da77968ec4e72b534155e48775835cc00102a0d231"
+    },
+    {
+      "path": "tests/test_match_tools.py",
+      "sha256": "5a37ebcf2cf69fc34d148ad3dbc5f567f85c60bbabc7cf78b63a6ae2f62391da"
+    },
+    {
+      "path": "tests/test_release.py",
+      "sha256": "b1c671aa194c615752260641b950fb3df0b9b76b036ee75d77a206f90ab74efe"
+    },
+    {
+      "path": "tests/test_retrieval.py",
+      "sha256": "f93693ef469bdf3f361ba9aba22297c811f6c3b5cee23690d6926509ea1bed28"
+    },
+    {
+      "path": "tests/test_review_jobs.py",
+      "sha256": "ebeda42358d71d76ad3993b72a5c12f975b896dab615af1fcfb87759e5b035a0"
+    },
+    {
+      "path": "tests/test_routing.py",
+      "sha256": "3230f8d8aba01f77c795da657103c45966b80766198faf1c04adff935c904aa6"
+    },
+    {
+      "path": "tests/test_rule_explanation.py",
+      "sha256": "81df35e55068f61809288b47aee58192016953b25e91a4b57d3fca2ac864b390"
+    },
+    {
+      "path": "tests/test_semantic_control.py",
+      "sha256": "f105dec2ed1a872beae1518bec1e4ffbdeb6f5f86391c06caef24631598ee16f"
+    },
+    {
+      "path": "tests/test_short_resources.py",
+      "sha256": "af8688c7ccae4ea158590a10898b3b994f0c989d0abeac3893ca5648d0f93212"
+    },
+    {
+      "path": "tests/test_streaming.py",
+      "sha256": "611e209a37154c0a409d40163e338b8e69bbafd23b0d6596d731d24479f77346"
+    },
+    {
+      "path": "tests/test_tutor.py",
+      "sha256": "b182b8c8d70b732e16b717c0dd5bc4315c6e5cf2e695bce9428d748fd7f74fa0"
+    },
+    {
+      "path": "uv.lock",
+      "sha256": "00ae5c778e51376dbea3ffbca17ee8d6a2880b59362babceadffd31b73e18ac3"
+    },
+    {
+      "path": "RELEASE_VERIFICATION.json",
+      "sha256": "d128ae75d61a638b39acc02b0e8cedee7bb80daabc0c0a0039072ee549c0c326"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "version": "semantic-intent-probe-v1",
+  "scope": "提示冻结后编写的探索回归集，非独立外部盲测；不作为关键词执行规则",
+  "cases": [
+    {"id":"paraphrase_01","context":"ended","query":"这把没啥压力，找个懂得还手的对手接着练","operations":["start_new_match"],"difficulty":"challenge"},
+    {"id":"paraphrase_02","context":"ended","query":"别放水啦，安排一场新的训练","operations":["start_new_match"],"difficulty":"challenge"},
+    {"id":"negative_01","context":"ended","query":"先别重置，我还要看这一把的记录","operations":["chat"]},
+    {"id":"quotation_01","context":"ended","query":"别人说的‘重新开始’在这里是什么意思？","operations":["chat"]},
+    {"id":"hypothetical_01","context":"ended","query":"如果换个对手，上一盘的复盘会消失吗？","operations":["chat"]},
+    {"id":"pending_yes_01","context":"pending","query":"就照刚才那个安排上","operations":["confirm_pending"],"reference":"pending"},
+    {"id":"pending_cancel_01","context":"pending","query":"想了下先不练，把刚才那个方案撤了","operations":["cancel_pending"]},
+    {"id":"ambiguous_live_01","context":"playing","query":"再做一次","operations":["clarify","chat"]},
+    {"id":"preference_01","context":"ended","query":"以后不要写那么多，先给我结论","operations":["set_response_style"],"style":"简洁"},
+    {"id":"explain_now_01","context":"ended","query":"能展开解释一下刚才为什么这样吗？","operations":["chat"]},
+    {"id":"ordinary_yes_01","context":"casual","query":"嗯，说得对","operations":["chat"]},
+    {"id":"legacy_reference_01","context":"legacy","query":"那就按你说的开始吧","operations":["confirm_pending"],"reference":"latest_assistant"},
+    {"id":"english_paraphrase_01","context":"ended","query":"Game on, give me a tougher sparring partner.","operations":["start_new_match"],"difficulty":"challenge"},
+    {"id":"consultation_01","context":"ended","query":"先推荐一个训练方案，我选好以后再开始","operations":["propose_new_match","chat"]}
+  ]
+}

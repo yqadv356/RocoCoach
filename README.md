@@ -1,5 +1,7 @@
 # RocoCoach 洛洛
 
+[![自动测试](https://github.com/yqadv356/RocoCoach/actions/workflows/tests.yml/badge.svg)](https://github.com/yqadv356/RocoCoach/actions/workflows/tests.yml)
+
 基于 LLM 的宠物对战教练原型。**完整一局 → 回合前引导与自主出招 → 证据复盘 → 下一局练习目标**，军师、陪聊和老师融合在一个聊天入口。
 
 ![上下文确认后实际开启进阶训练](docs/semantic-agent-execution-preview.png)
