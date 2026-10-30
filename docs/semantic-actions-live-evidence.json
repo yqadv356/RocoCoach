@@ -1,0 +1,307 @@
+{
+  "scope": "独立合成局/临时SQLite；真实模型工具选择；确认由宿主承接，不读取玩家历史",
+  "cases": [
+    {
+      "query": "再来一局难一点的",
+      "prepared": {
+        "role": "老师",
+        "routing": {
+          "role": "老师",
+          "source": "semantic_planner",
+          "context_source": "conversation_control"
+        },
+        "metadata": {
+          "mode": "live",
+          "planner": {
+            "mode": "live",
+            "provider": "qwen",
+            "model": "qwen3.8-flash",
+            "latency_seconds": 1.821,
+            "usage": {
+              "completion_tokens": 60,
+              "prompt_tokens": 1059,
+              "total_tokens": 1119,
+              "completion_tokens_details": null,
+              "prompt_tokens_details": {
+                "audio_tokens": null,
+                "cache_write_tokens": null,
+                "cached_tokens": 0,
+                "text_tokens": 1059
+              }
+            },
+            "raw_intent": {
+              "operation": "start_new_match",
+              "speech_act": "request",
+              "role": "老师",
+              "scenario": "same",
+              "difficulty": "challenge",
+              "style": "简洁",
+              "reference": "none",
+              "question": ""
+            },
+            "planner_version": "semantic-capabilities-v1",
+            "input_hash": "32393e4a7c0972eab5adcd1f860b7f2491fceb677c0cfa8800732a3652db0e50"
+          },
+          "intent": {
+            "operation": "start_new_match",
+            "speech_act": "request",
+            "role": "老师",
+            "scenario": "same",
+            "difficulty": "challenge",
+            "style": "简洁",
+            "reference": "none",
+            "question": ""
+          },
+          "agent": {
+            "trace": [
+              {
+                "step": 1,
+                "tool": "start_new_match",
+                "selected_by": "semantic_planner",
+                "arguments": {
+                  "scenario": "practice",
+                  "difficulty": "challenge"
+                },
+                "observation": {
+                  "receipt": {
+                    "version": "semantic-control-v1",
+                    "tool": "start_new_match",
+                    "phase": "prepared",
+                    "arguments": {
+                      "scenario": "practice",
+                      "difficulty": "challenge"
+                    },
+                    "input_hash": "6a43573021a00c6121f8172caaa91d990b61cf1762f1471c49675e08e351817d",
+                    "output_hash": "3649c9295f5ebbb90feca94a2ff875fba409d1bbce795335a71253b8337827ad",
+                    "match_unchanged": true,
+                    "elapsed_seconds": 0.0
+                  }
+                },
+                "elapsed_seconds": 0.0,
+                "cached": false
+              }
+            ]
+          }
+        },
+        "command": {
+          "tool": "start_new_match",
+          "arguments": {
+            "scenario": "practice",
+            "difficulty": "challenge"
+          },
+          "query_hash": "8ced919b80099bea4ef8f59e932472d9356278954e4ea2813e1dbddb6b8cf1c9",
+          "source_token": "6a43573021a00c6121f8172caaa91d990b61cf1762f1471c49675e08e351817d",
+          "selected_by": "semantic_planner"
+        },
+        "reply": "操作方案已准备，正在交给训练场执行。"
+      },
+      "seconds": 2.143,
+      "execution": {
+        "request_id": "case-0",
+        "tool": "start_new_match",
+        "status": "executed",
+        "source_match_id": "505efde8fb4f4ff18ae492103b074933",
+        "target_match_id": "4f4ee754e8e24f49bde595ca32918952",
+        "arguments": {
+          "scenario": "practice",
+          "difficulty": "challenge"
+        },
+        "source_token": "6a43573021a00c6121f8172caaa91d990b61cf1762f1471c49675e08e351817d",
+        "target_token": "8aba6cc59e4aaf9bbc55df5d9d4aaccd753ef09cfef04b96c97c7289a8ac33ca",
+        "ruleset": "short-pp-v1"
+      },
+      "checks": {
+        "new_id": true,
+        "zero_turns": true,
+        "challenge": true,
+        "policy": true,
+        "saved": true
+      }
+    },
+    {
+      "query": "换个场景，先推荐一个进阶对练方案",
+      "prepared": {
+        "role": "军师",
+        "routing": {
+          "role": "军师",
+          "source": "semantic_planner",
+          "context_source": "conversation_control"
+        },
+        "metadata": {
+          "mode": "live",
+          "planner": {
+            "mode": "live",
+            "provider": "qwen",
+            "model": "qwen3.8-flash",
+            "latency_seconds": 1.274,
+            "usage": {
+              "completion_tokens": 70,
+              "prompt_tokens": 1053,
+              "total_tokens": 1123,
+              "completion_tokens_details": null,
+              "prompt_tokens_details": {
+                "audio_tokens": null,
+                "cache_write_tokens": null,
+                "cached_tokens": 0,
+                "text_tokens": 1053
+              }
+            },
+            "raw_intent": {
+              "operation": "propose_new_match",
+              "speech_act": "request",
+              "role": "军师",
+              "scenario": "same",
+              "difficulty": "challenge",
+              "style": "简洁",
+              "reference": "none",
+              "question": ""
+            },
+            "planner_version": "semantic-capabilities-v1",
+            "input_hash": "daa89dc224dde8716c28e2f684089265d89df91e4d5222357f957d4126fabacb"
+          },
+          "intent": {
+            "operation": "propose_new_match",
+            "speech_act": "request",
+            "role": "军师",
+            "scenario": "same",
+            "difficulty": "challenge",
+            "style": "简洁",
+            "reference": "none",
+            "question": ""
+          },
+          "agent": {
+            "trace": []
+          }
+        },
+        "command": null,
+        "proposal": {
+          "id": "dda197f437888cce14f7df72812e647b7b08418262fa2094b7002cc5709f3aff",
+          "arguments": {
+            "scenario": "practice",
+            "difficulty": "challenge"
+          },
+          "source_token": "95719db4a8984017569d1b1babfa1bbde02fa5f4db85bc5d95adbdfddd758cb4",
+          "expires_at": 1793349947.788883,
+          "origin": "semantic_planner"
+        },
+        "reply": "可以安排均衡对练：杰尼龟 vs 杰尼龟的进阶对练。现在开始吗？"
+      },
+      "confirmation": {
+        "role": "陪聊",
+        "routing": {
+          "role": "陪聊",
+          "source": "semantic_planner",
+          "context_source": "conversation_control"
+        },
+        "metadata": {
+          "mode": "live",
+          "planner": {
+            "mode": "live",
+            "provider": "qwen",
+            "model": "qwen3.8-flash",
+            "latency_seconds": 1.865,
+            "usage": {
+              "completion_tokens": 62,
+              "prompt_tokens": 1400,
+              "total_tokens": 1462,
+              "completion_tokens_details": null,
+              "prompt_tokens_details": {
+                "audio_tokens": null,
+                "cache_write_tokens": null,
+                "cached_tokens": 0,
+                "text_tokens": 1400
+              }
+            },
+            "raw_intent": {
+              "operation": "confirm_pending",
+              "speech_act": "confirmation",
+              "role": "陪聊",
+              "scenario": "practice",
+              "difficulty": "challenge",
+              "style": "简洁",
+              "reference": "pending",
+              "question": ""
+            },
+            "planner_version": "semantic-capabilities-v1",
+            "input_hash": "b974858bbd18b3805f99c51a668e416fdf211abe72cd7b02d946944628e97eaf"
+          },
+          "intent": {
+            "operation": "confirm_pending",
+            "speech_act": "confirmation",
+            "role": "陪聊",
+            "scenario": "practice",
+            "difficulty": "challenge",
+            "style": "简洁",
+            "reference": "pending",
+            "question": ""
+          },
+          "agent": {
+            "trace": [
+              {
+                "step": 1,
+                "tool": "start_new_match",
+                "selected_by": "semantic_planner",
+                "arguments": {
+                  "scenario": "practice",
+                  "difficulty": "challenge"
+                },
+                "observation": {
+                  "receipt": {
+                    "version": "semantic-control-v1",
+                    "tool": "start_new_match",
+                    "phase": "prepared",
+                    "arguments": {
+                      "scenario": "practice",
+                      "difficulty": "challenge"
+                    },
+                    "input_hash": "95719db4a8984017569d1b1babfa1bbde02fa5f4db85bc5d95adbdfddd758cb4",
+                    "output_hash": "305d01ea2df7384168856c902c02ad972c4c97ef3653da7ab400bdc72ba26f20",
+                    "match_unchanged": true,
+                    "elapsed_seconds": 0.0
+                  }
+                },
+                "elapsed_seconds": 0.0,
+                "cached": false
+              }
+            ]
+          }
+        },
+        "command": {
+          "tool": "start_new_match",
+          "arguments": {
+            "scenario": "practice",
+            "difficulty": "challenge"
+          },
+          "query_hash": "ede29adc99df1df61fce2200182251adc34b80c6f763492ab0ed9212cf72f166",
+          "source_token": "95719db4a8984017569d1b1babfa1bbde02fa5f4db85bc5d95adbdfddd758cb4",
+          "selected_by": "semantic_planner",
+          "proposal_id": "dda197f437888cce14f7df72812e647b7b08418262fa2094b7002cc5709f3aff"
+        },
+        "reply": "操作方案已准备，正在交给训练场执行。"
+      },
+      "seconds": 3.431,
+      "execution": {
+        "request_id": "case-1",
+        "tool": "start_new_match",
+        "status": "executed",
+        "source_match_id": "2d7dfd64056447f98855c055d996ed44",
+        "target_match_id": "418b5c0f41d8454abd93902274a31465",
+        "arguments": {
+          "scenario": "practice",
+          "difficulty": "challenge"
+        },
+        "source_token": "95719db4a8984017569d1b1babfa1bbde02fa5f4db85bc5d95adbdfddd758cb4",
+        "target_token": "cf51d244817234ffc8ecd17f709ffdb4a0d9d1cef9937fab8ca9896cebdd2b19",
+        "ruleset": "short-pp-v1"
+      },
+      "checks": {
+        "new_id": true,
+        "zero_turns": true,
+        "challenge": true,
+        "policy": true,
+        "saved": true
+      }
+    }
+  ],
+  "status": "passed"
+}

@@ -1,0 +1,442 @@
+{
+  "scope": "人工编写的小型回归集，开发集与留出集先固定；不是线上用户分布或真实问答准确率。expected为Top-2至少命中其一；部分问题允许多个相关证据。",
+  "split": "all",
+  "metrics": {
+    "dev": {
+      "old_4_keyword": {
+        "answerable_cases": 10,
+        "hit_at_2": 0.4,
+        "mrr_at_2": 0.35,
+        "unanswerable_cases": 2,
+        "correct_empty": 1
+      },
+      "new_26_keyword": {
+        "answerable_cases": 10,
+        "hit_at_2": 0.8,
+        "mrr_at_2": 0.7,
+        "unanswerable_cases": 2,
+        "correct_empty": 1
+      },
+      "new_26_bm25_alias": {
+        "answerable_cases": 10,
+        "hit_at_2": 1.0,
+        "mrr_at_2": 0.95,
+        "unanswerable_cases": 2,
+        "correct_empty": 2
+      }
+    },
+    "holdout": {
+      "old_4_keyword": {
+        "answerable_cases": 6,
+        "hit_at_2": 0.16666666666666666,
+        "mrr_at_2": 0.16666666666666666,
+        "unanswerable_cases": 2,
+        "correct_empty": 1
+      },
+      "new_26_keyword": {
+        "answerable_cases": 6,
+        "hit_at_2": 0.6666666666666666,
+        "mrr_at_2": 0.6666666666666666,
+        "unanswerable_cases": 2,
+        "correct_empty": 1
+      },
+      "new_26_bm25_alias": {
+        "answerable_cases": 6,
+        "hit_at_2": 0.8333333333333334,
+        "mrr_at_2": 0.8333333333333334,
+        "unanswerable_cases": 2,
+        "correct_empty": 2
+      }
+    }
+  },
+  "cases": [
+    {
+      "id": "d1",
+      "split": "dev",
+      "query": "命中规则",
+      "expected": [
+        "kb:accuracy"
+      ],
+      "results": {
+        "old_4_keyword": [
+          "kb:accuracy"
+        ],
+        "new_26_keyword": [
+          "kb:accuracy"
+        ],
+        "new_26_bm25_alias": [
+          "kb:accuracy",
+          "dex:move:scratch"
+        ]
+      },
+      "new_reason": "matched"
+    },
+    {
+      "id": "d2",
+      "split": "dev",
+      "query": "经常打不中怎么办",
+      "expected": [
+        "kb:accuracy"
+      ],
+      "results": {
+        "old_4_keyword": [],
+        "new_26_keyword": [],
+        "new_26_bm25_alias": [
+          "kb:accuracy",
+          "dex:move:scratch"
+        ]
+      },
+      "new_reason": "matched"
+    },
+    {
+      "id": "d3",
+      "split": "dev",
+      "query": "空招风险怎么理解",
+      "expected": [
+        "kb:accuracy"
+      ],
+      "results": {
+        "old_4_keyword": [
+          "kb:accuracy"
+        ],
+        "new_26_keyword": [
+          "kb:accuracy"
+        ],
+        "new_26_bm25_alias": [
+          "kb:accuracy",
+          "kb:ranking"
+        ]
+      },
+      "new_reason": "matched"
+    },
+    {
+      "id": "d4",
+      "split": "dev",
+      "query": "十万伏特的威力是多少",
+      "expected": [
+        "dex:move:thunderbolt"
+      ],
+      "results": {
+        "old_4_keyword": [
+          "kb:ranking"
+        ],
+        "new_26_keyword": [
+          "dex:move:thunderbolt",
+          "kb:ranking"
+        ],
+        "new_26_bm25_alias": [
+          "dex:move:thunderbolt",
+          "kb:ranking"
+        ]
+      },
+      "new_reason": "matched"
+    },
+    {
+      "id": "d5",
+      "split": "dev",
+      "query": "打雷遇到下雨会怎么样",
+      "expected": [
+        "dex:move:thunder"
+      ],
+      "results": {
+        "old_4_keyword": [
+          "kb:accuracy"
+        ],
+        "new_26_keyword": [
+          "kb:accuracy",
+          "dex:move:thunder"
+        ],
+        "new_26_bm25_alias": [
+          "dex:move:thunder",
+          "kb:accuracy"
+        ]
+      },
+      "new_reason": "matched"
+    },
+    {
+      "id": "d6",
+      "split": "dev",
+      "query": "电光一闪为什么能先出手",
+      "expected": [
+        "dex:move:quickattack"
+      ],
+      "results": {
+        "old_4_keyword": [],
+        "new_26_keyword": [
+          "dex:move:quickattack"
+        ],
+        "new_26_bm25_alias": [
+          "dex:move:quickattack",
+          "kb:learning"
+        ]
+      },
+      "new_reason": "matched"
+    },
+    {
+      "id": "d7",
+      "split": "dev",
+      "query": "皮卡丘是什么属性",
+      "expected": [
+        "dex:species:pikachu"
+      ],
+      "results": {
+        "old_4_keyword": [
+          "kb:damage"
+        ],
+        "new_26_keyword": [
+          "dex:species:pikachu",
+          "kb:damage"
+        ],
+        "new_26_bm25_alias": [
+          "dex:species:pikachu",
+          "kb:learning"
+        ]
+      },
+      "new_reason": "matched"
+    },
+    {
+      "id": "d8",
+      "split": "dev",
+      "query": "伤害均值乘概率是什么规则",
+      "expected": [
+        "kb:ranking"
+      ],
+      "results": {
+        "old_4_keyword": [
+          "kb:ranking",
+          "kb:accuracy"
+        ],
+        "new_26_keyword": [
+          "kb:ranking",
+          "kb:accuracy"
+        ],
+        "new_26_bm25_alias": [
+          "kb:accuracy",
+          "kb:ranking"
+        ]
+      },
+      "new_reason": "matched"
+    },
+    {
+      "id": "d9",
+      "split": "dev",
+      "query": "技能造成伤害跟掉血一样吗",
+      "expected": [
+        "kb:damage"
+      ],
+      "results": {
+        "old_4_keyword": [
+          "kb:ranking",
+          "kb:damage"
+        ],
+        "new_26_keyword": [
+          "kb:ranking",
+          "kb:damage"
+        ],
+        "new_26_bm25_alias": [
+          "kb:damage",
+          "kb:ranking"
+        ]
+      },
+      "new_reason": "matched"
+    },
+    {
+      "id": "d10",
+      "split": "dev",
+      "query": "答对一次就证明变强了吗",
+      "expected": [
+        "kb:learning"
+      ],
+      "results": {
+        "old_4_keyword": [],
+        "new_26_keyword": [],
+        "new_26_bm25_alias": [
+          "kb:learning"
+        ]
+      },
+      "new_reason": "matched"
+    },
+    {
+      "id": "d11",
+      "split": "dev",
+      "query": "完全未知的兑换码机制",
+      "expected": [],
+      "results": {
+        "old_4_keyword": [],
+        "new_26_keyword": [],
+        "new_26_bm25_alias": []
+      },
+      "new_reason": "no_coverage_anchor"
+    },
+    {
+      "id": "d12",
+      "split": "dev",
+      "query": "洛克王国里的打雷命中率是多少",
+      "expected": [],
+      "results": {
+        "old_4_keyword": [
+          "kb:accuracy"
+        ],
+        "new_26_keyword": [
+          "kb:accuracy",
+          "dex:move:thunder"
+        ],
+        "new_26_bm25_alias": []
+      },
+      "new_reason": "out_of_scope"
+    },
+    {
+      "id": "h1",
+      "split": "holdout",
+      "query": "这个招式老是打不准",
+      "expected": [
+        "kb:accuracy"
+      ],
+      "results": {
+        "old_4_keyword": [],
+        "new_26_keyword": [
+          "dex:move:scratch",
+          "dex:move:tackle"
+        ],
+        "new_26_bm25_alias": [
+          "kb:accuracy",
+          "dex:move:scratch"
+        ]
+      },
+      "new_reason": "matched"
+    },
+    {
+      "id": "h2",
+      "split": "holdout",
+      "query": "为什么不能只看面板威力",
+      "expected": [
+        "kb:ranking",
+        "kb:accuracy"
+      ],
+      "results": {
+        "old_4_keyword": [
+          "kb:ranking"
+        ],
+        "new_26_keyword": [
+          "kb:ranking",
+          "dex:move:scratch"
+        ],
+        "new_26_bm25_alias": []
+      },
+      "new_reason": "entity_not_indexed"
+    },
+    {
+      "id": "h3",
+      "split": "holdout",
+      "query": "喷射火焰有没有附加效果",
+      "expected": [
+        "dex:move:flamethrower"
+      ],
+      "results": {
+        "old_4_keyword": [],
+        "new_26_keyword": [
+          "dex:move:flamethrower"
+        ],
+        "new_26_bm25_alias": [
+          "dex:move:flamethrower",
+          "kb:damage"
+        ]
+      },
+      "new_reason": "matched"
+    },
+    {
+      "id": "h4",
+      "split": "holdout",
+      "query": "铁尾的命中率和属性",
+      "expected": [
+        "dex:move:irontail"
+      ],
+      "results": {
+        "old_4_keyword": [
+          "kb:accuracy",
+          "kb:damage"
+        ],
+        "new_26_keyword": [
+          "dex:move:irontail",
+          "dex:move:scratch"
+        ],
+        "new_26_bm25_alias": [
+          "dex:move:irontail",
+          "kb:accuracy"
+        ]
+      },
+      "new_reason": "matched"
+    },
+    {
+      "id": "h5",
+      "split": "holdout",
+      "query": "水箭龟是水属性吗",
+      "expected": [
+        "dex:species:blastoise"
+      ],
+      "results": {
+        "old_4_keyword": [
+          "kb:damage"
+        ],
+        "new_26_keyword": [
+          "dex:species:blastoise",
+          "kb:damage"
+        ],
+        "new_26_bm25_alias": [
+          "dex:species:blastoise",
+          "kb:damage"
+        ]
+      },
+      "new_reason": "matched"
+    },
+    {
+      "id": "h6",
+      "split": "holdout",
+      "query": "STAB是啥",
+      "expected": [
+        "kb:damage"
+      ],
+      "results": {
+        "old_4_keyword": [],
+        "new_26_keyword": [],
+        "new_26_bm25_alias": [
+          "kb:damage",
+          "dex:species:blastoise"
+        ]
+      },
+      "new_reason": "matched"
+    },
+    {
+      "id": "h7",
+      "split": "holdout",
+      "query": "地震的威力是多少",
+      "expected": [],
+      "results": {
+        "old_4_keyword": [
+          "kb:ranking"
+        ],
+        "new_26_keyword": [
+          "kb:ranking",
+          "dex:move:scratch"
+        ],
+        "new_26_bm25_alias": []
+      },
+      "new_reason": "entity_not_indexed"
+    },
+    {
+      "id": "h8",
+      "split": "holdout",
+      "query": "明天限时活动送什么",
+      "expected": [],
+      "results": {
+        "old_4_keyword": [],
+        "new_26_keyword": [],
+        "new_26_bm25_alias": []
+      },
+      "new_reason": "no_coverage_anchor"
+    }
+  ],
+  "dataset_hash": "7df1c1600fce7b8c9984bd17e383b03e9547633765882973fa49c9a2e578c710",
+  "corpus_hash": "a173eceb49b5553ecf61a3fd44e31058c16b9ade8d1cc435745e279c11187c03",
+  "retriever_source_hash": "ffc3880ad946921b5e2bd48ff727644864b07cd96cd2ae9773d6c67cdc4c3e58"
+}

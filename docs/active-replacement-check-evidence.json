@@ -1,0 +1,55 @@
+{
+  "scope": "独立合成局、真实二次语义核对，未执行开局",
+  "results": [
+    {
+      "query": "再做一次",
+      "answer": {
+        "replace_now": false,
+        "clarification": "“再做一次”是指重新进行当前对局的练习，还是开始一局全新的对局？"
+      },
+      "metadata": {
+        "mode": "live",
+        "provider": "qwen",
+        "model": "qwen3.8-flash",
+        "latency_seconds": 1.418,
+        "usage": {
+          "completion_tokens": 38,
+          "prompt_tokens": 335,
+          "total_tokens": 373,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "text_tokens": 335
+          }
+        }
+      }
+    },
+    {
+      "query": "这局从头开始，我想重新打一遍",
+      "answer": {
+        "replace_now": true,
+        "clarification": ""
+      },
+      "metadata": {
+        "mode": "live",
+        "provider": "qwen",
+        "model": "qwen3.8-flash",
+        "latency_seconds": 0.885,
+        "usage": {
+          "completion_tokens": 6,
+          "prompt_tokens": 342,
+          "total_tokens": 348,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "text_tokens": 342
+          }
+        }
+      }
+    }
+  ]
+}

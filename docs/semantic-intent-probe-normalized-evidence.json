@@ -1,0 +1,639 @@
+{
+  "scope": "独立合成上下文，真实模型；探索集非独立盲测，不据结果补短语规则",
+  "prompt_hash": "3c5cf6217f2c03b06c77604e4ff321f48af96199b349855f957cd12604e494d3",
+  "dataset_hash": "17581c78878430ed34986086559bf268a1d8f1abd6c777ee814ae2eda9d47bd2",
+  "results": [
+    {
+      "id": "paraphrase_01",
+      "plan": {
+        "operation": "start_new_match",
+        "speech_act": "request",
+        "role": "陪聊",
+        "scenario": "practice",
+        "difficulty": "challenge",
+        "style": "简洁",
+        "reference": "none",
+        "question": ""
+      },
+      "metadata": {
+        "mode": "live",
+        "provider": "qwen",
+        "model": "qwen3.8-flash",
+        "latency_seconds": 3.048,
+        "usage": {
+          "completion_tokens": 69,
+          "prompt_tokens": 1059,
+          "total_tokens": 1128,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "text_tokens": 1059
+          }
+        },
+        "raw_intent": {
+          "operation": "start_new_match",
+          "speech_act": "request",
+          "role": "陪聊",
+          "scenario": "practice",
+          "difficulty": "challenge",
+          "style": "简洁",
+          "reference": "none",
+          "question": ""
+        },
+        "planner_version": "semantic-capabilities-v1",
+        "input_hash": "b2ff01858e5bf3f4a3e9be435c8fc03ac1c0ec5438608850b4a2b674b5a77f09"
+      },
+      "seconds": 3.096,
+      "passed": true
+    },
+    {
+      "id": "paraphrase_02",
+      "plan": {
+        "operation": "start_new_match",
+        "speech_act": "request",
+        "role": "老师",
+        "scenario": "practice",
+        "difficulty": "challenge",
+        "style": "简洁",
+        "reference": "none",
+        "question": ""
+      },
+      "metadata": {
+        "mode": "live",
+        "provider": "qwen",
+        "model": "qwen3.8-flash",
+        "latency_seconds": 1.769,
+        "usage": {
+          "completion_tokens": 68,
+          "prompt_tokens": 1056,
+          "total_tokens": 1124,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "text_tokens": 1056
+          }
+        },
+        "raw_intent": {
+          "operation": "start_new_match",
+          "speech_act": "request",
+          "role": "老师",
+          "scenario": "practice",
+          "difficulty": "challenge",
+          "style": "简洁",
+          "reference": "none",
+          "question": ""
+        },
+        "planner_version": "semantic-capabilities-v1",
+        "input_hash": "abdbe4a9387d25de2240aa3f8c8ba55ad107d9360ef9633a20042b8a6b3761d1"
+      },
+      "seconds": 1.815,
+      "passed": true
+    },
+    {
+      "id": "negative_01",
+      "plan": {
+        "operation": "chat",
+        "speech_act": "request",
+        "role": "陪聊",
+        "scenario": "same",
+        "difficulty": "same",
+        "style": "简洁",
+        "reference": "none",
+        "question": ""
+      },
+      "metadata": {
+        "mode": "live",
+        "provider": "qwen",
+        "model": "qwen3.8-flash",
+        "latency_seconds": 2.836,
+        "usage": {
+          "completion_tokens": 67,
+          "prompt_tokens": 1057,
+          "total_tokens": 1124,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "text_tokens": 1057
+          }
+        },
+        "raw_intent": {
+          "operation": "chat",
+          "speech_act": "request",
+          "role": "陪聊",
+          "scenario": "same",
+          "difficulty": "same",
+          "style": "简洁",
+          "reference": "none",
+          "question": ""
+        },
+        "planner_version": "semantic-capabilities-v1",
+        "input_hash": "72068941ac25d80c3ff665daab4b57d1c14f7203c822ccbc4c7d786578ede028"
+      },
+      "seconds": 2.882,
+      "passed": true
+    },
+    {
+      "id": "quotation_01",
+      "plan": {
+        "operation": "chat",
+        "speech_act": "discussion",
+        "role": "老师",
+        "scenario": "same",
+        "difficulty": "same",
+        "style": "简洁",
+        "reference": "none",
+        "question": ""
+      },
+      "metadata": {
+        "mode": "live",
+        "provider": "qwen",
+        "model": "qwen3.8-flash",
+        "latency_seconds": 1.789,
+        "usage": {
+          "completion_tokens": 66,
+          "prompt_tokens": 1056,
+          "total_tokens": 1122,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "text_tokens": 1056
+          }
+        },
+        "raw_intent": {
+          "operation": "chat",
+          "speech_act": "discussion",
+          "role": "老师",
+          "scenario": "same",
+          "difficulty": "same",
+          "style": "简洁",
+          "reference": "none",
+          "question": ""
+        },
+        "planner_version": "semantic-capabilities-v1",
+        "input_hash": "db00f6842c119929a98612dfd4a8eb9526ee3e5191582cb3ae60f3a89c77b97c"
+      },
+      "seconds": 1.8,
+      "passed": true
+    },
+    {
+      "id": "hypothetical_01",
+      "plan": {
+        "operation": "chat",
+        "speech_act": "discussion",
+        "role": "老师",
+        "scenario": "same",
+        "difficulty": "same",
+        "style": "简洁",
+        "reference": "none",
+        "question": ""
+      },
+      "metadata": {
+        "mode": "live",
+        "provider": "qwen",
+        "model": "qwen3.8-flash",
+        "latency_seconds": 1.611,
+        "usage": {
+          "completion_tokens": 66,
+          "prompt_tokens": 1059,
+          "total_tokens": 1125,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "text_tokens": 1059
+          }
+        },
+        "raw_intent": {
+          "operation": "chat",
+          "speech_act": "discussion",
+          "role": "老师",
+          "scenario": "same",
+          "difficulty": "same",
+          "style": "简洁",
+          "reference": "none",
+          "question": ""
+        },
+        "planner_version": "semantic-capabilities-v1",
+        "input_hash": "1a7566c07c99aec08dc059c91c3521cb8437c8177f8891c2cb153b236d8775ef"
+      },
+      "seconds": 1.623,
+      "passed": true
+    },
+    {
+      "id": "pending_yes_01",
+      "plan": {
+        "operation": "confirm_pending",
+        "speech_act": "confirmation",
+        "role": "陪聊",
+        "scenario": "practice",
+        "difficulty": "challenge",
+        "style": "简洁",
+        "reference": "pending",
+        "question": ""
+      },
+      "metadata": {
+        "mode": "live",
+        "provider": "qwen",
+        "model": "qwen3.8-flash",
+        "latency_seconds": 1.461,
+        "usage": {
+          "completion_tokens": 62,
+          "prompt_tokens": 1281,
+          "total_tokens": 1343,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "text_tokens": 1281
+          }
+        },
+        "raw_intent": {
+          "operation": "confirm_pending",
+          "speech_act": "confirmation",
+          "role": "陪聊",
+          "scenario": "practice",
+          "difficulty": "challenge",
+          "style": "简洁",
+          "reference": "pending",
+          "question": ""
+        },
+        "planner_version": "semantic-capabilities-v1",
+        "input_hash": "a7d59630c0389bf0ef20738b0567fddb429da43f2b2f62c24354c18a6262ffdd"
+      },
+      "seconds": 1.471,
+      "passed": true
+    },
+    {
+      "id": "pending_cancel_01",
+      "plan": {
+        "operation": "cancel_pending",
+        "speech_act": "request",
+        "role": "陪聊",
+        "scenario": "same",
+        "difficulty": "same",
+        "style": "简洁",
+        "reference": "pending",
+        "question": ""
+      },
+      "metadata": {
+        "mode": "live",
+        "provider": "qwen",
+        "model": "qwen3.8-flash",
+        "latency_seconds": 1.868,
+        "usage": {
+          "completion_tokens": 68,
+          "prompt_tokens": 1287,
+          "total_tokens": 1355,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "text_tokens": 1287
+          }
+        },
+        "raw_intent": {
+          "operation": "cancel_pending",
+          "speech_act": "request",
+          "role": "陪聊",
+          "scenario": "same",
+          "difficulty": "same",
+          "style": "简洁",
+          "reference": "pending",
+          "question": ""
+        },
+        "planner_version": "semantic-capabilities-v1",
+        "input_hash": "20e178abec48a9cb7e485216a128b3adf568a7e7b800419f13c4919ef281fbc2"
+      },
+      "seconds": 1.879,
+      "passed": true
+    },
+    {
+      "id": "ambiguous_live_01",
+      "plan": {
+        "operation": "start_new_match",
+        "speech_act": "request",
+        "role": "陪聊",
+        "scenario": "same",
+        "difficulty": "same",
+        "style": "简洁",
+        "reference": "none",
+        "question": ""
+      },
+      "metadata": {
+        "mode": "live",
+        "provider": "qwen",
+        "model": "qwen3.8-flash",
+        "latency_seconds": 1.758,
+        "usage": {
+          "completion_tokens": 61,
+          "prompt_tokens": 967,
+          "total_tokens": 1028,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "text_tokens": 967
+          }
+        },
+        "raw_intent": {
+          "operation": "start_new_match",
+          "speech_act": "request",
+          "role": "陪聊",
+          "scenario": "same",
+          "difficulty": "same",
+          "style": "简洁",
+          "reference": "none",
+          "question": ""
+        },
+        "planner_version": "semantic-capabilities-v1",
+        "input_hash": "8cefa76aab26bac1bd8c6959f42fc65d61b141327f70f0c9decf4f452ea20ed1"
+      },
+      "seconds": 1.769,
+      "passed": false
+    },
+    {
+      "id": "preference_01",
+      "plan": {
+        "operation": "set_response_style",
+        "speech_act": "request",
+        "role": "陪聊",
+        "scenario": "same",
+        "difficulty": "same",
+        "style": "简洁",
+        "reference": "none",
+        "question": ""
+      },
+      "metadata": {
+        "mode": "live",
+        "provider": "qwen",
+        "model": "qwen3.8-flash",
+        "latency_seconds": 1.937,
+        "usage": {
+          "completion_tokens": 61,
+          "prompt_tokens": 1056,
+          "total_tokens": 1117,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "text_tokens": 1056
+          }
+        },
+        "raw_intent": {
+          "operation": "set_response_style",
+          "speech_act": "request",
+          "role": "陪聊",
+          "scenario": "same",
+          "difficulty": "same",
+          "style": "简洁",
+          "reference": "none",
+          "question": ""
+        },
+        "planner_version": "semantic-capabilities-v1",
+        "input_hash": "54f65377a461d892c77e6b33bbe4bacdf13c95b261e924a369bc8939157545d6"
+      },
+      "seconds": 1.948,
+      "passed": true
+    },
+    {
+      "id": "explain_now_01",
+      "plan": {
+        "operation": "chat",
+        "speech_act": "request",
+        "role": "老师",
+        "scenario": "same",
+        "difficulty": "same",
+        "style": "详细",
+        "reference": "none",
+        "question": ""
+      },
+      "metadata": {
+        "mode": "live",
+        "provider": "qwen",
+        "model": "qwen3.8-flash",
+        "latency_seconds": 2.074,
+        "usage": {
+          "completion_tokens": 66,
+          "prompt_tokens": 1057,
+          "total_tokens": 1123,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "text_tokens": 1057
+          }
+        },
+        "raw_intent": {
+          "operation": "chat",
+          "speech_act": "request",
+          "role": "老师",
+          "scenario": "same",
+          "difficulty": "same",
+          "style": "详细",
+          "reference": "none",
+          "question": ""
+        },
+        "planner_version": "semantic-capabilities-v1",
+        "input_hash": "734a8b382200df6bd6d2008e2a96911042afc1ff5530735decff742dfa1c5b15"
+      },
+      "seconds": 2.085,
+      "passed": true
+    },
+    {
+      "id": "ordinary_yes_01",
+      "plan": {
+        "operation": "chat",
+        "speech_act": "confirmation",
+        "role": "陪聊",
+        "scenario": "same",
+        "difficulty": "same",
+        "style": "简洁",
+        "reference": "none",
+        "question": ""
+      },
+      "metadata": {
+        "mode": "live",
+        "provider": "qwen",
+        "model": "qwen3.8-flash",
+        "latency_seconds": 1.654,
+        "usage": {
+          "completion_tokens": 67,
+          "prompt_tokens": 1159,
+          "total_tokens": 1226,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "text_tokens": 1159
+          }
+        },
+        "raw_intent": {
+          "operation": "chat",
+          "speech_act": "confirmation",
+          "role": "陪聊",
+          "scenario": "same",
+          "difficulty": "same",
+          "style": "简洁",
+          "reference": "none",
+          "question": ""
+        },
+        "planner_version": "semantic-capabilities-v1",
+        "input_hash": "3e64e9650097196902a437283749c829ca8a03198c6490c2cd377a6aef66af6c"
+      },
+      "seconds": 1.666,
+      "passed": true
+    },
+    {
+      "id": "legacy_reference_01",
+      "plan": {
+        "operation": "confirm_pending",
+        "speech_act": "confirmation",
+        "role": "陪聊",
+        "scenario": "practice",
+        "difficulty": "challenge",
+        "style": "简洁",
+        "reference": "latest_assistant",
+        "question": ""
+      },
+      "metadata": {
+        "mode": "live",
+        "provider": "qwen",
+        "model": "qwen3.8-flash",
+        "latency_seconds": 1.81,
+        "usage": {
+          "completion_tokens": 71,
+          "prompt_tokens": 1172,
+          "total_tokens": 1243,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "text_tokens": 1172
+          }
+        },
+        "raw_intent": {
+          "operation": "start_new_match",
+          "speech_act": "confirmation",
+          "role": "陪聊",
+          "scenario": "practice",
+          "difficulty": "challenge",
+          "style": "简洁",
+          "reference": "latest_assistant",
+          "question": ""
+        },
+        "planner_version": "semantic-capabilities-v1",
+        "input_hash": "62e886341fc7863773ee6e4092e11e9268581f89e6d9a9094ba3683a3feb9f61"
+      },
+      "seconds": 1.82,
+      "passed": true
+    },
+    {
+      "id": "english_paraphrase_01",
+      "plan": {
+        "operation": "start_new_match",
+        "speech_act": "request",
+        "role": "陪聊",
+        "scenario": "same",
+        "difficulty": "challenge",
+        "style": "简洁",
+        "reference": "none",
+        "question": ""
+      },
+      "metadata": {
+        "mode": "live",
+        "provider": "qwen",
+        "model": "qwen3.8-flash",
+        "latency_seconds": 1.694,
+        "usage": {
+          "completion_tokens": 61,
+          "prompt_tokens": 1058,
+          "total_tokens": 1119,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "text_tokens": 1058
+          }
+        },
+        "raw_intent": {
+          "operation": "start_new_match",
+          "speech_act": "request",
+          "role": "陪聊",
+          "scenario": "same",
+          "difficulty": "challenge",
+          "style": "简洁",
+          "reference": "none",
+          "question": ""
+        },
+        "planner_version": "semantic-capabilities-v1",
+        "input_hash": "7c5e520297faa010f40743306eff950b8c6a0627a99d86e89f6e9e59f908c1ed"
+      },
+      "seconds": 1.705,
+      "passed": true
+    },
+    {
+      "id": "consultation_01",
+      "plan": {
+        "operation": "propose_new_match",
+        "speech_act": "request",
+        "role": "老师",
+        "scenario": "same",
+        "difficulty": "same",
+        "style": "简洁",
+        "reference": "none",
+        "question": ""
+      },
+      "metadata": {
+        "mode": "live",
+        "provider": "qwen",
+        "model": "qwen3.8-flash",
+        "latency_seconds": 2.214,
+        "usage": {
+          "completion_tokens": 69,
+          "prompt_tokens": 1058,
+          "total_tokens": 1127,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "text_tokens": 1058
+          }
+        },
+        "raw_intent": {
+          "operation": "propose_new_match",
+          "speech_act": "request",
+          "role": "老师",
+          "scenario": "same",
+          "difficulty": "same",
+          "style": "简洁",
+          "reference": "none",
+          "question": ""
+        },
+        "planner_version": "semantic-capabilities-v1",
+        "input_hash": "a0574b60e3f639948eb9c3d00f21e7a9ef5ce85bc03567b3349af6dc0493d318"
+      },
+      "seconds": 2.224,
+      "passed": true
+    }
+  ],
+  "passed": 13,
+  "total": 14
+}

@@ -1,0 +1,51 @@
+{
+  "scope": "Independent temporary SQLite; actual engine, explicitly simulated model events; no new real LLM quality or latency claim.",
+  "layout": [
+    {
+      "width": 1280,
+      "height": 720,
+      "board_client_height": 582,
+      "board_scroll_height": 582,
+      "composer_bottom": 690
+    },
+    {
+      "width": 1470,
+      "height": 900,
+      "board_client_height": 762,
+      "board_scroll_height": 762,
+      "composer_bottom": 870
+    }
+  ],
+  "observed_states": [
+    "idle",
+    "checking",
+    "speaking",
+    "complete"
+  ],
+  "motion_off": {
+    "computed_animation_name": "none",
+    "second_frame_opacity": "0"
+  },
+  "late_failure": {
+    "calm_pose": true,
+    "explicit_incomplete_label": true,
+    "visible_draft_retained": true
+  },
+  "background_review": {
+    "initial_cross_fragment_header_disappeared": true,
+    "fixed_with_header_owned_fragment": true,
+    "completed_header_count": 1,
+    "completed_state": "complete",
+    "body_preserved": true
+  },
+  "tests": {
+    "passed": 227,
+    "seconds": 94.45
+  },
+  "limits": [
+    "Reduced-motion media rule implemented, not browser-emulated.",
+    "No user engagement experiment.",
+    "No Codex desktop pet integration.",
+    "Session motion toggle is not a cross-device preference."
+  ]
+}
