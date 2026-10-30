@@ -1,0 +1,289 @@
+{
+  "source": "PokeAPI repository CSV / zh-hans",
+  "retrieved": "2026-10-29",
+  "note": "名称翻译；规则与数值仍来自对战引擎。HTTP API 返回403后改读公开CSV。",
+  "entries": [
+    {
+      "kind": "move",
+      "slug": "scratch",
+      "zh": "抓",
+      "source": "https://raw.githubusercontent.com/PokeAPI/pokeapi/master/data/v2/csv/move_names.csv"
+    },
+    {
+      "kind": "move",
+      "slug": "tackle",
+      "zh": "撞击",
+      "source": "https://raw.githubusercontent.com/PokeAPI/pokeapi/master/data/v2/csv/move_names.csv"
+    },
+    {
+      "kind": "move",
+      "slug": "take-down",
+      "zh": "猛撞",
+      "source": "https://raw.githubusercontent.com/PokeAPI/pokeapi/master/data/v2/csv/move_names.csv"
+    },
+    {
+      "kind": "move",
+      "slug": "bite",
+      "zh": "咬住",
+      "source": "https://raw.githubusercontent.com/PokeAPI/pokeapi/master/data/v2/csv/move_names.csv"
+    },
+    {
+      "kind": "move",
+      "slug": "flamethrower",
+      "zh": "喷射火焰",
+      "source": "https://raw.githubusercontent.com/PokeAPI/pokeapi/master/data/v2/csv/move_names.csv"
+    },
+    {
+      "kind": "move",
+      "slug": "water-gun",
+      "zh": "水枪",
+      "source": "https://raw.githubusercontent.com/PokeAPI/pokeapi/master/data/v2/csv/move_names.csv"
+    },
+    {
+      "kind": "move",
+      "slug": "surf",
+      "zh": "冲浪",
+      "source": "https://raw.githubusercontent.com/PokeAPI/pokeapi/master/data/v2/csv/move_names.csv"
+    },
+    {
+      "kind": "move",
+      "slug": "ice-beam",
+      "zh": "冰冻光束",
+      "source": "https://raw.githubusercontent.com/PokeAPI/pokeapi/master/data/v2/csv/move_names.csv"
+    },
+    {
+      "kind": "move",
+      "slug": "razor-leaf",
+      "zh": "飞叶快刀",
+      "source": "https://raw.githubusercontent.com/PokeAPI/pokeapi/master/data/v2/csv/move_names.csv"
+    },
+    {
+      "kind": "move",
+      "slug": "thunderbolt",
+      "zh": "十万伏特",
+      "source": "https://raw.githubusercontent.com/PokeAPI/pokeapi/master/data/v2/csv/move_names.csv"
+    },
+    {
+      "kind": "move",
+      "slug": "thunder",
+      "zh": "打雷",
+      "source": "https://raw.githubusercontent.com/PokeAPI/pokeapi/master/data/v2/csv/move_names.csv"
+    },
+    {
+      "kind": "move",
+      "slug": "quick-attack",
+      "zh": "电光一闪",
+      "source": "https://raw.githubusercontent.com/PokeAPI/pokeapi/master/data/v2/csv/move_names.csv"
+    },
+    {
+      "kind": "move",
+      "slug": "struggle",
+      "zh": "挣扎",
+      "source": "https://raw.githubusercontent.com/PokeAPI/pokeapi/master/data/v2/csv/move_names.csv"
+    },
+    {
+      "kind": "move",
+      "slug": "sludge-bomb",
+      "zh": "污泥炸弹",
+      "source": "https://raw.githubusercontent.com/PokeAPI/pokeapi/master/data/v2/csv/move_names.csv"
+    },
+    {
+      "kind": "move",
+      "slug": "iron-tail",
+      "zh": "铁尾",
+      "source": "https://raw.githubusercontent.com/PokeAPI/pokeapi/master/data/v2/csv/move_names.csv"
+    },
+    {
+      "kind": "move",
+      "slug": "dragon-claw",
+      "zh": "龙爪",
+      "source": "https://raw.githubusercontent.com/PokeAPI/pokeapi/master/data/v2/csv/move_names.csv"
+    },
+    {
+      "kind": "move",
+      "slug": "air-slash",
+      "zh": "空气斩",
+      "source": "https://raw.githubusercontent.com/PokeAPI/pokeapi/master/data/v2/csv/move_names.csv"
+    },
+    {
+      "kind": "species",
+      "slug": "venusaur",
+      "zh": "妙蛙花",
+      "source": "https://raw.githubusercontent.com/PokeAPI/pokeapi/master/data/v2/csv/pokemon_species_names.csv"
+    },
+    {
+      "kind": "species",
+      "slug": "charizard",
+      "zh": "喷火龙",
+      "source": "https://raw.githubusercontent.com/PokeAPI/pokeapi/master/data/v2/csv/pokemon_species_names.csv"
+    },
+    {
+      "kind": "species",
+      "slug": "squirtle",
+      "zh": "杰尼龟",
+      "source": "https://raw.githubusercontent.com/PokeAPI/pokeapi/master/data/v2/csv/pokemon_species_names.csv"
+    },
+    {
+      "kind": "species",
+      "slug": "blastoise",
+      "zh": "水箭龟",
+      "source": "https://raw.githubusercontent.com/PokeAPI/pokeapi/master/data/v2/csv/pokemon_species_names.csv"
+    },
+    {
+      "kind": "species",
+      "slug": "pikachu",
+      "zh": "皮卡丘",
+      "source": "https://raw.githubusercontent.com/PokeAPI/pokeapi/master/data/v2/csv/pokemon_species_names.csv"
+    },
+    {
+      "kind": "ability",
+      "slug": "static",
+      "zh": "静电",
+      "source": "https://raw.githubusercontent.com/PokeAPI/pokeapi/master/data/v2/csv/ability_names.csv"
+    },
+    {
+      "kind": "ability",
+      "slug": "overgrow",
+      "zh": "茂盛",
+      "source": "https://raw.githubusercontent.com/PokeAPI/pokeapi/master/data/v2/csv/ability_names.csv"
+    },
+    {
+      "kind": "ability",
+      "slug": "blaze",
+      "zh": "猛火",
+      "source": "https://raw.githubusercontent.com/PokeAPI/pokeapi/master/data/v2/csv/ability_names.csv"
+    },
+    {
+      "kind": "ability",
+      "slug": "torrent",
+      "zh": "激流",
+      "source": "https://raw.githubusercontent.com/PokeAPI/pokeapi/master/data/v2/csv/ability_names.csv"
+    },
+    {
+      "kind": "type",
+      "slug": "normal",
+      "zh": "一般",
+      "source": "https://raw.githubusercontent.com/PokeAPI/pokeapi/master/data/v2/csv/type_names.csv"
+    },
+    {
+      "kind": "type",
+      "slug": "fighting",
+      "zh": "格斗",
+      "source": "https://raw.githubusercontent.com/PokeAPI/pokeapi/master/data/v2/csv/type_names.csv"
+    },
+    {
+      "kind": "type",
+      "slug": "flying",
+      "zh": "飞行",
+      "source": "https://raw.githubusercontent.com/PokeAPI/pokeapi/master/data/v2/csv/type_names.csv"
+    },
+    {
+      "kind": "type",
+      "slug": "poison",
+      "zh": "毒",
+      "source": "https://raw.githubusercontent.com/PokeAPI/pokeapi/master/data/v2/csv/type_names.csv"
+    },
+    {
+      "kind": "type",
+      "slug": "ground",
+      "zh": "地面",
+      "source": "https://raw.githubusercontent.com/PokeAPI/pokeapi/master/data/v2/csv/type_names.csv"
+    },
+    {
+      "kind": "type",
+      "slug": "rock",
+      "zh": "岩石",
+      "source": "https://raw.githubusercontent.com/PokeAPI/pokeapi/master/data/v2/csv/type_names.csv"
+    },
+    {
+      "kind": "type",
+      "slug": "bug",
+      "zh": "虫",
+      "source": "https://raw.githubusercontent.com/PokeAPI/pokeapi/master/data/v2/csv/type_names.csv"
+    },
+    {
+      "kind": "type",
+      "slug": "ghost",
+      "zh": "幽灵",
+      "source": "https://raw.githubusercontent.com/PokeAPI/pokeapi/master/data/v2/csv/type_names.csv"
+    },
+    {
+      "kind": "type",
+      "slug": "steel",
+      "zh": "钢",
+      "source": "https://raw.githubusercontent.com/PokeAPI/pokeapi/master/data/v2/csv/type_names.csv"
+    },
+    {
+      "kind": "type",
+      "slug": "fire",
+      "zh": "火",
+      "source": "https://raw.githubusercontent.com/PokeAPI/pokeapi/master/data/v2/csv/type_names.csv"
+    },
+    {
+      "kind": "type",
+      "slug": "water",
+      "zh": "水",
+      "source": "https://raw.githubusercontent.com/PokeAPI/pokeapi/master/data/v2/csv/type_names.csv"
+    },
+    {
+      "kind": "type",
+      "slug": "grass",
+      "zh": "草",
+      "source": "https://raw.githubusercontent.com/PokeAPI/pokeapi/master/data/v2/csv/type_names.csv"
+    },
+    {
+      "kind": "type",
+      "slug": "electric",
+      "zh": "电",
+      "source": "https://raw.githubusercontent.com/PokeAPI/pokeapi/master/data/v2/csv/type_names.csv"
+    },
+    {
+      "kind": "type",
+      "slug": "psychic",
+      "zh": "超能力",
+      "source": "https://raw.githubusercontent.com/PokeAPI/pokeapi/master/data/v2/csv/type_names.csv"
+    },
+    {
+      "kind": "type",
+      "slug": "ice",
+      "zh": "冰",
+      "source": "https://raw.githubusercontent.com/PokeAPI/pokeapi/master/data/v2/csv/type_names.csv"
+    },
+    {
+      "kind": "type",
+      "slug": "dragon",
+      "zh": "龙",
+      "source": "https://raw.githubusercontent.com/PokeAPI/pokeapi/master/data/v2/csv/type_names.csv"
+    },
+    {
+      "kind": "type",
+      "slug": "dark",
+      "zh": "恶",
+      "source": "https://raw.githubusercontent.com/PokeAPI/pokeapi/master/data/v2/csv/type_names.csv"
+    },
+    {
+      "kind": "type",
+      "slug": "fairy",
+      "zh": "妖精",
+      "source": "https://raw.githubusercontent.com/PokeAPI/pokeapi/master/data/v2/csv/type_names.csv"
+    },
+    {
+      "kind": "type",
+      "slug": "stellar",
+      "zh": "星晶",
+      "source": "https://raw.githubusercontent.com/PokeAPI/pokeapi/master/data/v2/csv/type_names.csv"
+    },
+    {
+      "kind": "type",
+      "slug": "unknown",
+      "zh": "???",
+      "source": "https://raw.githubusercontent.com/PokeAPI/pokeapi/master/data/v2/csv/type_names.csv"
+    },
+    {
+      "kind": "type",
+      "slug": "shadow",
+      "zh": "暗",
+      "source": "https://raw.githubusercontent.com/PokeAPI/pokeapi/master/data/v2/csv/type_names.csv"
+    }
+  ]
+}
