@@ -40,7 +40,11 @@
     },
     {
       "path": "README.md",
-      "sha256": "2848ec4c77e717481823ebaef6ea9264271c8dd1f15629ebaf57946c801527f2"
+      "sha256": "30a392c54a09721f71beb257378d8c8de85845ef7e5267e98e06fd3d92c65a26"
+    },
+    {
+      "path": "RELEASE_VERIFICATION.json",
+      "sha256": "32df566e594a1de54b00f436653c62f5ea613e3ca465b40b203ad0a6caf74c1e"
     },
     {
       "path": "THIRD_PARTY.md",
@@ -112,19 +116,23 @@
     },
     {
       "path": "docs/AGENT_EXECUTION_DESIGN.md",
-      "sha256": "6c2eab7bbfdeca5f8d56cc69cbdb0d8044fffcf7f713cf7df57bbcf7bfa16f8b"
+      "sha256": "ea5ff9092b169b11adbe63673150710e485d0a01fa2d9c9cef25208462040628"
     },
     {
       "path": "docs/ASYNC_REVIEW.md",
       "sha256": "30d52f2ce9f340d68acab400e3506e4a026a5c49f9cf497498bd42bad049221d"
     },
     {
+      "path": "docs/DELIVERY_STATUS.md",
+      "sha256": "6c6122dcfb35af1cae4adee7c6e56496ed666c97ccaaa1c7cf48bbbf6caa6f0d"
+    },
+    {
       "path": "docs/MASCOT_DESIGN.md",
-      "sha256": "df392f4183229249e6cf3ec2cc1dbc8e23d6217a391223449f78ff836376a341"
+      "sha256": "31c1645acedf67a2ef2a02ac17147e7c0cf1b51ec18ecba7f574acf085807093"
     },
     {
       "path": "docs/PUBLIC_BUILD_LOG.md",
-      "sha256": "b89486fa09f79e6192da53e1244d727567a2d97a3bb654dd0f335a912f7e30b1"
+      "sha256": "d578b6108deb8816dc258fdf2db9af61ab18f2e3ae93345db78c2b412a92f798"
     },
     {
       "path": "docs/RAG_IMPLEMENTATION.md",
@@ -136,7 +144,7 @@
     },
     {
       "path": "docs/REVIEWER_GUIDE.md",
-      "sha256": "02754a7547e98b1f1c5e6658146678f6946c9b2bd7971285c67095d50a4b3b41"
+      "sha256": "9e2020c71ba569d565eef70c42c48e209c3a5b0b40765df182585740b91440ba"
     },
     {
       "path": "docs/SHORT_MATCH_RESOURCES.md",
@@ -144,7 +152,11 @@
     },
     {
       "path": "docs/SUBMISSION_DRAFT.md",
-      "sha256": "ccd9cf1bb9839a9d035ca3854e803185a30e3bcae6f85b3e6aa325f632f85262"
+      "sha256": "f2411d275ffc50393d14e9c0a3bcbae3d114cf44c1014a650abc2a8303fb4c9c"
+    },
+    {
+      "path": "docs/VALIDATION.md",
+      "sha256": "87ff5a61dd99a761c3be115354bc5ecfd0811b9c6604e4cf35a3adf30d33ca62"
     },
     {
       "path": "docs/active-replacement-check-evidence.json",
@@ -364,7 +376,7 @@
     },
     {
       "path": "scripts/build_interview_draft.py",
-      "sha256": "f82ce02d90ab2f933076c9851f22c3c90f711f8622fcc6bcb654d39e83d17aef"
+      "sha256": "929ea39da5373b9983f55cda0c44239fde852004e1c443a69eead4d052e6e393"
     },
     {
       "path": "scripts/build_knowledge.py",
@@ -396,19 +408,19 @@
     },
     {
       "path": "scripts/prepare_release.py",
-      "sha256": "c8008e048ab2a3ace0520b9b278f8d98c69384fe212f669e8d0b90c0481ff217"
+      "sha256": "48bc8a7599ece87bb1de78002771769e8a724456e17ed4df6953fab58ac08e4a"
     },
     {
       "path": "scripts/setup_battle.py",
       "sha256": "f3c2c67bff78fffa93309a14dc4deb48728641001c7da7992835b5eaeff68e44"
     },
     {
-      "path": "submission/RocoCoach_设计与实现_面试初稿.docx",
-      "sha256": "944e6dac6d7086995cc9eafb78066a6d4c0b2ae28160f99abddd0dde955f79d8"
+      "path": "submission/RocoCoach_设计与实现_面试稿.docx",
+      "sha256": "bd249120be37e3d22d96ac562810e8ef2a811f3a99260b834abc462489d0c7e2"
     },
     {
-      "path": "submission/RocoCoach_设计与实现_面试初稿.pdf",
-      "sha256": "7760598fcbaa240600eb7a2c7fe19bd16c9ff070a78fc7f1db27c42d27519bca"
+      "path": "submission/RocoCoach_设计与实现_面试稿.pdf",
+      "sha256": "5e2b1375a3b514a6870386ec7614c0f2096834ec63f80a352ddfb9990ccfc709"
     },
     {
       "path": "tests/conftest.py",
@@ -505,10 +517,6 @@
     {
       "path": "uv.lock",
       "sha256": "00ae5c778e51376dbea3ffbca17ee8d6a2880b59362babceadffd31b73e18ac3"
-    },
-    {
-      "path": "RELEASE_VERIFICATION.json",
-      "sha256": "d128ae75d61a638b39acc02b0e8cedee7bb80daabc0c0a0039072ee549c0c326"
     }
   ]
 }

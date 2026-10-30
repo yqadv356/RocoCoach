@@ -29,4 +29,4 @@
 - 浏览器实际关闭动作后animation-name为none，第二帧opacity为0；开关不增加模型调用。系统减少动态效果规则已实现，尚未在浏览器模拟系统设置。
 - `lolo-states-preview.png`只展示四种外观；`lolo-companion-preview.png`、`lolo-checking-preview.png`、`lolo-speaking-preview.png`、`lolo-failure-preview.png`来自隔离模拟链路。不会据此声称真实玩家觉得更有趣或学习效果提升。
 
-此版是可试用的轻量表现层。已有八页面试初稿仍保留生成时的截图和测试记录；该预览作为独立增补，不把未验证的陪伴效果写成既定成果。当前回归与后台复测结果见BUILD_LOG第39节。
+此版是可试用的轻量表现层。当前面试稿已纳入像素伙伴的事件设计与界面验证，并清楚标记截图使用模拟模型事件；不把未验证的陪伴效果写成既定成果。当前完整结果见[验证说明](VALIDATION.md)。

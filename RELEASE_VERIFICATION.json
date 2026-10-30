@@ -1,16 +1,16 @@
 {
-  "scope": "Current workspace regression and isolated simulated UI checks; no new LLM evaluation or clean-machine run.",
-  "tests": {
-    "passed": 227,
-    "seconds": 94.45
+  "scope": "Public reviewer package and interview document update. App runtime behavior unchanged.",
+  "baseline": {
+    "commit": "4c2f381d80c963b195ad8e077ef1577dfb59a8c5",
+    "github_ci": "success",
+    "run_url": "https://github.com/yqadv356/RocoCoach/actions/runs/41082691035",
+    "pytest_passed": 227,
+    "pytest_seconds": 196.61
   },
-  "ui_evidence": "docs/lolo-ui-evidence.json",
-  "manuscript": "Eight-page initial draft retained as dated; mascot is a separate design addendum.",
-  "requested_repository": {
-    "name": "RocoCoach",
-    "visibility": "public"
+  "current_document_checks": {
+    "pdf_pages": 8,
+    "all_pages_visually_reviewed": true,
+    "release_tests_passed": 2
   },
-  "remote_publish": "This file records local pre-publication checks; see the repository main tree for current published contents.",
-  "github_ci": "Live status: https://github.com/yqadv356/RocoCoach/actions/workflows/tests.yml",
-  "repository_url": "https://github.com/yqadv356/RocoCoach"
+  "note": "Baseline CI is tied to the named commit. See the live workflow for the current revision; model stubs are not real model answer evaluation."
 }
