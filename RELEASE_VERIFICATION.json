@@ -39,7 +39,7 @@
     "artifacts": [
       {
         "path": "docs/SUBMISSION_DRAFT.md",
-        "sha256": "828952177e46a057b9a0035dfde7725562962881817b4aae3caf5f94dcbf4709"
+        "sha256": "48c564faaee7de1fb80327a1a3ccc92eccddaa81ce2905979c973138f5accded"
       },
       {
         "path": "scripts/build_interview_draft.py",
@@ -47,20 +47,21 @@
       },
       {
         "path": "submission/RocoCoach_设计与实现_面试稿.docx",
-        "sha256": "f97fa4b2c24f5a3d66ef8719b5f499671839234abf14307da2a2adeaf77c6ba0"
+        "sha256": "9e6f5dada4386d35e9a261dcab0a2023542a1b60c8a698d19ae85c320cf51d31"
       },
       {
         "path": "submission/RocoCoach_设计与实现_面试稿.pdf",
-        "sha256": "258088ce7fca64ee9d58b939ccb21908856c34eb1157eae5d987f007321e2277"
+        "sha256": "5c03da8f9c1248cb13ddb9d9dd3929b476806fe95f02d887a3f1dd8ac5cb79b1"
       }
-    ]
+    ],
+    "revision": "Clarified streaming disappearance section, ordinary chat versus background review; 8 pages visually checked."
   },
   "note": "Live samples are not aggregate semantic accuracy, learning benefit or latency percentiles. See docs/FINAL_ACCEPTANCE.md and current CI workflow.",
   "latest_verified_cloud": {
-    "commit": "43fba453a6a93bd9061cf9f79db34ffdf7de89e9",
-    "run": "https://github.com/yqadv356/RocoCoach/actions/runs/41144977412",
-    "result": "227 passed in 117.42s",
-    "note": "Verified implementation baseline, not a claim that this later manuscript revision has already passed CI."
+    "commit": "75305c35d5df31d263b3f6abbcf7233ca2b8ae88",
+    "run": "https://github.com/yqadv356/RocoCoach/actions/runs/41170330667",
+    "result": "227 passed in 124.80s",
+    "note": "Previous document revision; no claim that a later commit has already passed."
   },
   "manuscript_checks": {
     "links": "all 6 local manuscript targets exist; external workflow and repository verified via GitHub API",
