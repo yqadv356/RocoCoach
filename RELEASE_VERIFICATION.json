@@ -1,5 +1,5 @@
 {
-  "scope": "Formal interview manuscript revision only. Application, tests, dependencies, README and original model evidence unchanged from 43fba45.",
+  "scope": "Manuscript and homepage handoff. Application, tests, dependencies and original model evidence unchanged from 43fba45.",
   "baseline_cloud": {
     "commit": "0d527af9c3a979e80b467b6eda5df8f4199b2cb7",
     "run": "https://github.com/yqadv356/RocoCoach/actions/runs/41085984657",
@@ -70,5 +70,12 @@
     "release_tests": "2 passed in 0.03s",
     "application_files_changed": false
   },
-  "semantic_risk": "Original async review contains Torrent/Blaze name and damage attribution errors and mixed timepoints; retained and documented. No claim of complete semantic repair."
+  "semantic_risk": "Original async review contains Torrent/Blaze name and damage attribution errors and mixed timepoints; retained and documented. No claim of complete semantic repair.",
+  "homepage_revision": {
+    "image": "docs/gameplay-cover.png",
+    "source": "User-selected runtime screenshot; original synthetic screenshot retained for manuscript evidence.",
+    "pixels_unchanged": true,
+    "text_and_exif_metadata_removed": true,
+    "sha256": "4db7e28808a700234b97a21b37c28a5bf0cb2e1e07130c7cc3b4f1a907ce31a8"
+  }
 }

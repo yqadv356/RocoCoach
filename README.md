@@ -10,9 +10,9 @@
 
 [文档导航](docs/README.md) · [设计与实现](docs/SUBMISSION_DRAFT.md) · [下载 PDF](submission/RocoCoach_设计与实现_面试稿.pdf) · [下载 Word](submission/RocoCoach_设计与实现_面试稿.docx) · [五分钟演示与代码导航](docs/REVIEWER_GUIDE.md)
 
-![洛洛训练场与统一聊天入口](docs/lolo-companion-preview.png)
+![洛洛训练场：自主出招、实际结算与聊天引导](docs/gameplay-cover.png)
 
-*截图来自独立合成局，聊天使用模拟模型事件核查像素伙伴与布局，不作为真实 LLM 能力证据。真实语义操作另有[执行记录](docs/semantic-actions-live-evidence.json)。*
+*用户提供的运行截图，展示对战、出招理由和洛洛的聊天引导。实现与验证范围见[验证说明](docs/VALIDATION.md)。*
 
 ## 怎样体验
 

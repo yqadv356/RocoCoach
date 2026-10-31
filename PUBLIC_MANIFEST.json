@@ -40,11 +40,11 @@
     },
     {
       "path": "README.md",
-      "sha256": "7647b3208cfa54a716960fa6ec3ae277c0cdb1a4d5b673042f149ad2898ac772"
+      "sha256": "4400efd64c4bb7849ea659ed9c8fc8552f7ee73e75f95c44551c9c1bb0d1a609"
     },
     {
       "path": "RELEASE_VERIFICATION.json",
-      "sha256": "cbbeb0f2cb13467ead236e243cc3a25a29293ced8504e5e53e91119ff3926830"
+      "sha256": "f6ec9607846dde9d3433325cf3b6cbbd1c1eab8b0ce24429bea60543d9c1e8bc"
     },
     {
       "path": "THIRD_PARTY.md",
@@ -156,7 +156,7 @@
     },
     {
       "path": "docs/PUBLIC_BUILD_LOG.md",
-      "sha256": "3016446f626a8da7e21a341041eb0262077c7740996ee252b9fcb34ae5083cf7"
+      "sha256": "97dc57852a98b9bc52803869028b44c132916abcedaf8026b3d1064d85a28121"
     },
     {
       "path": "docs/RAG_IMPLEMENTATION.md",
@@ -213,6 +213,10 @@
     {
       "path": "docs/final-semantic-actions-evidence.json",
       "sha256": "5ad88b078c897b40416b8b351e8ae82f8b9b450ef85e27c21af26d50c1778df1"
+    },
+    {
+      "path": "docs/gameplay-cover.png",
+      "sha256": "4db7e28808a700234b97a21b37c28a5bf0cb2e1e07130c7cc3b4f1a907ce31a8"
     },
     {
       "path": "docs/licenses/pokeapi-LICENSE.txt",
@@ -460,7 +464,7 @@
     },
     {
       "path": "scripts/prepare_release.py",
-      "sha256": "1b1b43fcf5be7c1a985fd191a01110dc54cb8e505f22f61c2142e69daf950510"
+      "sha256": "0103b2f6e78647214a67951c61b73114742ea1bc4f296b5ffb01b3e6bf14c061"
     },
     {
       "path": "scripts/setup_battle.py",

@@ -9,7 +9,7 @@ import zipfile
 from dotenv import dotenv_values
 
 ROOT=Path(__file__).resolve().parents[1]
-DOCS=['VALIDATION.md','DELIVERY_STATUS.md','lolo-ui-evidence.json','lolo-layout-preview.png','lolo-checking-preview.png','lolo-speaking-preview.png','lolo-failure-preview.png','lolo-review-stable-preview.png','MASCOT_DESIGN.md','lolo-states-preview.png','lolo-companion-preview.png','SUBMISSION_DRAFT.md','REVIEWER_GUIDE.md','AGENT_EXECUTION_DESIGN.md','RAG_IMPLEMENTATION.md',
+DOCS=['gameplay-cover.png','VALIDATION.md','DELIVERY_STATUS.md','lolo-ui-evidence.json','lolo-layout-preview.png','lolo-checking-preview.png','lolo-speaking-preview.png','lolo-failure-preview.png','lolo-review-stable-preview.png','MASCOT_DESIGN.md','lolo-states-preview.png','lolo-companion-preview.png','SUBMISSION_DRAFT.md','REVIEWER_GUIDE.md','AGENT_EXECUTION_DESIGN.md','RAG_IMPLEMENTATION.md',
       'SHORT_MATCH_RESOURCES.md','RESPONSE_LIFECYCLE.md','ASYNC_REVIEW.md','PUBLIC_BUILD_LOG.md',
       'semantic-agent-execution-preview.png','semantic-actions-live-evidence.json',
       'semantic-intent-probe-evidence.json','semantic-intent-probe-normalized-evidence.json',
