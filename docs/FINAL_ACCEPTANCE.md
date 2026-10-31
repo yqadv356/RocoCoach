@@ -24,7 +24,7 @@
 
 真实原始记录：[开局与确认](final-semantic-actions-evidence.json)、[查回合与重放](final-match-tools-evidence.json)、[后台复盘](final-async-review-evidence.json)、[聊天与偏好](final-chat-style-evidence.json)。均使用合成局，不读取玩家私人历史。
 
-## 面试官怎样复查
+## 怎样复查功能与证据
 
 先按[首页](../README.md)安装Python与Node依赖并启动Demo，再打开 http://127.0.0.1:8501 。无密钥能验证规则流程；要体验真实模型，需在自己的本地.env配置账户可用的模型，不能把离线模式称为真实LLM。
 

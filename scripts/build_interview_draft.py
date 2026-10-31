@@ -1,4 +1,4 @@
-"""Build the reviewed interview manuscript; optional dependency: python-docx.
+"""Build the project design document; optional dependency: python-docx.
 
 The Markdown manuscript is the content source. Rendering and visual QA are a
 separate release step; this builder alone does not certify the final layout.
@@ -161,7 +161,7 @@ def build(source, output):
             add_table(doc, group); continue
         elif line.strip():
             paragraph = doc.add_paragraph(); text(paragraph, line)
-            if line.startswith('面试作品说明书'):
+            if line.startswith('项目设计说明书'):
                 for run in paragraph.runs: run.font.size = Pt(9)
         index += 1
     for root in [doc._element, doc.styles.element]:
@@ -174,7 +174,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--output-dir', type=Path, default=ROOT / 'submission')
     args = parser.parse_args()
-    print(build(ROOT / 'docs/SUBMISSION_DRAFT.md', args.output_dir / 'RocoCoach_设计与实现_面试稿.docx'))
+    print(build(ROOT / 'docs/SUBMISSION_DRAFT.md', args.output_dir / 'RocoCoach_设计与实现.docx'))
 
 
 if __name__ == '__main__': main()

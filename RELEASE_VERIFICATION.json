@@ -39,22 +39,22 @@
     "artifacts": [
       {
         "path": "docs/SUBMISSION_DRAFT.md",
-        "sha256": "48c564faaee7de1fb80327a1a3ccc92eccddaa81ce2905979c973138f5accded"
+        "sha256": "3096a72d3b02d11d25b09b40c2ff3944009fa0b8d800eff121837bc34765077b"
       },
       {
         "path": "scripts/build_interview_draft.py",
-        "sha256": "3da3fb9f928f44aaf44577407f99ad74c71c06d13f9fac9b178cb5075b117f7f"
+        "sha256": "79ef5e8988df2a9d8b23af12590fface835fdf630d8275f28d24ae3d8de2091e"
       },
       {
-        "path": "submission/RocoCoach_设计与实现_面试稿.docx",
-        "sha256": "9e6f5dada4386d35e9a261dcab0a2023542a1b60c8a698d19ae85c320cf51d31"
+        "path": "submission/RocoCoach_设计与实现.docx",
+        "sha256": "56084f78caaa5d82a1fa934de89a852a34e7551e63fbcc3ab9e4ce1de20a1b51"
       },
       {
-        "path": "submission/RocoCoach_设计与实现_面试稿.pdf",
-        "sha256": "5c03da8f9c1248cb13ddb9d9dd3929b476806fe95f02d887a3f1dd8ac5cb79b1"
+        "path": "submission/RocoCoach_设计与实现.pdf",
+        "sha256": "9690647ed3d668365d18830b18ca55099d44de3523c56d867d64ab8f687d11e6"
       }
     ],
-    "revision": "Clarified streaming disappearance section, ordinary chat versus background review; 8 pages visually checked."
+    "revision": "Project-oriented wording and filenames; all 8 pages rendered and visually checked. Technical evidence and application unchanged."
   },
   "note": "Live samples are not aggregate semantic accuracy, learning benefit or latency percentiles. See docs/FINAL_ACCEPTANCE.md and current CI workflow.",
   "latest_verified_cloud": {

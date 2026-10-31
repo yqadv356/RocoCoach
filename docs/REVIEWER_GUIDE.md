@@ -1,11 +1,11 @@
-# 面试官阅读与演示导航
+# 项目阅读与演示导航
 
 项目优先完成老师的教学流程闭环：整局练习、证据复盘和下一局目标。军师与陪练融合在同一入口，不要求玩家切换角色。
 
 ## 建议阅读顺序
 
 1. [README](../README.md)：了解体验、实现范围与运行方法。
-2. [八部分设计稿](SUBMISSION_DRAFT.md)，或 [PDF](../submission/RocoCoach_设计与实现_面试稿.pdf)：了解架构、关键难点、解决方案和取舍。
+2. [八部分设计稿](SUBMISSION_DRAFT.md)，或 [PDF](../submission/RocoCoach_设计与实现.pdf)：了解架构、关键难点、解决方案和取舍。
 3. [验证结果](VALIDATION.md)：区分云端程序回归、真实模型样例和小规模探索。
 4. 根据关注点查看下表代码；[智能体细节](AGENT_EXECUTION_DESIGN.md)与 [RAG 细节](RAG_IMPLEMENTATION.md)提供更深解释。
 
@@ -35,9 +35,9 @@
 | 引擎与进阶 | [bridge.cjs](../engine/bridge.cjs)、[battle.py](../rococoach/battle.py) | 固定组件结算、公开策略与版本化重放 |
 | 像素伙伴 | [mascot.py](../rococoach/mascot.py) | 实际事件映射、保存后完成、动作开关 |
 
-提交前功能检查与本轮真实证据见[FINAL_ACCEPTANCE](FINAL_ACCEPTANCE.md)。面试口述可参考[讲解路线](INTERVIEW_PLAYBOOK.md)和[常见追问](INTERVIEW_NOTES.md)。
+提交前功能检查与本轮真实证据见[FINAL_ACCEPTANCE](FINAL_ACCEPTANCE.md)。项目讲解可参考[讲解路线](INTERVIEW_PLAYBOOK.md)和[常见问题](INTERVIEW_NOTES.md)。
 
-## 三个值得追问的问题
+## 三个关键设计问题
 
 **为什么不让模型直接控制一切？** 模型理解语境并提出计划，应用程序限制能力和参数、检查操作结果检查并提交状态。语义错误仍可能发生，但不能直接变成任意代码或数据库写入。
 

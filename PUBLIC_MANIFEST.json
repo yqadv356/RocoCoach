@@ -40,11 +40,11 @@
     },
     {
       "path": "README.md",
-      "sha256": "4400efd64c4bb7849ea659ed9c8fc8552f7ee73e75f95c44551c9c1bb0d1a609"
+      "sha256": "7fe351b3d898080298b7107b9c96fedd48ed2b505fe12794e9af377edc5f128c"
     },
     {
       "path": "RELEASE_VERIFICATION.json",
-      "sha256": "f6ec9607846dde9d3433325cf3b6cbbd1c1eab8b0ce24429bea60543d9c1e8bc"
+      "sha256": "e4a650753905f70045061c0060aa2320c67ac900dec720c278a47d9b761927c8"
     },
     {
       "path": "THIRD_PARTY.md",
@@ -124,7 +124,7 @@
     },
     {
       "path": "docs/DELIVERY_GUIDE.md",
-      "sha256": "c5d563dd249dbbd60e983002717be90e18b4533a31501a53a73a152f1a7fde2c"
+      "sha256": "8671f2e06863d59b166c14b13c990984722fb81989f28d544193623411fbe818"
     },
     {
       "path": "docs/DELIVERY_STATUS.md",
@@ -132,7 +132,7 @@
     },
     {
       "path": "docs/FINAL_ACCEPTANCE.md",
-      "sha256": "34910396d227780e2b4030cc56aa4932ec3d2dcf59d746cd466175e87c3d6bff"
+      "sha256": "bc19240df280eb6c4ebe4986fd2fd452e8a43f33728a6f0fdbf86d9d1715988d"
     },
     {
       "path": "docs/FULL_MATCH_DESIGN.md",
@@ -140,15 +140,15 @@
     },
     {
       "path": "docs/INTERVIEW_NOTES.md",
-      "sha256": "3501040dd18416ad52760c1a31e6561bf80342f6cf2d034a73cda180d2c16a13"
+      "sha256": "56f2c6bbd10336f7fec448511d40cd0e4f2e1f88406d46d7b9e5a5f7fec24609"
     },
     {
       "path": "docs/INTERVIEW_PLAYBOOK.md",
-      "sha256": "d872b3f4dcefe5bf096ecca8906c657031aedcc811d9d9826fd832bb5b9c1a0d"
+      "sha256": "07a01e5295d2218206eda20af50456938ea6e676d86a78fc2476abdcd23f77ee"
     },
     {
       "path": "docs/MASCOT_DESIGN.md",
-      "sha256": "31c1645acedf67a2ef2a02ac17147e7c0cf1b51ec18ecba7f574acf085807093"
+      "sha256": "075b81b91273611e35df8e820e75bc1b9c81b274118dff499682559b306b6f02"
     },
     {
       "path": "docs/MATCH_TOOLS.md",
@@ -156,7 +156,7 @@
     },
     {
       "path": "docs/PUBLIC_BUILD_LOG.md",
-      "sha256": "97dc57852a98b9bc52803869028b44c132916abcedaf8026b3d1064d85a28121"
+      "sha256": "610b936c9fe10edbd0afc7eccde2ac81a53917d288c7d9a3286ad48d387f4552"
     },
     {
       "path": "docs/RAG_IMPLEMENTATION.md",
@@ -164,7 +164,7 @@
     },
     {
       "path": "docs/README.md",
-      "sha256": "cb23eab13b477a7c8c3ccec18d8d3969b4b2439c4ae272f684e6fe6cf5b5fec8"
+      "sha256": "a42d95fc0040b56eb4ba1e9f285a8e2b5c8b7fb5b93e7b1792f98208f8f85c8c"
     },
     {
       "path": "docs/RESPONSE_LIFECYCLE.md",
@@ -172,7 +172,7 @@
     },
     {
       "path": "docs/REVIEWER_GUIDE.md",
-      "sha256": "e3ef1f55434ce8daf4219822bf4fe05f435d15713b068b866a2e4945734c7ad4"
+      "sha256": "83a937bcbcc7ec74845719df50aa43dba8b6c494b036cbcd8e0ca618ae817707"
     },
     {
       "path": "docs/RULES_AND_CONTEXT.md",
@@ -184,7 +184,7 @@
     },
     {
       "path": "docs/SUBMISSION_DRAFT.md",
-      "sha256": "48c564faaee7de1fb80327a1a3ccc92eccddaa81ce2905979c973138f5accded"
+      "sha256": "3096a72d3b02d11d25b09b40c2ff3944009fa0b8d800eff121837bc34765077b"
     },
     {
       "path": "docs/VALIDATION.md",
@@ -428,7 +428,7 @@
     },
     {
       "path": "scripts/build_interview_draft.py",
-      "sha256": "3da3fb9f928f44aaf44577407f99ad74c71c06d13f9fac9b178cb5075b117f7f"
+      "sha256": "79ef5e8988df2a9d8b23af12590fface835fdf630d8275f28d24ae3d8de2091e"
     },
     {
       "path": "scripts/build_knowledge.py",
@@ -471,12 +471,12 @@
       "sha256": "f3c2c67bff78fffa93309a14dc4deb48728641001c7da7992835b5eaeff68e44"
     },
     {
-      "path": "submission/RocoCoach_设计与实现_面试稿.docx",
-      "sha256": "9e6f5dada4386d35e9a261dcab0a2023542a1b60c8a698d19ae85c320cf51d31"
+      "path": "submission/RocoCoach_设计与实现.docx",
+      "sha256": "56084f78caaa5d82a1fa934de89a852a34e7551e63fbcc3ab9e4ce1de20a1b51"
     },
     {
-      "path": "submission/RocoCoach_设计与实现_面试稿.pdf",
-      "sha256": "5c03da8f9c1248cb13ddb9d9dd3929b476806fe95f02d887a3f1dd8ac5cb79b1"
+      "path": "submission/RocoCoach_设计与实现.pdf",
+      "sha256": "9690647ed3d668365d18830b18ca55099d44de3523c56d867d64ab8f687d11e6"
     },
     {
       "path": "tests/conftest.py",

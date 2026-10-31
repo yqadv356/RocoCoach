@@ -1,6 +1,6 @@
 # RocoCoach：面向宠物对战的 LLM AI Coach——设计、实现与验证
 
-面试作品说明书　2026年10月31日　公开实现基线 43fba45
+项目设计说明书　2026年10月31日　公开实现基线 43fba45
 
 ## 一 交付摘要与题目对齐
 
@@ -174,17 +174,17 @@ final-async-review-evidence.json 中，工具记录为杰尼龟的 Torrent（激
 
 ## 八 交付演示与后续优先级
 
-### 面试现场怎样演示
+### 怎样演示项目
 
 先说明老师闭环与引擎复用边界，开始均衡训练；查看回合前引导，自主选招并写理由，穿插一句闲聊确认不推进回合。整局结束后看即时赛果、后台复盘和下局目标；追问一个已发生回合的替代行动，展开真实工具凭据；最后用聊天要求进阶新局，检查第 1 回合与保存回执，并演示表达偏好。
 
 网络或模型失败时使用明确标记的已保存合成证据，不把截图当实时响应。无密钥规则演示可以验证游戏与保存流程，不能称为真实 LLM。当前没有公共在线服务，127.0.0.1 只在运行 Demo 的电脑可访问。
 
-### 提交与复查入口
+### 文档与复查入口
 
-正式提交以本说明书 PDF 为主，Word 为可编辑备份。公开仓库提供源码、锁定依赖、安装步骤、测试与合成证据；运行需要 Python 3.12、Node.js 24、pnpm 11。真实模型密钥只放本地 .env，不提交密钥、私人记录、虚拟环境或数据库。
+项目说明以本说明书 PDF 为主，Word 为可编辑备份。公开仓库提供源码、锁定依赖、安装步骤、测试与合成证据；运行需要 Python 3.12、Node.js 24、pnpm 11。真实模型密钥只放本地 .env，不提交密钥、私人记录、虚拟环境或数据库。
 
-源码与运行：[GitHub 仓库](https://github.com/yqadv356/RocoCoach)。阅读导航：[REVIEWER_GUIDE](REVIEWER_GUIDE.md)。事实与组件许可：[THIRD_PARTY](../THIRD_PARTY.md)。变更过程：[PUBLIC_BUILD_LOG](PUBLIC_BUILD_LOG.md)。发布附件：[面试提交基线](https://github.com/yqadv356/RocoCoach/releases/tag/v0.1.0-interview)；该标签对应此前固定版本，本轮正式稿以仓库 submission 目录为准。
+源码与运行：[GitHub 仓库](https://github.com/yqadv356/RocoCoach)。阅读导航：[REVIEWER_GUIDE](REVIEWER_GUIDE.md)。事实与组件许可：[THIRD_PARTY](../THIRD_PARTY.md)。变更过程：[PUBLIC_BUILD_LOG](PUBLIC_BUILD_LOG.md)。发布附件：[早期固定版本](https://github.com/yqadv356/RocoCoach/releases/tag/v0.1.0-interview)；该标签对应此前固定版本，本轮正式稿以仓库 submission 目录为准。
 
 ### 三天范围与下一步
 
@@ -194,4 +194,4 @@ final-async-review-evidence.json 中，工具记录为杰尼龟的 Torrent（激
 
 ### 自研 复用与 AI 辅助的边界
 
-Codex 辅助代码、调试和文档；Showdown 与 Smogon 提供结算和计算，PokeAPI 提供部分中文名称，RPGUI 提供部分像素界面资源，均保留来源与许可。新增工作是教学流程、语义动作及结果核验、证据工具适配、上下文、消息恢复与验证。候选人需能亲自解释和演示这些取舍，不冒称独立编写第三方引擎或训练了新模型。
+Codex 辅助代码、调试和文档；Showdown 与 Smogon 提供结算和计算，PokeAPI 提供部分中文名称，RPGUI 提供部分像素界面资源，均保留来源与许可。新增工作是教学流程、语义动作及结果核验、证据工具适配、上下文、消息恢复与验证。使用与维护时应理解这些设计取舍，不冒称独立编写第三方引擎或训练了新模型。

@@ -1,18 +1,18 @@
 # 文档阅读顺序
 
-这些文档围绕题目准备：LLM教练、宠物对战、至少一个角色完整闭环。项目主攻老师的练习与复盘流程。
+这些文档介绍宠物对战 LLM 教练的产品流程、技术实现与验证。项目优先完成老师的练习与复盘闭环。
 
-## 准备面试先看这三份
+## 快速了解项目
 
 1. [怎么讲项目](INTERVIEW_PLAYBOOK.md)：一分钟介绍、五分钟演示、技术主线和准备事项。
-2. [常见追问](INTERVIEW_NOTES.md)：用直白的话解释Agent、RAG、记忆、失败修复和个人贡献。
-3. [设计与实现稿](SUBMISSION_DRAFT.md)：正式提交材料的正文，对应仓库submission里的Word和PDF。
+2. [常见问题](INTERVIEW_NOTES.md)：用直白的话解释Agent、RAG、记忆、失败修复和个人贡献。
+3. [设计与实现稿](SUBMISSION_DRAFT.md)：项目说明书的正文，对应仓库submission里的Word和PDF。
 
 ## 按问题查技术细节
 
 | 想弄清什么 | 阅读入口 |
 | --- | --- |
-| 功能和演示从哪里看 | [面试官导航](REVIEWER_GUIDE.md) |
+| 功能和演示从哪里看 | [项目导航](REVIEWER_GUIDE.md) |
 | 聊天怎样真正开局 | [Agent执行](AGENT_EXECUTION_DESIGN.md) |
 | 规则从哪来、怎样检索 | [RAG](RAG_IMPLEMENTATION.md) |
 | 技能、数值、上下文是什么 | [规则与上下文](RULES_AND_CONTEXT.md) |
