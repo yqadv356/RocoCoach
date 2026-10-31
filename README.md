@@ -8,7 +8,7 @@
 
 **整局练习 → 回合前引导 → 自主决策与真实结算 → 证据复盘 → 下一局训练目标**
 
-[文档导航](docs/README.md) · [设计与实现](docs/SUBMISSION_DRAFT.md) · [下载 PDF](submission/RocoCoach_设计与实现.pdf) · [下载 Word](submission/RocoCoach_设计与实现.docx) · [五分钟演示与代码导航](docs/REVIEWER_GUIDE.md)
+[文档导航](docs/README.md) · [设计与实现](docs/SUBMISSION_DRAFT.md) · [下载 PDF](submission/RocoCoach_设计与实现.pdf) · [下载 Word](submission/RocoCoach_设计与实现.docx) · [功能体验与代码导航](docs/REVIEWER_GUIDE.md)
 
 ![洛洛训练场：自主出招、实际结算与聊天引导](docs/gameplay-cover.png)
 

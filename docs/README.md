@@ -4,7 +4,7 @@
 
 ## 快速了解项目
 
-1. [怎么讲项目](INTERVIEW_PLAYBOOK.md)：一分钟介绍、五分钟演示、技术主线和准备事项。
+1. [怎么讲项目](INTERVIEW_PLAYBOOK.md)：项目介绍、功能体验步骤、技术主线和检查事项。
 2. [常见问题](INTERVIEW_NOTES.md)：用直白的话解释Agent、RAG、记忆、失败修复和个人贡献。
 3. [设计与实现稿](SUBMISSION_DRAFT.md)：项目说明书的正文，对应仓库submission里的Word和PDF。
 
@@ -12,7 +12,7 @@
 
 | 想弄清什么 | 阅读入口 |
 | --- | --- |
-| 功能和演示从哪里看 | [项目导航](REVIEWER_GUIDE.md) |
+| 功能和代码从哪里看 | [项目导航](REVIEWER_GUIDE.md) |
 | 聊天怎样真正开局 | [Agent执行](AGENT_EXECUTION_DESIGN.md) |
 | 规则从哪来、怎样检索 | [RAG](RAG_IMPLEMENTATION.md) |
 | 技能、数值、上下文是什么 | [规则与上下文](RULES_AND_CONTEXT.md) |

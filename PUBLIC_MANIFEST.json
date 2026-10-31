@@ -40,7 +40,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "7fe351b3d898080298b7107b9c96fedd48ed2b505fe12794e9af377edc5f128c"
+      "sha256": "33c75536b6cb3136c4195be42a097e41841b3bd3b101bc5e1d8f4dd8efd74521"
     },
     {
       "path": "RELEASE_VERIFICATION.json",
@@ -124,7 +124,7 @@
     },
     {
       "path": "docs/DELIVERY_GUIDE.md",
-      "sha256": "8671f2e06863d59b166c14b13c990984722fb81989f28d544193623411fbe818"
+      "sha256": "f4e2d407e7d2f30590189e4bf13dfb04bb6ded5d2e599956fbc78ea2658b4617"
     },
     {
       "path": "docs/DELIVERY_STATUS.md",
@@ -132,7 +132,7 @@
     },
     {
       "path": "docs/FINAL_ACCEPTANCE.md",
-      "sha256": "bc19240df280eb6c4ebe4986fd2fd452e8a43f33728a6f0fdbf86d9d1715988d"
+      "sha256": "d498e9dc18ab58ea9ba22e47a9d9cd41edac86d990fccda9afc1d1b50af45929"
     },
     {
       "path": "docs/FULL_MATCH_DESIGN.md",
@@ -144,7 +144,7 @@
     },
     {
       "path": "docs/INTERVIEW_PLAYBOOK.md",
-      "sha256": "07a01e5295d2218206eda20af50456938ea6e676d86a78fc2476abdcd23f77ee"
+      "sha256": "0b5ae567348fe2be620c06ab5253bf08a11e6d68069749b5d45d3162089da75a"
     },
     {
       "path": "docs/MASCOT_DESIGN.md",
@@ -156,7 +156,7 @@
     },
     {
       "path": "docs/PUBLIC_BUILD_LOG.md",
-      "sha256": "610b936c9fe10edbd0afc7eccde2ac81a53917d288c7d9a3286ad48d387f4552"
+      "sha256": "8a28f787dbcfb078c06d9b7c78708a3d0b32265c4fc3f298e0e33754330288d3"
     },
     {
       "path": "docs/RAG_IMPLEMENTATION.md",
@@ -164,7 +164,7 @@
     },
     {
       "path": "docs/README.md",
-      "sha256": "a42d95fc0040b56eb4ba1e9f285a8e2b5c8b7fb5b93e7b1792f98208f8f85c8c"
+      "sha256": "fe84e62c85355e3c336e1e573aa3f5eadb6803ea7fc7ef0659ff2a5b1164b9e4"
     },
     {
       "path": "docs/RESPONSE_LIFECYCLE.md",
@@ -172,7 +172,7 @@
     },
     {
       "path": "docs/REVIEWER_GUIDE.md",
-      "sha256": "83a937bcbcc7ec74845719df50aa43dba8b6c494b036cbcd8e0ca618ae817707"
+      "sha256": "321a484be8cd896746fd2718e1d6ead78ee2346e9c7437c91afbd38e8b288cae"
     },
     {
       "path": "docs/RULES_AND_CONTEXT.md",
