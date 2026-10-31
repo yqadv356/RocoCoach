@@ -1,5 +1,5 @@
 {
-  "scope": "Final interview handoff. Application behavior unchanged during documentation edits.",
+  "scope": "Formal interview manuscript revision only. Application, tests, dependencies, README and original model evidence unchanged from 43fba45.",
   "baseline_cloud": {
     "commit": "0d527af9c3a979e80b467b6eda5df8f4199b2cb7",
     "run": "https://github.com/yqadv356/RocoCoach/actions/runs/41085984657",
@@ -22,7 +22,52 @@
   "browser": "Isolated offline synthetic match; 8 rounds, saved review, reload, chat restart, input visible at 1470x900 and 1280x720. Not model quality evaluation.",
   "documents": {
     "pdf_pages": 8,
-    "all_pages_visually_checked": true
+    "chapters": 8,
+    "all_pages_visually_checked": true,
+    "visual_checks": [
+      "Chinese glyphs",
+      "full screenshot visible",
+      "native architecture readable",
+      "tables intact",
+      "captions with images",
+      "no blank pages or clipped content"
+    ],
+    "content_source": "docs/SUBMISSION_DRAFT.md",
+    "body_font_pt": 11,
+    "table_font_pt": 10,
+    "new_model_calls_for_manuscript": 0,
+    "artifacts": [
+      {
+        "path": "docs/SUBMISSION_DRAFT.md",
+        "sha256": "828952177e46a057b9a0035dfde7725562962881817b4aae3caf5f94dcbf4709"
+      },
+      {
+        "path": "scripts/build_interview_draft.py",
+        "sha256": "3da3fb9f928f44aaf44577407f99ad74c71c06d13f9fac9b178cb5075b117f7f"
+      },
+      {
+        "path": "submission/RocoCoach_设计与实现_面试稿.docx",
+        "sha256": "f97fa4b2c24f5a3d66ef8719b5f499671839234abf14307da2a2adeaf77c6ba0"
+      },
+      {
+        "path": "submission/RocoCoach_设计与实现_面试稿.pdf",
+        "sha256": "258088ce7fca64ee9d58b939ccb21908856c34eb1157eae5d987f007321e2277"
+      }
+    ]
   },
-  "note": "Live samples are not aggregate semantic accuracy, learning benefit or latency percentiles. See docs/FINAL_ACCEPTANCE.md and current CI workflow."
+  "note": "Live samples are not aggregate semantic accuracy, learning benefit or latency percentiles. See docs/FINAL_ACCEPTANCE.md and current CI workflow.",
+  "latest_verified_cloud": {
+    "commit": "43fba453a6a93bd9061cf9f79db34ffdf7de89e9",
+    "run": "https://github.com/yqadv356/RocoCoach/actions/runs/41144977412",
+    "result": "227 passed in 117.42s",
+    "note": "Verified implementation baseline, not a claim that this later manuscript revision has already passed CI."
+  },
+  "manuscript_checks": {
+    "links": "all 6 local manuscript targets exist; external workflow and repository verified via GitHub API",
+    "source_to_docx": "all prose, headings and merged diagram labels present",
+    "original_evidence": "4 final evidence JSON files byte-identical to 43fba45",
+    "release_tests": "2 passed in 0.03s",
+    "application_files_changed": false
+  },
+  "semantic_risk": "Original async review contains Torrent/Blaze name and damage attribution errors and mixed timepoints; retained and documented. No claim of complete semantic repair."
 }

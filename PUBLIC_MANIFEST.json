@@ -44,7 +44,7 @@
     },
     {
       "path": "RELEASE_VERIFICATION.json",
-      "sha256": "f0a82dddfb3f225006441f2583eb1a419ee920c2fa80048bc9b4092f3bfcd485"
+      "sha256": "de1c096dbbc079d31a19aa23bbb5ed3436cd9cba5f8feb3ddc4d9dace3172c1f"
     },
     {
       "path": "THIRD_PARTY.md",
@@ -132,7 +132,7 @@
     },
     {
       "path": "docs/FINAL_ACCEPTANCE.md",
-      "sha256": "6fdc03914712206cf0181863f3bd57116d38159bab0ba158c2ec001fae7499e2"
+      "sha256": "34910396d227780e2b4030cc56aa4932ec3d2dcf59d746cd466175e87c3d6bff"
     },
     {
       "path": "docs/FULL_MATCH_DESIGN.md",
@@ -156,7 +156,7 @@
     },
     {
       "path": "docs/PUBLIC_BUILD_LOG.md",
-      "sha256": "a0dd25fd9869621ec5d391ffbfe4586e867a08c196365b30e53399da0bf0e918"
+      "sha256": "5b0c8c6cac07d3e89d72ff79694d6112381f9113a1e72d4b1d36058c55bd9e70"
     },
     {
       "path": "docs/RAG_IMPLEMENTATION.md",
@@ -184,11 +184,11 @@
     },
     {
       "path": "docs/SUBMISSION_DRAFT.md",
-      "sha256": "a96abdd1a1c32abdd274f1dc2c29e5d95bb2d1a3ac3f2f6c988571f1b714609b"
+      "sha256": "828952177e46a057b9a0035dfde7725562962881817b4aae3caf5f94dcbf4709"
     },
     {
       "path": "docs/VALIDATION.md",
-      "sha256": "49d6b5b830e38d81f6f8bd9b3e9ad66e7b386f37bffe599c32caab1bdb664c9e"
+      "sha256": "029ff4fdf0e38b6596e9cd8c44822cd8b3baa771af16045faccce1836f799ab4"
     },
     {
       "path": "docs/active-replacement-check-evidence.json",
@@ -424,7 +424,7 @@
     },
     {
       "path": "scripts/build_interview_draft.py",
-      "sha256": "929ea39da5373b9983f55cda0c44239fde852004e1c443a69eead4d052e6e393"
+      "sha256": "3da3fb9f928f44aaf44577407f99ad74c71c06d13f9fac9b178cb5075b117f7f"
     },
     {
       "path": "scripts/build_knowledge.py",
@@ -468,11 +468,11 @@
     },
     {
       "path": "submission/RocoCoach_设计与实现_面试稿.docx",
-      "sha256": "4a99820afe461891f9585f19e4adae5833166aaa886ce222c940f7f5f2256091"
+      "sha256": "f97fa4b2c24f5a3d66ef8719b5f499671839234abf14307da2a2adeaf77c6ba0"
     },
     {
       "path": "submission/RocoCoach_设计与实现_面试稿.pdf",
-      "sha256": "8db34005f62f9dc3ce46fa5416020f1de49e93ef17d6245ddd474e7166434e8b"
+      "sha256": "258088ce7fca64ee9d58b939ccb21908856c34eb1157eae5d987f007321e2277"
     },
     {
       "path": "tests/conftest.py",

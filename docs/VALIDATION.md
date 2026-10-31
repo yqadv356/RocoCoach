@@ -10,6 +10,7 @@
 | --- | --- | --- | --- |
 | GitHub 全新 Ubuntu runner，Python 3.12、Node 24 | 发布基线 `4c2f381d80c963b195ad8e077ef1577dfb59a8c5` | 227 passed in 196.61s；Python 依赖及引擎安装均成功 | [Actions 41082691035](https://github.com/yqadv356/RocoCoach/actions/runs/41082691035) |
 | GitHub全新Linux环境 | 材料优化版本 `0d527af` | 227 passed in 187.28s | [Actions 41085984657](https://github.com/yqadv356/RocoCoach/actions/runs/41085984657) |
+| GitHub 全新 Ubuntu runner | 当前公开实现基线 `43fba453a6a93bd9061cf9f79db34ffdf7de89e9` | 227 passed in 117.42s | [Actions 41144977412](https://github.com/yqadv356/RocoCoach/actions/runs/41144977412) |
 | 本地macOS | 2026年10月31日提交前复查 | 227 passed in 83.85s | 见FINAL_ACCEPTANCE；非新机器验证 |
 
 云端基线结果固定关联该提交，不自动代表后续改动；[最新工作流](https://github.com/yqadv356/RocoCoach/actions/workflows/tests.yml)展示后续运行。自动化包含模型替身，覆盖程序契约与故障边界，不能称为 227 条真实模型回答正确。
@@ -26,6 +27,19 @@
 | 上下文确认到实际开局 | 网页切换进阶新局，刷新保持 | [截图](semantic-agent-execution-preview.png)；合成历史、真实语义规划，不含私人档案 |
 | 后台复盘单样例 | 首正文 1.490 秒，核验 10.331 秒 | [原始证据](async-review-prefetch-json-live-evidence.json)；真实流式路径，不是 P95 或加速倍数 |
 | 像素伙伴与布局 | 四态、失败保留、后台片段、动作开关与两个桌面视口 | [界面证据](lolo-ui-evidence.json)；模拟模型事件，不是新增真实 LLM 评测 |
+
+## 提交前真实模型样例的语义问题
+
+以下是与早期探索分开的提交前验收批次，数值由原始 JSON 交叉核对：
+
+- [开局与确认](final-semantic-actions-evidence.json)：实际创建并保存检查通过，4.425 秒和 7.260 秒。
+- [关键回合与换招](final-match-tools-evidence.json)：关键回合查询依次 find_key_turns、inspect_round(7)、inspect_round(8)、inspect_round(1)，4 次模型、4 次工具，16.769 秒。另一问使用实际引擎重放第 2 回合，主局不变。
+- [后台复盘](final-async-review-evidence.json)：首正文 4.458 秒、最终程序核验 11.625 秒，110 次草稿更新。**此样例存在语义错误**：模型把 Torrent（激流）写成“猛火”，并用它解释咬住优势；固定 Showdown 的 Torrent 增强水属性攻击，Blaze 才增强火属性。PokeAPI 官方名称表中 ability_id 67 / 66 分别对应激流 / 猛火。模型还混用了第 6 回合开始与结束的生命值：实际开始 65／18、结束 46／0。以某招“直接决定胜势”作因果结论也缺乏反事实比较支持。
+- [偏好与聊天](final-chat-style-evidence.json)：风格保存 4.589 秒，对局未重开；闲聊没有改变战局，不据此宣称自然度或情绪价值已通过评测。
+
+必须分开判断工具执行、证据引用与结构、自然语言解释。`validated_final` 只表示通过当前程序契约，不能作为机制语义正确的证明。原始 JSON 不改写；下一步应补机制名称一致性检查、证据充分性评估和独立人工标注。正式稿只陈述这些已观察事实，不为美化文稿增加真实模型调用。
+
+名称来源：[PokeAPI ability_names.csv](https://github.com/PokeAPI/pokeapi/blob/master/data/v2/csv/ability_names.csv)；机制核对使用本机锁定的 pokemon-showdown@0.11.11 Dex。单次时延不是 P95，程序回归含替身，检索命中与玩家教学收益另行评估。
 
 ## RAG 对照
 
