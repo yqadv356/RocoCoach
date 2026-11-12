@@ -8,7 +8,7 @@
 
 **整局练习 → 回合前引导 → 自主决策与真实结算 → 证据复盘 → 下一局训练目标**
 
-[文档导航](docs/README.md) · [设计与实现](docs/SUBMISSION_DRAFT.md) · [下载 PDF](submission/RocoCoach_设计与实现.pdf) · [下载 Word](submission/RocoCoach_设计与实现.docx) · [功能体验与代码导航](docs/REVIEWER_GUIDE.md)
+[文档导航](docs/README.md) · [设计与实现](docs/DESIGN.md) · [下载 PDF](submission/RocoCoach_设计与实现.pdf) · [下载 Word](submission/RocoCoach_设计与实现.docx) · [功能体验与代码导航](docs/PROJECT_GUIDE.md)
 
 ![洛洛训练场：自主出招、实际结算与聊天引导](docs/gameplay-cover.png)
 
@@ -48,7 +48,7 @@ flowchart LR
 | 流式与复盘 | 请求绑定消息、草稿检查点、原位置完成展示、后台复盘 | 减少终局等待，避免已显示文字被收尾覆盖 |
 | 原创像素洛洛 | 事件驱动待机、查证、讲解、完成四态 | 提供过程反馈，不增加模型请求 |
 
-[提交前功能检查与真实调用](docs/FINAL_ACCEPTANCE.md)
+[功能检查与真实模型样例](docs/FUNCTIONAL_CHECKS.md)
 
 深入阅读：[智能体](docs/AGENT_EXECUTION_DESIGN.md) · [RAG](docs/RAG_IMPLEMENTATION.md) · [流式生命周期](docs/RESPONSE_LIFECYCLE.md) · [后台复盘](docs/ASYNC_REVIEW.md) · [像素伙伴](docs/MASCOT_DESIGN.md)
 
@@ -115,13 +115,13 @@ data/                公开语料与合成评测；私人数据不进入仓库
 tests/               回归测试
 docs/                设计、难点、证据与阅读导航
 submission/          Word 与 PDF 项目说明书
-scripts/             安装、评测与交付工具
+scripts/             安装、评测与文档工具
 ```
 
 ## 实现范围与复用
 
-这是宠物对战教学原型，复用 Pokémon Showdown 和 Smogon 处理结算与计算，**未接入《洛克王国》真实接口，也不代表其实际规则**。短局次数是双方一致、可按版本重放的自定义训练规则。
+这是宠物对战教学原型，复用 Pokémon Showdown 和 Smogon 处理结算与计算。短局次数是双方一致、可按版本重放的自定义训练规则。
 
-尚未实现完整阵容系统、任意宠物配置、自适应长期课程、Agentic RL、长期 Reflection、多 Agent 或向量数据库。后续优先补独立语义与教学质量评审、延迟和用量统计，再决定是否扩大技术栈。
+尚未实现完整阵容系统、任意宠物配置、自适应长期课程、Agentic RL、长期 Reflection、多 Agent 或向量数据库。后续优先补独立语义与教学质量评估、延迟和用量统计，再决定是否扩大技术栈。
 
-来源与许可见 [THIRD_PARTY.md](THIRD_PARTY.md)。原创代码尚未单独授予开源许可证；公开展示不等于授予第三方游戏 IP。Codex 参与代码、调试与文档，新增工作的边界见[设计稿](docs/SUBMISSION_DRAFT.md)和[公开工程记录](docs/PUBLIC_BUILD_LOG.md)。
+来源与许可见 [THIRD_PARTY.md](THIRD_PARTY.md)。原创代码尚未单独授予开源许可证；公开展示不等于授予第三方游戏 IP。Codex 参与代码、调试与文档，新增工作的边界见[设计稿](docs/DESIGN.md)和[公开工程记录](docs/PUBLIC_BUILD_LOG.md)。

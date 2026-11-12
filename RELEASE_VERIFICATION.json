@@ -1,5 +1,5 @@
 {
-  "scope": "Manuscript and homepage handoff. Application, tests, dependencies and original model evidence unchanged from 43fba45.",
+  "scope": "Project documentation and interface copy refresh. Battle rules, model behavior, tests, dependencies and original model evidence are unchanged.",
   "baseline_cloud": {
     "commit": "0d527af9c3a979e80b467b6eda5df8f4199b2cb7",
     "run": "https://github.com/yqadv356/RocoCoach/actions/runs/41085984657",
@@ -32,31 +32,31 @@
       "captions with images",
       "no blank pages or clipped content"
     ],
-    "content_source": "docs/SUBMISSION_DRAFT.md",
+    "content_source": "docs/DESIGN.md",
     "body_font_pt": 11,
     "table_font_pt": 10,
     "new_model_calls_for_manuscript": 0,
     "artifacts": [
       {
-        "path": "docs/SUBMISSION_DRAFT.md",
-        "sha256": "3096a72d3b02d11d25b09b40c2ff3944009fa0b8d800eff121837bc34765077b"
+        "path": "docs/DESIGN.md",
+        "sha256": "01a9d1b9b0e724aa130ec9b7a369ec6793cedc51f4342548e96fd97f5316d2ed"
       },
       {
-        "path": "scripts/build_interview_draft.py",
-        "sha256": "79ef5e8988df2a9d8b23af12590fface835fdf630d8275f28d24ae3d8de2091e"
+        "path": "scripts/build_design_doc.py",
+        "sha256": "c6e5211fe6d1a5819e48ab817525a6f96b27adf3ebc6cd38e5676ac91a010171"
       },
       {
         "path": "submission/RocoCoach_设计与实现.docx",
-        "sha256": "56084f78caaa5d82a1fa934de89a852a34e7551e63fbcc3ab9e4ce1de20a1b51"
+        "sha256": "0192ea5257cb9b77ec36a489010d2413731eb868d3bdf44b74f653b9d61d4ef7"
       },
       {
         "path": "submission/RocoCoach_设计与实现.pdf",
-        "sha256": "9690647ed3d668365d18830b18ca55099d44de3523c56d867d64ab8f687d11e6"
+        "sha256": "1053dffea9d542c55c418f1ab550714b10d70a9c1ad903941250bcba92a818d2"
       }
     ],
-    "revision": "Project-oriented wording and filenames; all 8 pages rendered and visually checked. Technical evidence and application unchanged."
+    "revision": "Project overview, usage and technical validation. Eight pages rendered and checked."
   },
-  "note": "Live samples are not aggregate semantic accuracy, learning benefit or latency percentiles. See docs/FINAL_ACCEPTANCE.md and current CI workflow.",
+  "note": "Live samples are not aggregate semantic accuracy, learning benefit or latency percentiles. See docs/FUNCTIONAL_CHECKS.md and current CI workflow.",
   "latest_verified_cloud": {
     "commit": "75305c35d5df31d263b3f6abbcf7233ca2b8ae88",
     "run": "https://github.com/yqadv356/RocoCoach/actions/runs/41170330667",

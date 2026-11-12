@@ -6,7 +6,7 @@
 
 宠物、等级、招式和初始配置固定，规则来自Showdown 0.11.11，伤害区间来自Smogon calc 0.12.0。模型不编造面板、扣血或命中结果。
 
-训练局使用自定义短局次数，双方一致；标准对手随机选合法行动，进阶对手按公开直接伤害和命中评分。具体次数见[资源规则](SHORT_MATCH_RESOURCES.md)，进阶策略见[Agent说明](AGENT_EXECUTION_DESIGN.md)。这些都不代表真实洛克王国机制。
+训练局使用自定义短局次数，双方一致；标准对手随机选合法行动，进阶对手按公开直接伤害和命中评分。具体次数见[资源规则](SHORT_MATCH_RESOURCES.md)，进阶策略见[Agent说明](AGENT_EXECUTION_DESIGN.md)。
 
 ## 技能和防御到底在说什么
 

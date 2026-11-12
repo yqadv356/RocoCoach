@@ -5,7 +5,7 @@ from rococoach.config import get_mode
 
 st.set_page_config(page_title="洛洛教练 · 智能教练", page_icon="🧭", layout="centered")
 st.title("🧭 洛洛教练")
-st.caption("面向《洛克王国：世界》的 智能教练 面试原型 · 非官方项目")
+st.caption("宠物对战练习与复盘 · 早期功能")
 st.markdown("[进入宠物对战：军师 · 陪练 · 老师](/battle)")
 try:
     get_mode()
@@ -17,7 +17,7 @@ st.info("当前为离线规则演示，无需 API 密钥。训练建议为通用
 with st.sidebar:
     st.header("今天练什么？")
     st.write("1. 明确目标\n2. 完成一次练习\n3. 留下可验证的复盘")
-    st.caption("三天开发：跑通流程 → 接入资料与模型 → 评测和演示")
+    st.caption("训练流程：观察局面 → 自主决策 → 回看结果")
 
 with st.form("coach_form"):
     goal = st.selectbox("训练目标", GOALS)

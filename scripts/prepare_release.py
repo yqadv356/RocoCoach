@@ -9,19 +9,19 @@ import zipfile
 from dotenv import dotenv_values
 
 ROOT=Path(__file__).resolve().parents[1]
-DOCS=['gameplay-cover.png','VALIDATION.md','DELIVERY_STATUS.md','lolo-ui-evidence.json','lolo-layout-preview.png','lolo-checking-preview.png','lolo-speaking-preview.png','lolo-failure-preview.png','lolo-review-stable-preview.png','MASCOT_DESIGN.md','lolo-states-preview.png','lolo-companion-preview.png','SUBMISSION_DRAFT.md','REVIEWER_GUIDE.md','AGENT_EXECUTION_DESIGN.md','RAG_IMPLEMENTATION.md',
+DOCS=['gameplay-cover.png','VALIDATION.md','PROJECT_STATUS.md','lolo-ui-evidence.json','lolo-layout-preview.png','lolo-checking-preview.png','lolo-speaking-preview.png','lolo-failure-preview.png','lolo-review-stable-preview.png','MASCOT_DESIGN.md','lolo-states-preview.png','lolo-companion-preview.png','DESIGN.md','PROJECT_GUIDE.md','AGENT_EXECUTION_DESIGN.md','RAG_IMPLEMENTATION.md',
       'SHORT_MATCH_RESOURCES.md','RESPONSE_LIFECYCLE.md','ASYNC_REVIEW.md','PUBLIC_BUILD_LOG.md',
       'semantic-agent-execution-preview.png','semantic-actions-live-evidence.json',
       'semantic-intent-probe-evidence.json','semantic-intent-probe-normalized-evidence.json',
       'active-replacement-check-evidence.json','rag-evaluation.json','rag-evaluation-final.json',
       'async-review-prefetch-json-live-evidence.json']
 DATA=['rag_eval.json','conversation_review.json','zh_catalog.json','agent_intent_eval.json','rag_corpus.json','coach_knowledge.json']
-DOCS += ['README.md','DELIVERY_GUIDE.md','INTERVIEW_PLAYBOOK.md','INTERVIEW_NOTES.md','RULES_AND_CONTEXT.md',
-         'FULL_MATCH_DESIGN.md','MATCH_TOOLS.md','FINAL_ACCEPTANCE.md',
+DOCS += ['README.md','QUICKSTART.md','FEATURE_WALKTHROUGH.md','TECHNICAL_FAQ.md','RULES_AND_CONTEXT.md',
+         'FULL_MATCH_DESIGN.md','MATCH_TOOLS.md','FUNCTIONAL_CHECKS.md',
          'final-semantic-actions-evidence.json','final-match-tools-evidence.json',
          'final-async-review-evidence.json','final-chat-style-evidence.json']
 SCRIPTS=['demo_battle.py','setup_battle.py','build_knowledge.py','evaluate_rag.py','evaluate_semantic_intent.py',
-         'check_challenge_actions.py','check_llm.py','check_match_tools.py','check_async_review.py','build_interview_draft.py','prepare_release.py']
+         'check_challenge_actions.py','check_llm.py','check_match_tools.py','check_async_review.py','build_design_doc.py','prepare_release.py']
 
 
 def release_files(root=ROOT):

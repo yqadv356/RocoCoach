@@ -52,7 +52,7 @@ def field(paragraph, instruction):
 def add_table(doc, lines):
     rows = [[x.strip() for x in line.strip().strip('|').split('|')]
             for line in lines if not re.match(r'^\|[\s:|\-]+\|$', line)]
-    widths = [2.2, 7.1, 7.5] if rows[0][0] == '题目角色' else [2.0, 5.6, 9.2] if rows[0][0] == '层次' else [9.2, 3.8, 3.8] if rows[0][0].startswith('相同') else [2.2, 6.0, 8.6] if rows[0][0]=='模型步骤' else [4.0, 5.5, 7.3]
+    widths = [2.2, 7.1, 7.5] if rows[0][0] == '教练角色' else [2.0, 5.6, 9.2] if rows[0][0] == '层次' else [9.2, 3.8, 3.8] if rows[0][0].startswith('相同') else [2.2, 6.0, 8.6] if rows[0][0]=='模型步骤' else [4.0, 5.5, 7.3]
     table = doc.add_table(rows=0, cols=len(rows[0]))
     table.alignment = WD_TABLE_ALIGNMENT.CENTER; table.autofit = False
     for column, width in zip(table.columns, widths): column.width = Cm(width)
@@ -174,7 +174,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--output-dir', type=Path, default=ROOT / 'submission')
     args = parser.parse_args()
-    print(build(ROOT / 'docs/SUBMISSION_DRAFT.md', args.output_dir / 'RocoCoach_设计与实现.docx'))
+    print(build(ROOT / 'docs/DESIGN.md', args.output_dir / 'RocoCoach_设计与实现.docx'))
 
 
 if __name__ == '__main__': main()

@@ -15,7 +15,7 @@
 
 本轮未复制 poke-env、PokeLLMon、PokéChamp、洛克沙盘或 WQNF/langgraph 的实现。PokéChamp 所读 LICENSE 包含额外署名要求与日本地区限制，并非仅凭包元数据即可概括的标准 MIT 文本；PokeLLMon 本轮未查到根目录许可证，因此均未作为直接复用代码。
 
-宝可梦名称和规则用于说明教学原型。第三方软件许可不应被表述为对所有游戏 IP 的授权。本项目没有导入官方美术、音频或洛克王国游戏资源，也不冒充官方产品。
+宝可梦名称和规则用于说明教学原型。第三方软件许可不应被表述为对所有游戏 IP 的授权。本项目没有导入官方游戏美术或音频，也不冒充官方产品。
 
 中文名称复用：从[PokeAPI仓库CSV](https://github.com/PokeAPI/pokeapi/tree/master/data/v2/csv)筛选47项简体中文名称，缓存于data/zh_catalog.json，条目保留来源。完整BSD许可见docs/licenses/pokeapi-LICENSE.txt；本地显示翻译，不将其用于替代规则引擎。没有下载美术或音频。
 

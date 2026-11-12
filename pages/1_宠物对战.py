@@ -5,7 +5,7 @@ from rococoach.zh import name, text, move_rows, calculation, event_lines
 
 st.set_page_config(page_title="自由对战 · 洛洛教练",page_icon="⚔️",layout="wide")
 st.title("⚔️ 自由对战：你来出招，洛洛陪练")
-st.caption("先自己打，想比较招式时再看军师。这里采用宝可梦规则，不代表洛克王国机制。")
+st.caption("先自己打，想比较招式时再看军师。对战基于宝可梦第九世代机制。")
 with st.expander("选择教学场景",expanded="battle" not in st.session_state):
     scenario=st.selectbox("场景",list(SCENARIOS),format_func=lambda s:text(SCENARIOS[s]))
     seed=st.number_input("练习编号（相同编号可重现对局）",0,65535,42)
@@ -64,6 +64,6 @@ with replay:
         st.table([{"回合":r["turn"],"你的选择":name(r["selected"]),"计算排序首位":name(r["recommended"]),"你的生命":f"{r['playerHpBefore']} → {r['playerHpAfter']}","对手生命":f"{r['opponentHpBefore']} → {r['opponentHpAfter']}"} for r in battle["rounds"]])
     st.caption("生命净变化可能包括反伤等效果；与计算排序一致也不等于战术最优。")
     st.download_button("下载本局复盘",report(battle),"对战复盘.md",mime="text/markdown")
-    with st.expander("面试核验：原始对战日志"):
+    with st.expander("原始对战日志"):
         st.code(battle["log"],language="text")
         st.markdown("[对战引擎源码](https://github.com/smogon/pokemon-showdown) · [伤害计算器源码](https://github.com/smogon/damage-calc)")
